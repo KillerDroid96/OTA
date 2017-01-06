@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	 <jfltespr>
-            <Filename>RR-N-v5.8.0-20170101-jfltespr-Unofficial.zip</Filename>
+            <Filename>RR-N-v5.8.0-20170106-jfltespr-Unofficial.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
