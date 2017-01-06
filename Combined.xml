@@ -3,18 +3,14 @@
     <Stable>
 	 <jfltespr>
             <Filename>RR-N-v5.8.0-20170101-jfltespr-Unofficial.zip</Filename>
-            <BuildUrl
-            	id="build"
-            	title="LatestBuild"
-            	description="Download Latest Build">https://www.androidfilehost.com/?fid=745425885120697138</BuildUrl>
             <RomUrl
                 id="rom"
                 title="Rom"
                 description="Download ResurrectionRemix builds">https://www.androidfilehost.com/?w=files&flid=124764</RomUrl>
-            <SlimGappsUrl
-                id="gapps"
-                title="Gapps"
-                description="Download latest Open GApps">http://opengapps.org/</SlimGappsUrl>
+            <OpenGappsUrl
+                id="open_gapps"
+                title="OpenGApps"
+                description="Download latest OpenGApps">http://opengapps.org</OpenGappsUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
@@ -28,18 +24,14 @@
     <Stable>
 	 <angler>
             <Filename>RR-N-v5.8.0-20170101-angler-Unofficial.zip</Filename>
-            <BuildUrl
-                id="build"
-                title="LatestBuild"
-                description="Download Latest Build">https://www.androidfilehost.com/?fid=745425885120697127</BuildUrl>
             <RomUrl
                 id="rom"
                 title="Rom"
                 description="Download ResurrectionRemix builds">https://www.androidfilehost.com/?w=files&flid=140686</RomUrl>
-            <SlimGappsUrl
-                id="gapps"
-                title="Gapps"
-                description="Download latest Open GApps">http://opengapps.org/</SlimGappsUrl>
+            <OpenGappsUrl
+                id="open_gapps"
+                title="OpenGApps"
+                description="Download latest OpenGApps">http://opengapps.org</OpenGappsUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
