@@ -24,8 +24,9 @@
                 title="XDA"
                 description="Visit ResurrectionRemix thread">https://forum.xda-developers.com/galaxy-s4-sprint/development/rom-resurrection-remix-t3525349/post70241223#post70241223</XDAUrl>
 	</jfltespr>
-    
-    <angler>
+    </Stable>
+    <Stable>
+	 <angler>
             <Filename>RR-N-v5.8.0-20170101-angler-Unofficial.zip</Filename>
             <BuildUrl
                 id="build"
