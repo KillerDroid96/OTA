@@ -1,5 +1,5 @@
 #Common OTA url for all devices
-ota_url=https://raw.githubusercontent.com/KillerDroid96/rrOTA/master/Combined.xml
+ota_url=https://raw.githubusercontent.com/KillerDroid96/rrOTA/master/CombinedOTA.xml
 release_type=Stable
 device_name=ro.product.device
 
