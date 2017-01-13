@@ -27,11 +27,13 @@
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download latest ResurrectionRemix build">https://www.androidfilehost.com/?fid=673368273298923299</RomUrl>
+                description="Download latest ResurrectionRemix build">https://www.androidfilehost.com/?fid=673368273298923299
+	    </RomUrl>
             <OpenGappsUrl
                 id="open_gapps"
                 title="OpenGapps"
-                description="Download latest OpenGapps">http://opengapps.org</OpenGappsUrl>
+                description="Download latest OpenGapps">http://opengapps.org
+	    </OpenGappsUrl>
 	    <VendorUrl
 		id="vendor"
                 title="Vendor"
@@ -45,11 +47,13 @@
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat/CHANGELOG.mkdn</ChangelogUrl>
+                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat/CHANGELOG.mkdn
+	    </ChangelogUrl>
             <XDAUrl
                 id="xda"
                 title="XDA"
-                description="Visit ResurrectionRemix thread">https://forum.xda-developers.com/galaxy-s4-sprint/development/rom-resurrection-remix-t3525349/post70241223#post70241223</XDAUrl>
+                description="Visit ResurrectionRemix thread">https://forum.xda-developers.com/galaxy-s4-sprint/development/rom-resurrection-remix-t3525349/post70241223#post70241223
+	   </XDAUrl>
          </angler>
     </Stable>
 </SlimOTA>
