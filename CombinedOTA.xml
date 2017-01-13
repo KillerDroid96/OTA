@@ -37,11 +37,11 @@
                 title="Vendor"
                 description="Download latest Vendor Image">https://www.androidfilehost.com/?fid=385035244224412325      
 	    </VendorUrl>
-	    <Radio&BootloaderUrl
-		id="radio&bootloader"
-                title="Radio & Bootloader"
-                description="Download latest Radio & Bootloader"> https://www.androidfilehost.com/?fid=457095661767129408      
-	    </Radio&BootloaderUrl>
+	    <Radio_BootloaderUrl
+		id="radio_bootloader"
+                title="Radio and Bootloader"
+                description="Download latest Radio and Bootloader"> https://www.androidfilehost.com/?fid=457095661767129408      
+	    </Radio_BootloaderUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
