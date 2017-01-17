@@ -48,6 +48,11 @@
                 title="Radio and Bootloader"
                 description="Download latest Radio and Bootloader"> https://www.androidfilehost.com/?fid=457095661767129408      
 	    </Radio_BootloaderUrl>
+            <Unofficial_ChangelogUrl
+                id="unofficial_changelog"
+                title="Unoffical Changelog"
+                description="View Unofficial Changelog">https://github.com/KillerDroid96/rrOTA/blob/master/Changelog.txt
+	    </Unofficial_ChangelogUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
