@@ -1,0 +1,541 @@
+
+ ▼ Resurrection Remix Nougat Ver 5.8.0 Changelog
+
+
+ ▼ 01/16/2017
+
+
+ ▪ project android/
+ ▪ a816129 Track OmniStyle
+
+ ▪ project device/samsung/qcom-common/
+ ▪ 3b6019e Revert "Revert "qcom-common: doze: Add back button to action bar""
+
+ ▪ project frameworks/base/
+ ▪ 66237e9 Update PhoneStatusBar.java
+ ▪ e3b1605 Update StaticHeaderProvider.java
+ ▪ 31b1738 Update PhoneStatusBar.java
+ ▪ 7e30ef1 Update QuickStatusBarHeader.java
+ ▪ 3f32400 Update AndroidManifest.xml
+ ▪ f79f3ea Merge pull request #12 from pimpmaneaton/n7.1
+ ▪ 3163c58 Revert "Modern Services: cover all the stuff"
+ ▪ cdf606b Update AndroidManifest.xml
+ ▪ 06a6818 Merge pull request #11 from pimpmaneaton/n7.1
+ ▪ 4ffabf6 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 40c2afb Merge pull request #10 from KillerDroid96/nougat
+ ▪ 32dcec5 Merge pull request #9 from ResurrectionRemix/nougat
+ ▪ 954f82a fix
+ ▪ c124240 Revert "GestureInputFilter: stop the battery drain"
+ ▪ 4adc8c6 Revert "LoadedApk: ignore blacklisted classes"
+ ▪ c134231 Revert "Optimizations & code quality improvements"
+ ▪ fa82abf Revert "ActivateableNotificationView: re-inflate on configuration change"
+ ▪ 522c581 Update AndroidManifest.xml
+ ▪ 102cd7f Revert "SystemUI: update volume dialog when re-inflating views"
+ ▪ e9e2333 Update Android.mk
+ ▪ e5bb9b9 Update NOTICE
+ ▪ 180c118 Update CleanSpec.mk
+ ▪ ce36374 Night auto brightness: restore user brightness values also after reboot
+ ▪ 8c8997d Merge pull request #8 from ResurrectionRemix/nougat
+ ▪ 477ae1c Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ f1a82c3 Merge pull request #6 from pimpmaneaton/n7.1
+ ▪ faf0822 CleanUp some whitespacing
+ ▪ ccbec68 Option to use volume keys to control media volume anytime (2/2)
+ ▪ de491dd deleted file
+ ▪ a330671 Merge pull request #5 from KillerDroid96/nougat
+ ▪ 01ec1b6 Task
+ ▪ 3e573ef Task Manager
+ ▪ c207361 Revert "Avoid RuntimeException and log spam"
+ ▪ 30eb24b Revert "logcat: fix SuperSU related spam"
+ ▪ 8ce6875 Revert "Try to fix logcat spam from qcrilmsgtunnel:"
+ ▪ 252ed26 Revert "QS: Fix QuickQS visibility at non-first page"
+ ▪ 0f3e9f5 Revert "PhoneStatusBar: fix brightness slider not updating correctly when re-inflating views"
+ ▪ 057ad4e Revert "[PackageManagerService]: Fixes can not boot issue."
+ ▪ f965bb0 Merge pull request #3 from ResurrectionRemix/nougat
+ ▪ ebb55d8 [SQUASHED] Frameworks: Cleanup and remove duplicate sounds
+ ▪ a1a57d2 Header Packs: Add back all RR and PitchBlack Header Packs from M
+ ▪ 1a0ff79 Fix SystemUI FC on Dynamic Density Change
+ ▪ 3d7f240 TaskManager Customizations [1/2]
+ ▪ 2ca2e4d base: SystemUI: fix custom header dpi change behaviour
+ ▪ 3369fd1 TaskManager: Update UI and adapt For Nougat
+ ▪ 2c9d08a Fix Battery Text Visibility issues
+ ▪ be4d5ab [1/3] base: custom header extensions
+ ▪ ff510e3 Improve TM animation & use stock detail background
+ ▪ eb6d271 Use CircularReveal animation to show/hide task manager panel
+ ▪ 0b69251 QS/TM : Update task manager UI & add fab button - Update and vectorize task close button + tint as accent color
+ ▪ d5b0da1 TaskManager: Clean up calls in PSB
+ ▪ 79c17cb Reset the QS panel if task manager was visible last
+ ▪ 8ba4293 Add more icons for the task manager switch
+ ▪ 7c7018e Update some Task Manager functions
+ ▪ 8e03e4e Fix TM string
+ ▪ d0c86bf Improve Task manager UI
+ ▪ 8e7b42e Task manager improvements
+ ▪ d7ba257 Expose the task manager values for themers
+ ▪ bc98ece Fixed the Task Manager bug described in the post below https://plus.google.com/101691799763674764197/posts/Z7XFJSfsCYz Change-Id: If4f3f3c67c80cd8be3111ea3dbc3ac1f3b6d7618
+ ▪ eb384f7 CAF Task Manager switch [1/2]
+ ▪ b4cdc39 Add task manager back in!
+ ▪ a8fa37f Fix QuickQS visibility at non-first page
+ ▪ c437983 [1/2] base: SystemUI: custom QS header images
+
+ ▪ project hardware/intel/common/omx-components/
+ ▪ 5abed81 omx-component: fix video corruption
+
+ ▪ project hardware/intel/img/psb_video/
+ ▪ 72b4180 Encode: correctly handle VAConfig attributes on medfield/CTP
+ ▪ e987d59 Fix video encoding on clovertrail
+ ▪ 399140b Add clovertrail support (based on the tree at 686e11709b57bc57ee94c3166f187fec959fd43b)
+ ▪ 747765a Cleanup pvr_drv_video makefile for clovertrail support
+
+ ▪ project hardware/qcom/fm/
+ ▪ b516be3 Use BOARD_HAVE_QCOM_FM flag
+ ▪ febb559 Revert "fm: do not build for BCM FM devices"
+
+ ▪ project hardware/samsung/
+ ▪ 0e14f27 power: Remove unused local variables
+ ▪ f05f902 power: Consolidate verbose logging
+ ▪ aa75be4 power: Update module author
+ ▪ f629672 power: Remove outdated comments
+ ▪ 766aa1e dtbhtool: Do not force utilities to be built
+ ▪ cdbd3b6 Revert "dtbhtool: Add LOCAL_MODULE_TAGS := optional"
+ ▪ 7598a16 dtbhtool: Add LOCAL_MODULE_TAGS := optional
+
+ ▪ project lineageos/updater/
+ ▪ 8e49765 app: use script's current path for devices.json
+ ▪ 51fc398 lineageos_updater: LineageOS cm-14.1 branch for background
+
+ ▪ project packages/apps/CMParts/
+ ▪ c8073de Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ b050deb CMParts: profiles: Remove old PagerTabStrip hack
+ ▪ de9bc61 ButtonBacklight: Preview timeout once user stops dragging
+ ▪ 778d1c9 CMParts: Update button backlight brightness in real time
+ ▪ 3544dfb ExpandedDesktop: Don't re-populate the app list in rebuild()
+ ▪ ab4044e CMParts: Fix expandable desktop
+
+ ▪ project packages/apps/Settings/
+ ▪ 9fe92bf Delete Android.mk
+ ▪ bea9179 Delete Android.mk
+ ▪ 07e18c2 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 778cba9 Settings:Task Manager Customizations [2/2]
+ ▪ 01a55bf [2/3] settings: custom header extensions
+ ▪ 8b8e244 CAF Task Manager Switch [2/2]
+ ▪ 61fa684 Header Image Packs and Shadows {SQUASHED}[2/2]
+
+ ▪ project system/sepolicy/
+ ▪ 74f3420 Merge pull request #3 from KillerDroid96/nougat
+ ▪ 37475c3 Merge pull request #2 from pimpmaneaton/n7.1
+ ▪ 27ff741 Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ 3043635 Allow apps in /system/priv-app to call and execute su commands
+
+ ▪ project vendor/cm/
+ ▪ bbe7625 Update common.mk
+ ▪ c88939f Update common.mk
+ ▪ 3d2df03 Update common.mk
+ ▪ bbb6dbe Update common.mk
+ ▪ a4d12b0 Merge pull request #5 from pimpmaneaton/n7.1
+ ▪ 4eeb25f vendor: sepolicy: Add priv_app to neverallow rule
+ ▪ 6b9d40d Update common.mk
+ ▪ 0facf94 Update common.mk
+ ▪ 7f24f27 Merge pull request #4 from pimpmaneaton/n7.1
+ ▪ 0e43f45 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ c8566e3 Update common.mk
+ ▪ a8ecfea Update common.mk
+ ▪ 8c1ff8b Update common.mk
+ ▪ 76b45cb Update rr.sh
+ ▪ e0d1135 Merge pull request #3 from KillerDroid96/nougat
+ ▪ 7f4af82 Merge pull request #2 from ResurrectionRemix/nougat
+ ▪ 68b9709 Build Omni Style
+ ▪ a479719 overlay: Enable Visual Voicemail for Verizon devices
+ ▪ eef8602 build: kernel: build arm kernel modules with -fno-pic
+ ▪ f86d2f7 http_prebuilt: Improve retrieval of artifacts from archive
+ ▪ 8e20a45 Update common.mk
+
+ ▪ project vendor/cmsdk/
+ ▪ f7f252e Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ 3e307de cmsdk: Fix @deprecated annotation mismatch warnings
+ ▪ 7f341aa cmsdk: Update README references for LineageOS
+
+ ▼ 01/15/2017
+
+
+ ▪ project build/
+ ▪ b11849d Merge pull request #2 from pimpmaneaton/n7.1
+
+ ▪ project frameworks/base/
+ ▪ 6c89946 Update NightDisplayService.java
+ ▪ e07c2c4 Merge pull request #2 from pimpmaneaton/n7.1
+ ▪ 4f875cc Night auto brightness: restore user brightness values also after reboot
+ ▪ a0d2ef2 Wider night light auto low brightness action
+ ▪ 20d46de Merge pull request #1 from pimpmaneaton/n7.1
+
+ ▪ project hardware/qcom/fm/
+ ▪ 4c0b246 fm: do not build for BCM FM devices
+
+ ▪ project lineageos/updater/
+ ▪ 77394dd app.py: add method for deleting roms from database via filename
+ ▪ 45f10df app.cfg.example: make example config options more intuitive
+ ▪ 852e9d8 Add exec bit to seed.sh
+ ▪ 398a79c Use own `scrollable-table` for width < 992px
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 8254c33 Merge branch 'OMS' of github.com:KillerDroid96/android_packages_apps_ContactsCommon into OMS
+ ▪ 5be8171 Merge pull request #1 from LineageOS/cm-14.1
+
+ ▪ project packages/apps/Dialer/
+ ▪ 90fca27 Merge pull request #1 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/Snap/
+ ▪ 32825fc Snap: CAF strings cleanup second interation
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 98c5ce6 Merge branch 'OMS' of github.com:KillerDroid96/android_packages_providers_MediaProvider into OMS
+
+ ▪ project system/core/
+ ▪ 18068d4 Merge pull request #1 from pimpmaneaton/n7.1
+
+ ▪ project vendor/addons/
+ ▪ 477c388 Update config.mk
+
+ ▪ project vendor/cm/
+ ▪ f790e21 Update common.mk
+ ▪ b7a1bcc Update rr.sh
+ ▪ 1cf3bb0 Dextro
+ ▪ 82482e2 Update common.mk
+ ▪ b7a5e17 Update common.mk
+ ▪ a222704 OMS tag
+ ▪ 4f76cd9 Merge pull request #1 from pimpmaneaton/n7.1
+
+ ▪ project vendor/samsung/
+ ▪ 945e07b klte-common: Update blobs
+ ▪ 1cb4b40 klte: Downgrade RIL/QC framework blobs to L revisions
+
+ ▼ 01/14/2017
+
+
+ ▪ project bootable/recovery/
+ ▪ 41ed544 recovery: Fix "Wipe data" wrong "System reset" naming
+
+ ▪ project build/
+ ▪ c99d1d0 Revert "build: Enable custom ccache cache dir for Android"
+
+ ▪ project device/qcom/common/
+ ▪ 4d5a288 extractors: Add msm8952 blobs
+
+ ▪ project device/samsung/jf-common/
+ ▪ 766ee16 jf: Generate graphics vendor Makefile if missing
+
+ ▪ project frameworks/base/
+ ▪ 6bb356e Do not turn off voice interaction when close system dialogs reason is assist
+ ▪ bd66c91 Emulator: Fix CTS failure caused by removed MANAGE_USERS permission in Shell
+ ▪ 1a9b5f1 camera: catch NullPointerException for Nexus 5
+ ▪ 7138ea9 QS Headers: Don't cut off Brightness slider & button
+ ▪ 04d8185 DefaultPermissionGrantPolicy: Pass correct arguments
+ ▪ 441a761 Reject DHCP packets with no magic cookie
+ ▪ d38981c Fix clipping for edit screen of Quick Settings
+ ▪ 4f5c0a5 Fix issue when start android/com.android.internal.backup.LocalTransportService
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 36ec67c cleanup unused resource strings
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 9c2613b Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ f01205e  Menu improvements to Night light auto brightness
+ ▪ 7e585de Enable Gesture settings & Storage Manager *also add preview videos and images
+ ▪ f18291f Settings: Improve hotspot timeout strings
+ ▪ d75ffe9 Automatic translation import
+
+ ▪ project system/core/
+ ▪ e10320b cutils: realtime scheduler class support
+ ▪ 780abfe Merge remote-tracking branch 'cr/7.1' into n7.1
+ ▪ 9d982b0 Revert "cutils: realtime scheduler class support"
+
+ ▪ project vendor/cm/
+ ▪ 991c81c Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+ ▪ 2e9866d cm: build: kernel: Remove obsolete checks
+ ▪ 13684f2 overlay: Enable Visual Voicemail for Verizon devices
+ ▪ 4ca349c build: kernel: build arm kernel modules with -fno-pic
+ ▪ 20bb771 http_prebuilt: Improve retrieval of artifacts from archive
+ ▪ c870120 apns: Update H2O Wireless
+
+ ▪ project vendor/qcom/binaries/
+ ▪ a78a120 msm8952: Add graphics blobs
+
+ ▼ 01/13/2017
+
+
+ ▪ project device/samsung/qcom-common/
+ ▪ 8cd28f3 qcom: doze: Move to display settings
+
+ ▪ project frameworks/base/
+ ▪ 45cb3e5 Merge branch 'OMS' of github.com:KillerDroid96/Resurrection_packages_apps_Settings into OMS
+ ▪ a5171a2 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ d30bd99 Fix race condition in accessibility
+ ▪ 9175ae6 base: SystemUI: fix custom header dpi change behaviour
+ ▪ f39fde9 OMS
+ ▪ b5e64a6 Automatic translation import
+ ▪ 42cdcb0 Automatic translation import
+ ▪ 1dc20bf [SQUASHED] Frameworks: Cleanup and remove duplicate sounds
+
+ ▪ project lineageos/updater/
+ ▪ 0888fb8 seed: seed real devices
+ ▪ fed8c77 add LeEco Le 2 (s2)
+
+ ▪ project packages/apps/Settings/
+ ▪ 9709bcf1 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ b5e64a6 Automatic translation import
+ ▪ 51f383b Settings: Let's get to choose keyboard again in Settings.
+
+ ▪ project packages/apps/Snap/
+ ▪ 65bec49 Snap: Fix missing untranslatables
+
+ ▪ project system/bt/
+ ▪ cc99880 bt: Allowed WBS to be disabled when building with QTI_SW
+
+ ▪ project vendor/cm/
+ ▪ b5e64a6 Automatic translation import
+
+ ▼ 01/12/2017
+
+
+ ▪ project device/qcom/common/
+ ▪ f666741 Revert "extractors: Update msm8996 graphics blobs info"
+ ▪ 8db80fa Revert "extractors: Add msm8996 32bit libmm-disp-apis and libmm-qdcm"
+
+ ▪ project frameworks/base/
+ ▪ 2cb7268 Fixes and improvements
+ ▪ cf1ebf3 Automatic translation import
+ ▪ 9ec5390 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 854a4ca Automatic translation import
+ ▪ 89303b5 Automatic translation import
+
+ ▪ project lineageos/updater/
+ ▪ 514511a updater: import device images + device config from hudson
+ ▪ 1926c05 Use thead and tbody for roms table
+ ▪ b16c560 Remove whitespace
+ ▪ 6d4592d Sort roms by date descending
+
+ ▪ project packages/apps/CMParts/
+ ▪ f6a9d8e Fix battery style issue
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 7f7d8a0 DownloadCompleteIntentService: add missing import
+ ▪ 2e8c54e CMUpdater: include ro.build.version.incremental in request
+
+ ▪ project packages/apps/Dialer/
+ ▪ 52879b7 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ a695d46 Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ 592c2e3 Revert "Add account"
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ ef097a9 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ d42fe7f Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 7bdba1f Fixing battery style issue
+ ▪ cf1ebf3 Automatic translation import
+ ▪ b5b6d1d Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 854a4ca Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 69b66d2 Fix camera controls rotation.
+ ▪ 2876bc5 Snap: Replace strings
+
+ ▪ project vendor/addons/
+ ▪ 5a52c73 addons: Update Snapdragon Browser to 56.0.2924.53
+
+ ▪ project vendor/cm/
+ ▪ cf1ebf3 Automatic translation import
+ ▪ 854a4ca Automatic translation import
+
+ ▪ project vendor/cmsdk/
+ ▪ 7b9f3ed Fixing battery style issue
+ ▪ 79bbaf1 Correct this
+
+ ▪ project vendor/huawei/angler/
+ ▪ 948fae5 kiwi: Move services from /sbin/ to /system/bin/
+
+ ▪ project vendor/qcom/binaries/
+ ▪ dde8fac Revert "msm8996: graphics: Add 32bit libmm-disp-apis and libmm-qdcm"
+ ▪ 4eba500 Revert "msm8996: graphics: Update from display.lnx.3.0.r9-rel"
+
+ ▼ 01/11/2017
+
+
+ ▪ project device/huawei/angler/
+ ▪ ec5683b angler: Move carrierconfig overlay to device/
+
+ ▪ project device/samsung/jf-common/
+ ▪ 68b26bb Revert "jf: Turn on sdcardfs"
+
+ ▪ project frameworks/base/
+ ▪ 53ebbeb Revert "PhoneStatusBar: fix brightness slider not updating correctly when re-inflating views"
+ ▪ c6b8ba2 Remove the edit button that was added in error.
+ ▪ 3a6f18f Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ f8a53ac Keyguard : Update default clock font - fix refreshLockFont
+ ▪ a91de2a Settings: Update some old settings fragments for nougat - App remover (update safety list) - Features - Changelog - Cleanups
+ ▪ 6e0e8a8 Automatic translation import
+ ▪ c74f0d8 Revert "Reduce default screenshot delay to 100ms" Joke ?? - Oh no 100ms ? is it a joke ? Must give some time for animations This reverts commit aa5c5a2513652e3732f143495b6df25c90016982.
+ ▪ e7d0888 Fix CN translations error
+ ▪ 2871bf8 Automatic translation import
+ ▪ 1ca3f8e Automatic translation import
+ ▪ ac12801 Enable cool color temperature option
+ ▪ 6346703 Battery icon: add alternative Big Circle style [1/2]
+ ▪ 7cd7136  OMS: fix compatibility with custom battery icons of some themes
+ ▪ 06c97c5 [PackageManagerService]: Fixes can not boot issue.
+ ▪ fb17223 SystemUI: update volume dialog when re-inflating views
+ ▪ 1b37bfa ActivateableNotificationView: re-inflate on configuration change
+ ▪ 6545417 PhoneStatusBar: fix brightness slider not updating correctly when re-inflating views
+ ▪ 2caa789 QS: Fix QuickQS visibility at non-first page
+ ▪ 1c80b24 Try to fix logcat spam from qcrilmsgtunnel:
+ ▪ 723b75c logcat: fix SuperSU related spam E/ActivityManager( 4885): Sending non-protected broadcast eu.chainfire.supersu.NativeAccess from system uid 0 pkg null 09-16 23:35:48.711 E/ActivityManager( 4885): java.lang.Throwable 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17695) 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18256) 09-16 23:35:48.711 E/ActivityManager( 4885): at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499) 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2755) 09-16 23:35:48.711 E/ActivityManager( 4885): at android.os.Binder.execTransact(Binder.java:565)
+ ▪ f6ab386 base: protect zen mode against mailicious setRingerMode
+ ▪ d64f1a0 DERP
+ ▪ 37c4089 Fix import
+ ▪ a69e508 base: custom header extensions [1/3]
+ ▪ 5cfab69 Bring back quick install with N adaptations
+ ▪ 7c24bbe Themes: Expose manifest styles for themes
+ ▪ ac0acc7 Sync Epanded statusbar features with RR source
+
+ ▪ project hardware/intel/img/psb_headers/
+ ▪ 7bb0667 Allow clovertrail to include vbp_loader.h header
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 42fd8b9 Fix security vulnerability: Equalizer command might allow negative indexes
+ ▪ b9cbb87 Fix security vulnerability: Effect command might allow negative indexes
+
+ ▪ project kernel/samsung/jf/
+ ▪ 1aed399 sg_write()/bsg_write() is not fit to be called under KERNEL_DS
+ ▪ 9f52da7 net: avoid signed overflows for SO_{SND|RCV}BUFFORCE
+ ▪ 5d70c1f net: cleanups in sock_setsockopt()
+ ▪ 71eb854 ALSA: pcm : Call kill_fasync() in stream lock
+
+ ▪ project lineageos/updater/
+ ▪ a2321a2 require current incremental version for request
+ ▪ bdc0b9b app: Return integer timestamps
+ ▪ 675e509 Remove whitespace
+
+ ▪ project packages/apps/CMParts/
+ ▪ 8aaf357 Add new Big circle battery to CMParts
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 0796b21 CMUpdater: remove support for incremental updates
+ ▪ 6e2947a Updater: support new server-side API
+ ▪ d4a46d3 Updater: aapt rename package to org.lineageos.updater
+ ▪ d95ffa2 verify the signature rather than md5
+ ▪ 897de43 remove external storage permission
+ ▪ 51218b8 Revert "CMUpdater: Check permissions for external storage"
+ ▪ 11cc93b use a private directory for updates
+ ▪ 9b073c7 make the download private
+ ▪ 999e03c use DownloadManager's openDownloadedFile method
+ ▪ 3d350c7 Revert "CMUpdater: Fix OTA on encrypted devices"
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ fb361cb Enlarge and brighten the images
+ ▪ 6d5561d Fix label
+ ▪ e510174 Add Nitrogen header images
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ cb83b0a Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 294efa0 Automatic translation import
+ ▪ fedd9b9 Change app title - Do not translate app title
+
+ ▪ project packages/apps/Settings/
+ ▪ a91de2a Settings: Update some old settings fragments for nougat - App remover (update safety list) - Features - Changelog - Cleanups
+ ▪ 6e0e8a8 Automatic translation import
+ ▪ f7120b5 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 4c1b782 Automatic translation import
+ ▪ e7d0888 Fix CN translations error
+ ▪ 1ca3f8e Automatic translation import
+ ▪ ac12801 Enable cool color temperature option
+ ▪ b73876d Battery icon: add alternative Big Circle style [2/2]
+ ▪ fe41be2 DERP
+ ▪ 9608ad9  settings: custom header extensions [2/3]
+ ▪ 643d00b Move some things around and remove the switch that is no longer needed.
+ ▪ 313f28c Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project packages/apps/Snap/
+ ▪ acd2288 Snap: Fix whitespace issues
+ ▪ 70cf903 Snap: Fix untranslatable strings
+
+ ▪ project vendor/addons/
+ ▪ 023c479 addons: Update Kernel Adiutor to 0.9.6.2 beta.br1
+
+ ▪ project vendor/cm/
+ ▪ 00783d7 Update github changelog
+ ▪ a91de2a Settings: Update some old settings fragments for nougat - App remover (update safety list) - Features - Changelog - Cleanups
+ ▪ 6e0e8a8 Automatic translation import
+ ▪ e7d0888 Fix CN translations error
+ ▪ 1ca3f8e Automatic translation import
+ ▪ ac12801 Enable cool color temperature option
+
+ ▪ project vendor/cmsdk/
+ ▪ 7595802 Add big circle battery
+
+ ▼ 01/10/2017
+
+
+ ▪ project android/
+ ▪ 8b34ba8 Track rr storage manager
+
+ ▪ project device/samsung/jfltespr/
+ ▪ c7e2c78 jfltespr: add details and flair to README
+ ▪ 71afba8 jfltespr: Remove enhanced NFC feature
+ ▪ 39481eb jfltespr: cm->lineage
+
+ ▪ project frameworks/base/
+ ▪ 3391384 SetupWizard: fix Vision Settings crash
+ ▪ a920196 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 4e4b719 Enable smart storage manager - activate some configs
+ ▪ ba5d5ca Automatic translation import
+
+ ▪ project hardware/qcom/audio-caf/msm8937/
+ ▪ af95d62 Fix security vulnerability: Equalizer command might allow negative indexes
+ ▪ c0f34fd Fix security vulnerability: Effect command might allow negative indexes
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ 7b2cdc3 Fix security vulnerability: Equalizer command might allow negative indexes
+ ▪ d3b387e Fix security vulnerability: Effect command might allow negative indexes
+
+ ▪ project hardware/qcom/audio-caf/msm8960/
+ ▪ 89ea159 Fix security vulnerability: Equalizer command might allow negative indexes
+ ▪ cefa8c2 Fix security vulnerability: Effect command might allow negative indexes
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ 2eab42c Fix security vulnerability: Equalizer command might allow negative indexes
+ ▪ 730371f Fix security vulnerability: Effect command might allow negative indexes
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 61970b6 Fix security vulnerability: Equalizer command might allow negative indexes
+ ▪ 3a6ccb7 Fix security vulnerability: Effect command might allow negative indexes
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ ff84df6 Fix security vulnerability: Equalizer command might allow negative indexes
+ ▪ 87d52fd Fix security vulnerability: Effect command might allow negative indexes
+
+ ▪ project hardware/samsung/
+ ▪ 28bf1cc exynos4: allow using SLSI stack
+
+ ▪ project lineageos/updater/
+ ▪ 02f5e62 We use `app.cfg` now
+ ▪ 2fae115 Load assets with `//` instead of `http://` / `https://`
+
+ ▪ project packages/apps/Settings/
+ ▪ 3391384 SetupWizard: fix Vision Settings crash
+ ▪ a920196 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 4e4b719 Enable smart storage manager - activate some configs
+ ▪ ba5d5ca Automatic translation import
+
+ ▪ project packages/apps/StorageManager/
+ ▪ 4012df1 Expose storage manager settings colors
+
+ ▪ project vendor/cm/
+ ▪ 3391384 SetupWizard: fix Vision Settings crash
+ ▪ a920196 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 4e4b719 Enable smart storage manager - activate some configs
+ ▪ ba5d5ca Automatic translation import
