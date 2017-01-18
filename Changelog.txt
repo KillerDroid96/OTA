@@ -12,7 +12,6 @@ Added:
 -Flash Kernel
 -One-hand UI Mode
 
-
 Removed:
 -Stock Browser
 -Trebuchet
