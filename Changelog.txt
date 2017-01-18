@@ -1,4 +1,4 @@
-▼ The Main Changes
+▼ The Main Unofficial Changes
 ########################################################################################################### 
 Added:
 -Updated to 7.1.1r13
@@ -9,7 +9,9 @@ Added:
 -BenzoBlock (AdBlocker) Enable in settings/apps
 -SnapBrowser
 -BusyBox
--Flash Kernel 
+-Flash Kernel
+-One-hand UI Mode
+
 
 Removed:
 -Stock Browser
@@ -18,6 +20,306 @@ Removed:
 -CMWallpapers
 ########################################################################################################
  ▼ Resurrection Remix Nougat Changelog
+ ▼ 01/18/2017
+
+
+ ▪ project android/
+ ▪ c2b5352 Track Own FW native and system core
+
+ ▪ project build/
+ ▪ cf11107 Update build_id.mk
+ ▪ 7399d05 Merge pull request #4 from pimpmaneaton/n7.1
+ ▪ 0a2af27 Revert " Bringup system-squisher for Nougat"
+ ▪ 4b3e0a7 Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ 9013a38  Bringup system-squisher for Nougat
+
+ ▪ project device/huawei/angler/
+ ▪ d356763 Build Flash kernel with Rom
+
+ ▪ project frameworks/base/
+ ▪ f6dc982 Merge pull request #20 from pimpmaneaton/n7.1
+ ▪ b8ee9bd Move to secure
+ ▪ a71667c Merge pull request #19 from pimpmaneaton/n7.1
+ ▪ 0e2baf4 update one handed drawables to pixel blue to match system
+ ▪ 1bef0f1 Merge pull request #17 from ResurrectionRemix/nougat
+ ▪ 9d2ef74 One handed mode toggle [1/3]
+ ▪ ba7c799 Add new feature of One-hand UI Mode [1/3]
+ ▪ e9efeb3 DUI: Smartbar: double tap to sleep [1/3]
+ ▪ a1ba7ea SystemUI: Task manager UI improvements & scrollable task list
+ ▪ eccc81b Update rr_colors.xml
+ ▪ 19a1d82 Merge pull request #16 from pimpmaneaton/n7.1
+ ▪ 2a44640 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ e03ca7b SystemUI: Task manager UI improvements & scrollable task list
+ ▪ ef31b02 Merge pull request #15 from pimpmaneaton/n7.1
+ ▪ b98c411 Option to use volume keys to control media volume anytime (2/2)
+ ▪ 3c474ef NetworkManagement : Add ability to restrict app data/wifi usage
+ ▪ 9ec2b5c sensors: Allow opting out of default batch size
+ ▪ 29263db CleanUp some whitespacing
+ ▪ 99fb39b [SQUASHED] Frameworks: Cleanup and remove duplicate sounds
+ ▪ 996b0356 Header Packs: Add back all RR and PitchBlack smart header Packs
+ ▪ d3bf1ea  Fix OmniSwitch non-protected broadcast logspam
+ ▪ d75626e Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 98b1f36 Merge pull request #14 from pimpmaneaton/n7.1
+ ▪ ec02249 NetworkManagement : Add ability to restrict app data/wifi usage
+ ▪ 8f0ab37 sensors: Allow opting out of default batch size
+
+ ▪ project frameworks/native/
+ ▪ 6f63d38 Merge pull request #2 from pimpmaneaton/n7.1
+ ▪ 70fe0ad Fix surfaceflinger file descriptor leak
+ ▪ 82043cc Fix use of open()
+ ▪ e1b274f Add Parcel::writeParcelableVector(std::shared_ptr)
+ ▪ 2857aeb Fix clang static analyzer warnings.
+ ▪ b9e14e9 Remove ATRACE from SurfaceFlinger
+ ▪ 7f6c493 Properly align a packed structure.
+ ▪ e11c269 Enable 64-bit support in libs/gui/Sensor.cpp
+ ▪ e9e0a7e Add new feature of One-hand UI Mode [2/3]
+ ▪ f4fcd50 Merge pull request #1 from pimpmaneaton/n7.1
+
+ ▪ project kernel/huawei/angler/
+ ▪ 451f792 Update build.config
+ ▪ 652298a Create KillerDroid96_angler_defconfig
+ ▪ beff0de Rename KillerDroid96_angler_defconfig to lineageos_angler_defconfig
+ ▪ 47a4947 Rename lineageos_angler_defconfig to KillerDroid96_angler_defconfig
+ ▪ 0eaedd6 Rename angler_defconfig to lineageos_angler_defconfig
+ ▪ 1a196ff chill: Fix logic for reducing boost count with freq
+ ▪ a0eac5f flash_defconfig: enable CPU_FREQ_GOV_RELAXED
+ ▪ b716e28 cpufreq: Add Relaxed governor
+
+ ▪ project packages/apps/DUI/
+ ▪ 819634c Merge pull request #2 from pimpmaneaton/n7.1
+ ▪ 57c85cc DUI: Smartbar: One handed mode toggle [2/3]
+ ▪ ae67e03 DUI: SmartBar: D2TS code improvements
+ ▪ 8e78c3b DUI: Smartbar: Add new feature of One-hand UI Mode [3/3]
+ ▪ a4234c7 DUI: Smartbar: double tap to sleep [2/3]
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ 2b90eb9 Merge pull request #1 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/Settings/
+ ▪ f4cdea4 Update rr_strings.xml
+ ▪ a78d737 revert
+ ▪ d6e1154 updated device maintainer
+ ▪ b4cc893 Merge pull request #10 from pimpmaneaton/n7.1
+ ▪ 5beca8a Update about_rom.xml
+ ▪ 03d1db5 Update about_rom.xml
+ ▪ 34ca4f3 Update battery_saver_settings.xml
+ ▪ 568ba13 Update power_menu_settings.xml
+ ▪ 852cfb4 Update testing_settings.xml
+ ▪ fdc1ee3 Update rr_sb_icons.xml
+ ▪ 09f2070 Update rr_recents_ui.xml
+ ▪ 3994be8 Update rr_recents_clear_all_fragment.xml
+ ▪ 823048b Update rr_qs_advanced.xml
+ ▪ 6d3bdb9 Update rr_ls_ui.xml
+ ▪ 272f724 Update rr_dashboard_settings.xml
+ ▪ 143e318 Update rr_clock.xml
+ ▪ b060337 Update strings.xml
+ ▪ 890e434 Update rr_strings.xml
+ ▪ f96854a One handed mode toggle [3/3]
+ ▪ 314e933  DUI: Smartbar: double tap to sleep [3/3]
+ ▪ ba1d557 Merge pull request #9 from ResurrectionRemix/nougat
+ ▪ c0e83b2 Fix typo
+ ▪ bccf2ac Merge pull request #663 from amitash/patch-1
+ ▪ 9fc59e3 Merge pull request #8 from pimpmaneaton/n7.1
+ ▪ 8beaca2 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 39b68a5 Edit strings
+ ▪ e76189f Merge pull request #7 from pimpmaneaton/n7.1
+ ▪ 3712c57 Add fastscroll to the Manage applications screen
+ ▪ 06a87fa  Expose gesture settings switchbar
+ ▪ 65af9cf Add summary for Double Twist gesture
+ ▪ 6e2e399 Settings: per-app cellular data and wifi restrictions
+ ▪ 44457f2 Merge pull request #6 from pimpmaneaton/n7.1
+
+ ▪ project vendor/cm/
+ ▪ ba0c14a Update common.mk
+ ▪ 9ad5150 Update common.mk
+ ▪ c2b7d8f Merge pull request #7 from pimpmaneaton/n7.1
+ ▪ 6c90c09 Revert " Bringup system-squisher for Nougat (2/2)"
+ ▪ 47695c6 Update
+ ▪ 9e14347 Merge pull request #6 from pimpmaneaton/n7.1
+ ▪ 216d4a5  Bringup system-squisher for Nougat (2/2)
+
+ ▼ 01/17/2017
+
+
+ ▪ project android/
+ ▪ a816129 Track OmniStyle
+
+ ▪ project device/huawei/angler/
+ ▪ 081163c  angler: Pin camera app in memory
+ ▪ 50512e6 Moving to LineageOS kernel for now
+ ▪ d124d60 Revert "Call out for OmniStyle to build"
+
+ ▪ project device/samsung/jf-common/
+ ▪ ec4a949 use /by-name/fota for /misc partition
+
+ ▪ project device/samsung/qcom-common/
+ ▪ 3b6019e Revert "Revert "qcom-common: doze: Add back button to action bar""
+
+ ▪ project frameworks/base/
+ ▪ 9fabc13 Network traffic indicators: Use vectorized arrow icons
+ ▪ 9c1c3fa doze: allow grayscale even if invert boolean is false
+ ▪ 736e897 Add a protected broadcast for Masquerade events
+ ▪ 3b81e49  DUI: Fix navbar edit logspam
+ ▪ 6ae2919 Optimizations & code quality improvements
+ ▪ b6792d0 LoadedApk: ignore blacklisted classes
+ ▪ 700ecc7 GestureInputFilter: stop the battery drain
+ ▪ 74278ef camera: catch NullPointerException for Nexus 5
+ ▪ ca36c9f QS Headers: Don't cut off Brightness slider & button
+ ▪ d25060f Fix clipping for edit screen of Quick Settings
+ ▪ a201ef6 Try to fix logcat spam from qcrilmsgtunnel:
+ ▪ 775bed3 logcat: fix SuperSU related spam E/ActivityManager( 4885): Sending non-protected broadcast eu.chainfire.supersu.NativeAccess from system uid 0 pkg null 09-16 23:35:48.711 E/ActivityManager( 4885): java.lang.Throwable 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17695) 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18256) 09-16 23:35:48.711 E/ActivityManager( 4885): at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499) 09-16 23:35:48.711 E/ActivityManager( 4885): at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2755) 09-16 23:35:48.711 E/ActivityManager( 4885): at android.os.Binder.execTransact(Binder.java:565)
+ ▪ dc1fbda Avoid RuntimeException and log spam
+ ▪ f5d85e1 Remove the edit button that was added in error.
+ ▪ e406b1c Merge pull request #13 from pimpmaneaton/n7.1
+ ▪ b6fa5ea Fixes and improvements
+ ▪ 66237e9 Update PhoneStatusBar.java
+ ▪ e3b1605 Update StaticHeaderProvider.java
+ ▪ 31b1738 Update PhoneStatusBar.java
+ ▪ 7e30ef1 Update QuickStatusBarHeader.java
+ ▪ 3f32400 Update AndroidManifest.xml
+ ▪ f79f3ea Merge pull request #12 from pimpmaneaton/n7.1
+ ▪ 3163c58 Revert "Modern Services: cover all the stuff"
+ ▪ cdf606b Update AndroidManifest.xml
+ ▪ 06a6818 Merge pull request #11 from pimpmaneaton/n7.1
+ ▪ 4ffabf6 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 40c2afb Merge pull request #10 from KillerDroid96/nougat
+ ▪ 32dcec5 Merge pull request #9 from ResurrectionRemix/nougat
+ ▪ 954f82a fix
+ ▪ c124240 Revert "GestureInputFilter: stop the battery drain"
+ ▪ 4adc8c6 Revert "LoadedApk: ignore blacklisted classes"
+ ▪ c134231 Revert "Optimizations & code quality improvements"
+ ▪ fa82abf Revert "ActivateableNotificationView: re-inflate on configuration change"
+ ▪ 522c581 Update AndroidManifest.xml
+ ▪ 102cd7f Revert "SystemUI: update volume dialog when re-inflating views"
+ ▪ e9e2333 Update Android.mk
+ ▪ e5bb9b9 Update NOTICE
+ ▪ 180c118 Update CleanSpec.mk
+ ▪ ce36374 Night auto brightness: restore user brightness values also after reboot
+ ▪ 8c8997d Merge pull request #8 from ResurrectionRemix/nougat
+ ▪ 477ae1c Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ f1a82c3 Merge pull request #6 from pimpmaneaton/n7.1
+ ▪ faf0822 CleanUp some whitespacing
+ ▪ ccbec68 Option to use volume keys to control media volume anytime (2/2)
+ ▪ de491dd deleted file
+ ▪ a330671 Merge pull request #5 from KillerDroid96/nougat
+ ▪ 01ec1b6 Task
+ ▪ 3e573ef Task Manager
+ ▪ c207361 Revert "Avoid RuntimeException and log spam"
+ ▪ 30eb24b Revert "logcat: fix SuperSU related spam"
+ ▪ 8ce6875 Revert "Try to fix logcat spam from qcrilmsgtunnel:"
+ ▪ 252ed26 Revert "QS: Fix QuickQS visibility at non-first page"
+ ▪ 0f3e9f5 Revert "PhoneStatusBar: fix brightness slider not updating correctly when re-inflating views"
+ ▪ 057ad4e Revert "[PackageManagerService]: Fixes can not boot issue."
+ ▪ f965bb0 Merge pull request #3 from ResurrectionRemix/nougat
+ ▪ ebb55d8 [SQUASHED] Frameworks: Cleanup and remove duplicate sounds
+ ▪ a1a57d2 Header Packs: Add back all RR and PitchBlack Header Packs from M
+ ▪ 1a0ff79 Fix SystemUI FC on Dynamic Density Change
+ ▪ 3d7f240 TaskManager Customizations [1/2]
+ ▪ 2ca2e4d base: SystemUI: fix custom header dpi change behaviour
+ ▪ 3369fd1 TaskManager: Update UI and adapt For Nougat
+ ▪ 2c9d08a Fix Battery Text Visibility issues
+ ▪ be4d5ab [1/3] base: custom header extensions
+ ▪ ff510e3 Improve TM animation & use stock detail background
+ ▪ eb6d271 Use CircularReveal animation to show/hide task manager panel
+ ▪ 0b69251 QS/TM : Update task manager UI & add fab button - Update and vectorize task close button + tint as accent color
+ ▪ d5b0da1 TaskManager: Clean up calls in PSB
+ ▪ 79c17cb Reset the QS panel if task manager was visible last
+ ▪ 8ba4293 Add more icons for the task manager switch
+ ▪ 7c7018e Update some Task Manager functions
+ ▪ 8e03e4e Fix TM string
+ ▪ d0c86bf Improve Task manager UI
+ ▪ 8e7b42e Task manager improvements
+ ▪ d7ba257 Expose the task manager values for themers
+ ▪ bc98ece Fixed the Task Manager bug described in the post below https://plus.google.com/101691799763674764197/posts/Z7XFJSfsCYz Change-Id: If4f3f3c67c80cd8be3111ea3dbc3ac1f3b6d7618
+ ▪ eb384f7 CAF Task Manager switch [1/2]
+ ▪ b4cdc39 Add task manager back in!
+ ▪ a8fa37f Fix QuickQS visibility at non-first page
+ ▪ c437983 [1/2] base: SystemUI: custom QS header images
+
+ ▪ project frameworks/native/
+ ▪ 1c7dc01  native: use realtime scheduling for UX-critical items
+ ▪ 9e28c5a native: make UI highest priority
+ ▪ 75902ad surfaceflinger: use min realtime sched priority
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ e450f54 msm8974: Remove deprecated FM stuff.
+
+ ▪ project hardware/qcom/fm/
+ ▪ b516be3 Use BOARD_HAVE_QCOM_FM flag
+ ▪ febb559 Revert "fm: do not build for BCM FM devices"
+
+ ▪ project hardware/samsung/
+ ▪ 0e14f27 power: Remove unused local variables
+ ▪ f05f902 power: Consolidate verbose logging
+ ▪ aa75be4 power: Update module author
+ ▪ f629672 power: Remove outdated comments
+ ▪ 766aa1e dtbhtool: Do not force utilities to be built
+ ▪ cdbd3b6 Revert "dtbhtool: Add LOCAL_MODULE_TAGS := optional"
+ ▪ 7598a16 dtbhtool: Add LOCAL_MODULE_TAGS := optional
+
+ ▪ project kernel/huawei/angler/
+ ▪ 65be6dc Revert "cpufreq: interactive: fix memory leak"
+ ▪ a148d02 drivers: ipa: disable more log spam
+ ▪ dd2eeda [SQUASHED] Revert some cpuidle commits
+
+ ▪ project lineageos/updater/
+ ▪ 8e49765 app: use script's current path for devices.json
+ ▪ 51fc398 lineageos_updater: LineageOS cm-14.1 branch for background
+
+ ▪ project packages/apps/CMParts/
+ ▪ c8073de Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ b050deb CMParts: profiles: Remove old PagerTabStrip hack
+ ▪ de9bc61 ButtonBacklight: Preview timeout once user stops dragging
+ ▪ 778d1c9 CMParts: Update button backlight brightness in real time
+ ▪ 3544dfb ExpandedDesktop: Don't re-populate the app list in rebuild()
+ ▪ ab4044e CMParts: Fix expandable desktop
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ 2591941  Bring back Screw'd headers
+ ▪ dcadcb3 Fix NPE with actionbar title
+ ▪ 6578b2a Change header image(s) layout
+
+ ▪ project packages/apps/Settings/
+ ▪ 8e78c3c Remove double entries
+ ▪ 07e18c2 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 778cba9 Settings:Task Manager Customizations [2/2]
+ ▪ 01a55bf [2/3] settings: custom header extensions
+ ▪ 8b8e244 CAF Task Manager Switch [2/2]
+ ▪ 61fa684 Header Image Packs and Shadows {SQUASHED}[2/2]
+
+ ▪ project system/sepolicy/
+ ▪ 74f3420 Merge pull request #3 from KillerDroid96/nougat
+ ▪ 37475c3 Merge pull request #2 from pimpmaneaton/n7.1
+ ▪ 27ff741 Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ 3043635 Allow apps in /system/priv-app to call and execute su commands
+
+ ▪ project vendor/addons/
+ ▪ 31380cb Merge pull request #1 from BenzoRoms/noneone
+
+ ▪ project vendor/cm/
+ ▪ bbb6dbe Update common.mk
+ ▪ a4d12b0 Merge pull request #5 from pimpmaneaton/n7.1
+ ▪ 4eeb25f vendor: sepolicy: Add priv_app to neverallow rule
+ ▪ 6b9d40d Update common.mk
+ ▪ 0facf94 Update common.mk
+ ▪ 7f24f27 Merge pull request #4 from pimpmaneaton/n7.1
+ ▪ 0e43f45 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ c8566e3 Update common.mk
+ ▪ a8ecfea Update common.mk
+ ▪ 8c1ff8b Update common.mk
+ ▪ 76b45cb Update rr.sh
+ ▪ e0d1135 Merge pull request #3 from KillerDroid96/nougat
+ ▪ 7f4af82 Merge pull request #2 from ResurrectionRemix/nougat
+ ▪ 68b9709 Build Omni Style
+ ▪ a479719 overlay: Enable Visual Voicemail for Verizon devices
+ ▪ eef8602 build: kernel: build arm kernel modules with -fno-pic
+ ▪ f86d2f7 http_prebuilt: Improve retrieval of artifacts from archive
+
+ ▪ project vendor/cmsdk/
+ ▪ f7f252e Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ 3e307de cmsdk: Fix @deprecated annotation mismatch warnings
+ ▪ 7f341aa cmsdk: Update README references for LineageOS
+
  ▼ 01/16/2017
 
 
