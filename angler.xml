@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+	 <angler>
+            <Filename>RR-N-Substratum-OTA-v5.8.2-20170118-angler-Unofficial-KillerDroid96.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Download latest ResurrectionRemix build">https://www.androidfilehost.com/?fid=673368273298924663
+	    </RomUrl>
+            <OpenGappsUrl
+                id="open_gapps"
+                title="OpenGapps"
+                description="Download latest OpenGapps">http://opengapps.org
+	    </OpenGappsUrl>
+	    <VendorUrl
+		            id="vendor"
+                title="Vendor"
+                description="Download latest Vendor Image">https://www.androidfilehost.com/?fid=385035244224412325      
+	    </VendorUrl>
+	    <Radio_BootloaderUrl
+		            id="radio_bootloader"
+                title="Radio and Bootloader"
+                description="Download latest Radio and Bootloader"> https://www.androidfilehost.com/?fid=457095661767129408      
+	    </Radio_BootloaderUrl>
+            <Unofficial_ChangelogUrl
+                id="unofficial_changelog"
+                title="Unoffical Changelog"
+                description="View Unofficial Changelog">https://github.com/KillerDroid96/rrOTA/blob/master/Changelog.txt
+	    </Unofficial_ChangelogUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat/CHANGELOG.mkdn
+	    </ChangelogUrl>
+         </angler>
+    </Stable>
+</SlimOTA>
