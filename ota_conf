@@ -1,7 +1,7 @@
-#Common OTA url for all devices
-#Place in root of build /RR
+#Place in root, so where you init repo.
 
-ota_url=https://raw.githubusercontent.com/KillerDroid96/rrOTA/master/CombinedOTA.xml
+ota_url=https://raw.githubusercontent.com/KillerDroid96/OTA/master/angler.xml
+ota_url=https://raw.githubusercontent.com/KillerDroid96/OTA/master/jfltespr.xml
 release_type=Stable
 device_name=ro.product.device
 
