@@ -1,7 +1,23 @@
+▼ The Main Changes
+########################################################################################################### 
+Added:
+-Updated to 7.1.1r13
+-Vendor N4F26J
+-Custom DPI 530
+-Viper4Android
+-KenernelAditor (Benzo addition so no adds)
+-BenzoBlock (AdBlocker) Enable in settings/apps
+-SnapBrowser
+-BusyBox
+-Flash Kernel 
 
- ▼ Resurrection Remix Nougat Ver 5.8.0 Changelog
-
-
+Removed:
+-Stock Browser
+-Trebuchet
+-CMFileManager
+-CMWallpapers
+########################################################################################################
+ ▼ Resurrection Remix Nougat Changelog
  ▼ 01/16/2017
 
 
