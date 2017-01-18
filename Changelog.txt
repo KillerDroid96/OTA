@@ -3,6 +3,7 @@
 Added:
 -Updated to 7.1.1r13
 -Vendor N4F26J
+-Substratum OMS-7
 -Custom DPI 530
 -Viper4Android
 -KenernelAditor (Benzo addition so no adds)
