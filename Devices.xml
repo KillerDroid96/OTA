@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
-<?xml version="1.0" encoding="UTF-8"?>
-<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	 <angler>
-            <Filename>RR-N-Substratum-OTA-v5.8.2-20170118-angler-Unofficial-KillerDroid96.zip</Filename>
+            <Filename>RR-N-v5.8.2-20170118-angler-KillerDroid96.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
@@ -28,7 +26,7 @@
             <Unofficial_ChangelogUrl
                 id="unofficial_changelog"
                 title="Unoffical Changelog"
-                description="View Unofficial Changelog">https://github.com/KillerDroid96/rrOTA/blob/master/Changelog.txt
+                description="View Unofficial Changelog">https://github.com/KillerDroid96/OTA/blob/master/Changelog.txt
 	    </Unofficial_ChangelogUrl>
             <ChangelogUrl
                 id="changelog"
@@ -37,7 +35,6 @@
 	    </ChangelogUrl>
          </angler>
     </Stable>
-</SlimOTA>
     <Stable>
 	 <jfltespr>
             <Filename>RR-N-v5.8.0-20170113-jfltespr-Unofficial.zip</Filename>
