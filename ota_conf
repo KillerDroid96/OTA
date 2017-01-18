@@ -1,11 +1,10 @@
 #Place in root, so where you init repo.
+#example ro.RR.version=RR-N-v5.8.0-20170112-jfltespr-Unofficial.zip
 
 ota_url=https://raw.githubusercontent.com/KillerDroid96/OTA/master/angler.xml
 ota_url=https://raw.githubusercontent.com/KillerDroid96/OTA/master/jfltespr.xml
 release_type=Stable
 device_name=ro.product.device
-
-#example ro.RR.version=RR-N-v5.8.0-20170112-jfltespr-Unofficial.zip
 version_source=ro.RR.version
 version_delimiter=-
 version_position=3
