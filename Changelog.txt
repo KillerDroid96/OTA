@@ -19,9 +19,422 @@ Removed:
 -CMFileManager
 -CMWallpapers
 ########################################################################################################
- ▼ Resurrection Remix Nougat Changelog
- ▼ 01/18/2017
+ ▼ KillerDroid96's Resurrection Remix Changelog
+ 
+ ▼ 01/22/2017
+ ▪ project frameworks/base/
+ ▪ 814a418 Merge pull request #7 from ResurrectionRemix/nougat
+ ▪ fafc051 fix IndexOutOfBoundsException in AccessibilityManagerService..manageServicesLocked
+ ▪ 6c38bb8 Merge pull request #6 from pimpmaneaton/n7.1
+ ▪ 3c5727a Merge pull request #5 from ResurrectionRemix/nougat
+ ▪ e4f6bb8 [BUG]fix OutOfBoundsException in DisplayContent.java
+ ▪ 9ce4e22 Fix clipping for date and time on QS
+ ▪ d582593 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ ac9a4d8 Merge pull request #4 from ResurrectionRemix/nougat
+ ▪ bffabd9 Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ f99eb9b StorageManager: Improve exception handling
+ ▪ 60a5b87 Merge pull request #2 from ResurrectionRemix/nougat
+ ▪ 49ce624 Fix window transformation related issue
+ ▪ e7802c7 missing includes
+ ▪ 11f7f8e Fix accounting for .vdex in dumpsys meminfo
+ ▪ 6cc226f Translation broke build
+ ▪ 3144696 Add support for opening JAR/ZIP files via FD.
+ ▪ 5608edb Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 3ead980 Automatic translation import
+ ▪ 519c44f Fix deprecated range_x calls.
+ ▪ 56645ab Avoid starving RT anims
+ ▪ 1784ebe Fix a memory leak.
+ ▪ 13966df QS - Fix race condition in accessibility
+ ▪ 575728c Dumps total size of primary storage.
+ ▪ 12e7202 Fix a use-of-uninitialized-value warning.
+ ▪ 239cced PackageDexOptimizer: fix typo in log message.
+ ▪ 3385bd5 Enable mobile data always on.
+ ▪ 5b23f4b Lockscreen charging: Formatting improvements
+ ▪ 626e0de Lockscreen charging: mAh to mA
+ ▪ 9f89d04 [2/3] Re-introduce custom charging on/off sounds
+ ▪ ef670ca [fingerprint]: make sure that daemon.cancelAuthentication() only execute once.
+ ▪ b55443e DefaultPermissionGrantPolicy: Pass correct arguments
+ ▪ 9475c37 Fix visibility of single-line view in expanded group notification
+ ▪ 60eea3e Fix gear not showing when rotation or RTL changed
+ ▪ 7b088bd Fix FAB not disappearing in multiwindow
+ ▪ c609353 Adjusted animation timing
+ ▪ 918c760 Fix clipping for edit screen of Quick Settings
+ ▪ d4a7353 Frequently used OpenGL ES methods whitelisted for fast JNI path
+ ▪ 473224a Add advanced location tile
+ ▪ 2454ea4 Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ 5f78ca0 base: add alarm fullscreen
+ ▪ b97d970 PDBS: bail out early if package name is not defined
+ ▪ bb32ec3 telephony: Hack GSM and LTE signal strength
+ ▪ 75b1042 ParcelFileDescriptor: can we stop the panic here?
+ ▪ 48fbb66 KernelWakelockReader: stop the panic
+ ▪ 7d12fc7 base: add permissions for stock apps
+ ▪ 4996945 Add Pulse Lava Lamp start and end colours (1/3)
 
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ a2549f5 hal: Shush some debug logging
+
+ ▪ project hardware/qcom/display-caf/msm8952/
+ ▪ d7f8861 gralloc: allow forcing old pixel alignment
+
+ ▪ project hardware/samsung/
+ ▪ 4cd47df cmhw: Add reading mode
+
+ ▪ project kernel/huawei/angler/
+ ▪ 8dccb85 lazyplug: Enter lazy through mdss
+ ▪ 978fe48 lazyplug: Add Hysteresis for Octacore CPUs
+
+ ▪ project packages/apps/DUI/
+ ▪ 1036ebe Merge pull request #6 from pimpmaneaton/n7.1
+ ▪ 11b4a74 Add Pulse Lava Lamp start and end colors (2/3)
+
+ ▪ project packages/apps/Dialer/
+ ▪ 216b2c1 Merge pull request #4 from ResurrectionRemix/nougat
+ ▪ ba75689 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 3f3287f Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ ee3afca Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ da9ff72 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 61633a1 Create ic_settings_themes.xml
+ ▪ a42b306 Create rr_performance_icon
+ ▪ a3560f9 Revert "Add themes to dashboard"
+ ▪ 66bae05 Merge branch 'OMS' of github.com:KillerDroid96/Resurrection_packages_apps_Settings into OMS
+ ▪ 027b3ee Revert "Settings:Integrate Kernel Adiutor in Settings Dashboard"
+ ▪ abacccc Update rr_main_settings.xml
+ ▪ be9120b Update rr_main_settings.xml
+ ▪ c788d79 Update rr_main_settings.xml
+ ▪ 906b9b9 Update rr_main_settings.xml
+ ▪ 7a6e9ec Update rr_main_settings.xml
+ ▪ d8aab53 Merge pull request #7 from pimpmaneaton/n7.1
+ ▪ e12e2be Add Pulse Lava Lamp start and end colors (3/3)
+ ▪ 8b79fdb Update battery_saver_settings.xml
+ ▪ ad678d8 Update power_menu_settings.xml
+ ▪ 714c37b Update rr_sb_icons.xml
+ ▪ 2be29af Update smartbar_settings.xml
+ ▪ 8ea4cb6 Update rr_main_settings.xml
+ ▪ 41c64ec Update rr_themes_icon.xml
+ ▪ 455f047 Update rr_main_settings.xml
+ ▪ 840084f Update rr_main_settings.xml
+ ▪ f540073 Update rr_strings.xml
+ ▪ cf54f30 Update rr_main_settings.xml
+ ▪ 0a95eb7 Update rr_main_settings.xml
+ ▪ fa5f3e3 Update rr_adaway_icon.xml
+ ▪ 3ad455a Rename rr_themes_icon to rr_themes_icon.xml
+ ▪ af17057 Rename rr_adaway_icon to rr_adaway_icon.xml
+ ▪ ac6680b Create rr_adaway_icon
+ ▪ 794f581 Update rr_strings.xml
+ ▪ 3ba5534 Update rr_main_settings.xml
+ ▪ c52e942 Update rr_themes_icon
+ ▪ bee2a25 Update rr_main_settings.xml
+ ▪ b7b73f2 Merge pull request #6 from pimpmaneaton/n7.1
+ ▪ be705b2 Update MainSettingsLayout.java
+ ▪ b3ec2e2 Update rr_main_settings.xml
+ ▪ 53aa9f6 Update MainSettingsLayout.java
+ ▪ cbc12f2 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ b7b036c aarch64-linux-android 6.3.1: 20170122
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 83ab01f arm-linux-androideabi 6.3.1: 20170122
+
+ ▪ project vendor/addons/
+ ▪ 1929a3a Merge branch 'OMS' of github.com:KillerDroid96/vendor_addons into OMS
+ ▪ e371bdc bootanimation
+ ▪ 58da033 Update config.mk
+ ▪ 802711f Update config.mk
+
+ ▪ project vendor/cm/
+ ▪ f4fff92 Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ 1b99387 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▼ 01/21/2017
+
+
+ ▪ project android/
+ ▪ 2793e34 Add crowdin link to README
+
+ ▪ project build/
+ ▪ 0bfa26f Update to N4F26J
+
+ ▪ project device/huawei/angler/
+ ▪ 90cff7f Update BoardConfig.mk
+ ▪ a491459 Update BoardConfig.mk
+ ▪ c556cad ElementalX
+ ▪ 9f4969e Made some changes based on ElementalX flash config
+
+ ▪ project frameworks/base/
+ ▪ d65c7f5 Not so much padding
+
+ ▪ project frameworks/native/
+ ▪ d020368 Merge pull request #4 from pimpmaneaton/n7.1
+ ▪ c37080e Revert back to previous configuration for xxxhdpi-3072-dalvik-heap
+ ▪ 036f256 Cast size to double
+ ▪ 5612ba2 SF: Share cputime slices when RT sched priority is identical
+ ▪ 29e31dd SF: Adjust RT sched priorities
+ ▪ 5d2c0f7 Restart keystore when servicemanager restart.
+ ▪ 41687e1 Fix window type mismatch issue
+ ▪ d0913cb atrace.rc: move to post-fs trigger
+ ▪ a22cfaf SF: converting mixed Priority Realtime definitons
+ ▪ fc3cab1 binder: protected against null Parcelable
+ ▪ 93deb5c Release resources when repeating dlopen-dlcose.
+ ▪ 06340e7 installd: Simplify Dalvik cache path creation
+ ▪ cddeccb Split increments to silence a compiler warning.
+ ▪ 1785449 Switch GLES wrappers over to using Clang (and fix inline assembly).
+ ▪ f531a7c Atrace: Fix Buffer Overflow when checking kernel function
+ ▪ 3b57992 Input: improve touch response slightly
+
+ ▪ project kernel/huawei/angler/
+ ▪ 14ede76 flash_defconfig: enable LAZYPLUG
+ ▪ 78a4960 sched: compatibility fix up for lazyplug
+ ▪ 13dbd17 lazyplug: Remove wakeup_boost
+ ▪ 35e5de4 lazyplug: Use display_state hooks
+ ▪ 106e530 lazyplug: Remove Power/earlysuspend hooks
+ ▪ 7c7a812 lazyplug: add mutex & boolean check for lazy mode
+ ▪ 57352bf vidc: add lazyplug hooks
+ ▪ d4b5567 lazyplug: separate thread for reducing wake-up delay
+ ▪ 03d02c6 Introduce Lazyplug
+ ▪ 331569c Revert msm_hotplug
+ ▪ 43e5ffc relaxed: Fix boost_level if statement
+ ▪ f3262ab PCI: Avoid unnecessary CPU switch when calling driver .probe() method
+ ▪ c059358 Revert "workqueue: allow work_on_cpu() to be called recursively"
+
+ ▪ project packages/apps/Settings/
+ ▪ eec8e6a Delete killer_strings.xml
+ ▪ 5f85fcc Delete killer_colors.xml
+ ▪ 5bf0256 Delete killer_attrs.xml
+ ▪ 5c20bed Delete killer_arrays.xml
+ ▪ ca62bf8 Update rr_strings.xml
+ ▪ 14a195f Update MainSettingsLayout.java
+ ▪ 22bc0f4 Update killer_strings.xml
+ ▪ d447640 Update killer_colors.xml
+ ▪ 1a71f19 Update killer_attrs.xml
+ ▪ 030252b Update killer_arrays.xml
+ ▪ 6bab8e0 Create killer_strings.xml
+ ▪ 7a0477e Create killer_colors.xml
+ ▪ 52fadb1 Create killer_attrs.xml
+ ▪ 2dafab8 Create killer_arrays.xml
+ ▪ ed7bd19 Update rr_strings.xml
+ ▪ ae61d33 Delete KillerDroid96_strings
+ ▪ c1a8634 Update rr_strings.xml
+ ▪ 4d8b4a4 Create KillerDroid96_strings
+ ▪ a8ffeab Update rr_main_settings.xml
+ ▪ 81e5bde Update rr_main_settings.xml
+ ▪ 75eeb84 create rr_themes_icon
+ ▪ d68c772 update vendor version
+ ▪ 0d8baf9 Update rr_ls_ui.xml
+ ▪ 5165087 Update rr_clock.xml
+ ▪ 7722fad Settings : Update RR icon names for themers
+ ▪ 0f2d3cb Add dialog to configuration restart ui fab button action
+ ▪ 9a66cd6 Update DeviceInfoSettings.java
+ ▪ 105dcb4 Update rr_strings.xml
+ ▪ 5a05274 Update rr_strings.xml
+ ▪ 57557cc Update rr_strings.xml
+ ▪ d6b9c55 Merge pull request #5 from pimpmaneaton/n7.1
+ ▪ 0c949b7 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ fd907a5 Add SystemUI restart prompt dialog to Helpers class
+ ▪ 6d67f19 Update configuration entry
+ ▪ aeb8e47 Merge pull request #4 from pimpmaneaton/n7.1
+ ▪ 73038de Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project prebuilts/clang/host/linux-x86/4.0.0/
+ ▪ 6fee7a8 Clang 4.0.0: 20170120
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 9d0bdb3 aarch64-linux-android 6.3.1: 20170121
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ cdfb032 arm-linux-androideabi 6.3.1: 20170121
+
+ ▪ project system/core/
+ ▪ 54f69b5 Merge pull request #5 from pimpmaneaton/n7.1
+ ▪ e7f039c init.rc: don't start console unless asked to
+ ▪ 8249d19 Merge pull request #4 from pimpmaneaton/n7.1
+
+ ▪ project vendor/cm/
+ ▪ 02c31e3 Update common.mk
+ ▪ 16a8ef0 Update features list and readme
+ ▪ 2300c1a Update common.mk
+ ▪ 3a28ed3 Update rr.sh
+
+ ▼ 01/20/2017
+
+
+ ▪ project android/
+ ▪ 94cf385 Switch to our chromium-webview fork
+
+ ▪ project build/
+ ▪ ab4a410  Fix ninja and ccache not being found
+ ▪ bf37ee1 core: Export TARGET_DEVICE
+ ▪ 2716107 mka bootzip: Remove signing
+ ▪ d87186e Set metadata on bootzip
+ ▪ b300ec1 Add back mka bootzip
+ ▪ c00872b Give me colors
+ ▪ 6ac5c69 Don't need to see all this stuff
+
+ ▪ project device/huawei/angler/
+ ▪ 87bc1e5 Change vendorsetup to lineage and allow building a bootzip
+
+ ▪ project device/samsung/qcom-common/
+ ▪ b2d554b doze: specify a qualified user to send the pulse broadcast
+ ▪ 23ea59b qcom: doze: Protect com.android.systemui.doze.pulse
+
+ ▪ project frameworks/av/
+ ▪ f89251e Merge pull request #1 from ResurrectionRemix/nougat
+
+ ▪ project frameworks/base/
+ ▪ 7d792ad  base: SystemUI: add text shadow for text in qs header
+ ▪ b6c79e0 Center memory bar text.
+ ▪ 925c27b0 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ e0e776a windowmanager: Add support for blur effects
+ ▪ d0c6259 Fixing notification volume stream title
+ ▪ 802b344 Automatic translation import
+ ▪ 1e02699 SystemUI: Edit strings and mode edit drawable
+ ▪ a21a716  Lockscreen charging: "mAh" to "mA"
+ ▪ 659e9d8 Navbar tile: one tap to enable/disable, long tap to choose nav type
+ ▪ a9ecbdc  Add vpn and data saver to statusbar icon blacklist
+ ▪ 3c11e77  Add vpn and data saver to statusbar icon blacklist
+ ▪ 0088fb4  QS: Smart Ambient-LiftToWake tile [1/2]
+ ▪ 8717b20 Revert "Fix Google Service Framework FC"
+
+ ▪ project frameworks/native/
+ ▪ 290df1f Merge pull request #3 from ResurrectionRemix/nougat
+
+ ▪ project hardware/qcom/display-caf/msm8952/
+ ▪ ee2bb0e Fix duplicate copy file rules
+
+ ▪ project packages/apps/CMParts/
+ ▪ 190a88a Merge pull request #5 from ResurrectionRemix/nougat
+
+ ▪ project packages/apps/DUI/
+ ▪ 87d2a36 Merge pull request #5 from ResurrectionRemix/nougat
+
+ ▪ project packages/apps/Dialer/
+ ▪ 3631c11 Merge pull request #3 from ResurrectionRemix/nougat
+ ▪ e3eaedb Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ b3d3d2c Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 22492b4 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 833d8cd Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 48ed28c Merge pull request #3 from ResurrectionRemix/nougat
+ ▪ 9b396a6 Settings: edit a string
+ ▪ 9f4c1dd Merge pull request #665 from jhenrique09/nougat-oms2
+ ▪ f9d2872 Fix typos
+ ▪ 380cf1d More untranslated strings
+ ▪ 32411c7 Merge pull request #664 from jhenrique09/nougat
+ ▪ bae7dee Fix Fab toggle layout translation
+ ▪ d0d58c4 Clean up about strings
+ ▪ 0f1d497 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 2214c81 Clean up about strings
+ ▪ d258763 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+ ▪ 9fb8410 Revert "settings: Remove lock screen blur stuff breaking build"
+ ▪ 60206ca Automatic translation import
+ ▪ f7a55a7 About Resurrection : Reorganize for n
+ ▪ 38aafde Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 588974c About Resurrection : Reorganize for n
+
+ ▪ project packages/services/Telecomm/
+ ▪ cb80432 Telecomm: Set MSIM audio params using the proper ID
+
+ ▪ project system/core/
+ ▪ 9243e02  Create "theme extras" directory
+
+ ▪ project vendor/cm/
+ ▪ 8d5c21f Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 2251397 Update features list
+ ▪ c0c52a9 apns: Add Freedompop foggmobile APN
+ ▪ 7225904 build: Append -dtb to kernel image name if TARGET_KERNEL_APPEND_DTB is set
+ ▪ ecc4cef extract_utils: Detect output existence before moving it for backup
+
+ ▼ 01/19/2017
+
+
+ ▪ project device/huawei/angler/
+ ▪ cc37530 Updating init.flash.rc
+ ▪ 2226f6f finger swipe
+ ▪ 148aab8 angler: add configs from internal vendor.xml
+
+ ▪ project device/samsung/jf-common/
+ ▪ dfe53d1 jf: re-enable blur
+ ▪ 56903fd jf: Increase recovery resource density to xhdpi
+ ▪ e3349fe jf: compress recovery ramdisk with lzma
+
+ ▪ project frameworks/base/
+ ▪ e4a1424 Don't need this anymore
+ ▪ 1ca9171 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 58b8478 Merge pull request #169 from micky387/nougat
+ ▪ dea76a8 Fix wrong peek height of the notification panel
+ ▪ b9e911b Fix 3g icon enable for H+ (#168)
+ ▪ 8716b2b PlatLogo: Show RR platlogo when tapping on Android Version
+ ▪ 76d8dc6 SystemUI: add Notification volume stream title
+ ▪ 4e3580e Readded Platinum Alarm sound as I miss it in newer builds.
+ ▪ 09f5c8a Fix OmniSwitch non-protected broadcast logspam
+ ▪ 21f40b6 Statusbar: correctly align status bar icons
+ ▪ 3fffcb2 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 6890f45 Fw_base - Battery light: 100% charged level (1/2)
+ ▪ d18b75e Fix Stack Action Button Not Dissapearing on Empty View
+ ▪ c9da5f8 RecentsView: Add an Extra Condition for Making FAB And Clear Recents Invisible
+ ▪ b040971 FAB Recents Clear All improvements
+ ▪ 603faca RecentsView: Clean up FAB calls
+ ▪ e8afde5 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ bd2db7d SystemUİ : Fix QS brightness slider margin
+
+ ▪ project kernel/huawei/angler/
+ ▪ ce7583e Makefile: Seriously fix ccache
+
+ ▪ project kernel/samsung/jf/
+ ▪ d51a0c0 jf: defconfig: enable lzma on ramdisk
+
+ ▪ project packages/apps/CMParts/
+ ▪ f7ee129 Merge pull request #4 from pimpmaneaton/n7.1
+ ▪ ca963b8 CMParts - Battery light: 100% charged level (2/2)
+ ▪ 80fff0b CMParts - Battery light: 100% charged level (2/2)
+
+ ▪ project packages/apps/DUI/
+ ▪ 3e9f8d3 Merge pull request #4 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/Settings/
+ ▪ 6cb52b5 Merge pull request #2 from pimpmaneaton/n7.1
+ ▪ 70311c8 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 96a743c Settings : Fix CPU info for all devices in device info settings
+ ▪ 11970e2 Settings: Show RR device name in device info settings
+ ▪ 4c1d630 Settings: DeviceInfo: Clean up the PlatLogo checks
+ ▪ 5f3a16b Fix One Handed UI Switch Derp
+ ▪ 66d9be2 Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ a91486d Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ fd48fa1 Edit misc settings - move switches to top & update some icons
+ ▪ 3652902 Fix switch
+ ▪ dd2d951 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ f9aa855 Settings: Add QS brightness switch to QS advanced settings
+ ▪ a2eb487 Use the string I had earlier
+
+ ▪ project system/core/
+ ▪ fbfe7e4 Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ 1448406 init: add ro.boot.init_rc
+ ▪ 4cdf5da init.rc: chmod_chown msm_thermal sysfs paths
+
+ ▪ project vendor/cm/
+ ▪ 890aa82 Update github Changelog
+
+ ▪ project vendor/samsung/
+ ▪ ace6f2e klte: Regenerate makefiles
+ ▪ 6d42e35 kltekdi: Clean-up variant tree
+ 
+ 
+ ▼ 01/18/2017
 
  ▪ project android/
  ▪ c2b5352 Track Own FW native and system core
