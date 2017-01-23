@@ -1,19 +1,19 @@
 ▼ The Main Unofficial Changes
 ########################################################################################################### 
 Added:
+-OTA
 -Updated to 7.1.1r13
 -Vendor N4F26J
--Substratum OMS-7
 -Custom DPI 530
+-Substratum OMS-7
 -Viper4Android
 -KenernelAditor (Benzo addition so no adds)
 -BenzoBlock (AdBlocker) Enable in settings/apps
 -SnapBrowser
 -BusyBox
--Flash Kernel
+-Flash Kernel with optimizations
 -One-hand UI Mode
 -Themes, Performance and Ad Blocker are moved under Configurations
--
 
 Removed:
 -Stock Browser
