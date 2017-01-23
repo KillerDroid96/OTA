@@ -12,6 +12,8 @@ Added:
 -BusyBox
 -Flash Kernel
 -One-hand UI Mode
+-Themes, Performance and Ad Blocker are moved under Configurations
+-
 
 Removed:
 -Stock Browser
@@ -20,6 +22,103 @@ Removed:
 -CMWallpapers
 ########################################################################################################
  ▼ KillerDroid96's Resurrection Remix Changelog
+ 
+ ▼ 01/23/2017
+
+ ▪ project OTA/
+ ▪ e9ecc9b Update Devices.xml
+ ▪ 9bcd7eb Update Changelog.txt
+ ▪ 0dfa192 Update ota_conf
+ ▪ 817eba5 Update Changelog.txt
+
+ ▪ project android/
+ ▪ 63bac0a Add image to README
+
+ ▪ project frameworks/base/
+ ▪ c700417 Merge pull request #8 from pimpmaneaton/n7.1
+ ▪ 0d559e1 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ 37f832f Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.12' into cm-14.1-caf-8952
+
+ ▪ project hardware/qcom/display-caf/msm8952/
+ ▪ 5826a44 Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.12' into cm-14.1-caf-8952
+
+ ▪ project kernel/huawei/angler/
+ ▪ 65270d4 Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ ecdde7e flash_defconfig: enable MSDOS_FS
+ ▪ 55b72ff flash_defconfig: enable MEDIA_USB_SUPPORT
+ ▪ 0579287 cpufreq: fallback to interactive if governor is not found
+
+ ▪ project packages/apps/Settings/
+ ▪ 295a1ce Update Settings.java
+ ▪ 5f59720 Update Settings.java
+ ▪ 5b32854 Merge branch 'OMS' of github.com:KillerDroid96/Resurrection_packages_apps_Settings into OMS
+ ▪ e07ba6f fix.fix.fix.fix......
+ ▪ 2cb5c4e Merge pull request #10 from ResurrectionRemix/nougat
+ ▪ f68d44b Update rr_strings.xml
+ ▪ 312345e Update rr_strings.xml
+ ▪ 84612ec Update rr_strings.xml
+ ▪ c59cea1 fixes
+ ▪ 2b0f4e3 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 18a27b7 rpas: add Note 3 maintainer (#668)
+ ▪ e1f4fef fix.fix.fix
+ ▪ 803bf88 Update SettingsActivity.java
+ ▪ d4ff34e Fix the momery leak in DrawOverlayDetails
+ ▪ b140878 revert the revert
+ ▪ 3cc7cfb fuck it revert
+ ▪ 8d71c26 fix again.....
+ ▪ 1a2871e fix again
+ ▪ 0258033 fixes....
+ ▪ a8b3e34 Update SettingsActivity.java
+ ▪ f91185c Update SettingsActivity.java
+ ▪ df989c5 Update ic_settings_themes.xml
+ ▪ dddd545 Update and rename rr_performance_icon to rr_performance_icon.xml
+ ▪ 4769c60 Update rr_performance_icon
+ ▪ 5bd21c8 Update rr_main_settings.xml
+ ▪ 5e48606 rpas: add HTC 10 maintainer (#667)
+ ▪ fabec44 Update Settings.java
+ ▪ 07a53d5 Update SettingsActivity.java
+ ▪ feab067 Update Settings.java
+ ▪ dcc7b0a Update rr_themes_icon.xml
+ ▪ 6b2cf71 Update rr_misc.xml
+ ▪ 61633a1 Create ic_settings_themes.xml
+ ▪ a42b306 Create rr_performance_icon
+ ▪ a3560f9 Revert "Add themes to dashboard"
+ ▪ 66bae05 Merge branch 'OMS' of github.com:KillerDroid96/Resurrection_packages_apps_Settings into OMS
+ ▪ 027b3ee Revert "Settings:Integrate Kernel Adiutor in Settings Dashboard"
+
+ ▪ project packages/apps/Snap/
+ ▪ e0a3c03 Correctly return to film strip after editing a picture.
+
+ ▪ project packages/apps/masquerade/
+ ▪ 1c402c5 Release 20P: Initiate the caller package checking system
+
+ ▪ project system/extras/su/
+ ▪ bce2976 su: Enable Wall and fix build
+
+ ▪ project vendor/addons/
+ ▪ 16ec506 Update config.mk
+ ▪ 6951cab Merge pull request #2 from BenzoRoms/noneone
+ ▪ 93ac6fc addons: Update BenzoBlock to 4.9
+ ▪ 1929a3a Merge branch 'OMS' of github.com:KillerDroid96/vendor_addons into OMS
+ ▪ e371bdc bootanimation
+ ▪ 58da033 Update config.mk
+
+ ▪ project vendor/cm/
+ ▪ 1551433 omnijaws
+ ▪ dba5821 Merge pull request #2 from ResurrectionRemix/nougat
+ ▪ b598f4a Features fix format add image to README
+
+ ▪ project vendor/opengapps/sources/all/
+ ▪ 21815a5 Google Connectivity Services all-22 D.1.5.20 (3627382) (nodpi)
+
+ ▪ project vendor/opengapps/sources/arm/
+ ▪ 2700556 Maps (beta) arm-18 9.44.2 (213-240)
+
+ ▪ project vendor/opengapps/sources/arm64/
+ ▪ 43b1436 Maps (beta) arm64-18 9.44.2 (213-240)
+
  
  ▼ 01/22/2017
   ▪ project android/
