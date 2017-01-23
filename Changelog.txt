@@ -22,6 +22,144 @@ Removed:
  ▼ KillerDroid96's Resurrection Remix Changelog
  
  ▼ 01/22/2017
+  ▪ project android/
+ ▪ 63bac0a Add image to README
+
+ ▪ project frameworks/base/
+ ▪ 814a418 Merge pull request #7 from ResurrectionRemix/nougat
+ ▪ fafc051 fix IndexOutOfBoundsException in AccessibilityManagerService..manageServicesLocked
+ ▪ 6c38bb8 Merge pull request #6 from pimpmaneaton/n7.1
+ ▪ 3c5727a Merge pull request #5 from ResurrectionRemix/nougat
+ ▪ e4f6bb8 [BUG]fix OutOfBoundsException in DisplayContent.java
+ ▪ 9ce4e22 Fix clipping for date and time on QS
+ ▪ d582593 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ ac9a4d8 Merge pull request #4 from ResurrectionRemix/nougat
+ ▪ bffabd9 Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ f99eb9b StorageManager: Improve exception handling
+ ▪ 60a5b87 Merge pull request #2 from ResurrectionRemix/nougat
+ ▪ 49ce624 Fix window transformation related issue
+ ▪ e7802c7 missing includes
+ ▪ 11f7f8e Fix accounting for .vdex in dumpsys meminfo
+ ▪ 6cc226f Translation broke build
+ ▪ 3144696 Add support for opening JAR/ZIP files via FD.
+ ▪ 5608edb Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 3ead980 Automatic translation import
+ ▪ 519c44f Fix deprecated range_x calls.
+ ▪ 56645ab Avoid starving RT anims
+ ▪ 1784ebe Fix a memory leak.
+ ▪ 13966df QS - Fix race condition in accessibility
+ ▪ 575728c Dumps total size of primary storage.
+ ▪ 12e7202 Fix a use-of-uninitialized-value warning.
+ ▪ 239cced PackageDexOptimizer: fix typo in log message.
+ ▪ 3385bd5 Enable mobile data always on.
+ ▪ 5b23f4b Lockscreen charging: Formatting improvements
+ ▪ 626e0de Lockscreen charging: mAh to mA
+ ▪ 9f89d04 [2/3] Re-introduce custom charging on/off sounds
+ ▪ ef670ca [fingerprint]: make sure that daemon.cancelAuthentication() only execute once.
+ ▪ b55443e DefaultPermissionGrantPolicy: Pass correct arguments
+ ▪ 9475c37 Fix visibility of single-line view in expanded group notification
+ ▪ 60eea3e Fix gear not showing when rotation or RTL changed
+ ▪ 7b088bd Fix FAB not disappearing in multiwindow
+ ▪ c609353 Adjusted animation timing
+ ▪ 918c760 Fix clipping for edit screen of Quick Settings
+ ▪ d4a7353 Frequently used OpenGL ES methods whitelisted for fast JNI path
+ ▪ 473224a Add advanced location tile
+ ▪ 2454ea4 Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ 5f78ca0 base: add alarm fullscreen
+ ▪ b97d970 PDBS: bail out early if package name is not defined
+ ▪ bb32ec3 telephony: Hack GSM and LTE signal strength
+ ▪ 75b1042 ParcelFileDescriptor: can we stop the panic here?
+ ▪ 48fbb66 KernelWakelockReader: stop the panic
+ ▪ 7d12fc7 base: add permissions for stock apps
+ ▪ 4996945 Add Pulse Lava Lamp start and end colours (1/3)
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ 37f832f Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.12' into cm-14.1-caf-8952
+ ▪ a2549f5 hal: Shush some debug logging
+
+ ▪ project hardware/qcom/display-caf/msm8952/
+ ▪ 5826a44 Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.12' into cm-14.1-caf-8952
+
+ ▪ project hardware/samsung/
+ ▪ 4cd47df cmhw: Add reading mode
+
+ ▪ project packages/apps/DUI/
+ ▪ 1036ebe Merge pull request #6 from pimpmaneaton/n7.1
+ ▪ 11b4a74 Add Pulse Lava Lamp start and end colors (2/3)
+
+ ▪ project packages/apps/Dialer/
+ ▪ 216b2c1 Merge pull request #4 from ResurrectionRemix/nougat
+ ▪ ba75689 Automatic translation import
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ 981a123 Merge pull request #2 from BenzoRoms/noneone
+ ▪ ab15f06 OmniStyle: Add Weezle weather icons
+ ▪ 74e59ad OmniStyle: Add Marshmallow weather icons
+ ▪ 1c1f616 omnistyle: add back weather icons
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 3f3287f Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ ee3afca Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ da9ff72 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 803bf88 Update SettingsActivity.java
+ ▪ d4ff34e Fix the momery leak in DrawOverlayDetails
+ ▪ b140878 revert the revert
+ ▪ 3cc7cfb fuck it revert
+ ▪ 8d71c26 fix again.....
+ ▪ 1a2871e fix again
+ ▪ 0258033 fixes....
+ ▪ a8b3e34 Update SettingsActivity.java
+ ▪ f91185c Update SettingsActivity.java
+ ▪ df989c5 Update ic_settings_themes.xml
+ ▪ dddd545 Update and rename rr_performance_icon to rr_performance_icon.xml
+ ▪ 4769c60 Update rr_performance_icon
+ ▪ 5bd21c8 Update rr_main_settings.xml
+ ▪ fabec44 Update Settings.java
+ ▪ 07a53d5 Update SettingsActivity.java
+ ▪ feab067 Update Settings.java
+ ▪ dcc7b0a Update rr_themes_icon.xml
+ ▪ 6b2cf71 Update rr_misc.xml
+ ▪ 61633a1 Create ic_settings_themes.xml
+ ▪ a42b306 Create rr_performance_icon
+ ▪ a3560f9 Revert "Add themes to dashboard"
+ ▪ 66bae05 Merge branch 'OMS' of github.com:KillerDroid96/Resurrection_packages_apps_Settings into OMS
+ ▪ 027b3ee Revert "Settings:Integrate Kernel Adiutor in Settings Dashboard"
+ ▪ abacccc Update rr_main_settings.xml
+ ▪ be9120b Update rr_main_settings.xml
+ ▪ c788d79 Update rr_main_settings.xml
+ ▪ 906b9b9 Update rr_main_settings.xml
+ ▪ 7a6e9ec Update rr_main_settings.xml
+ ▪ d8aab53 Merge pull request #7 from pimpmaneaton/n7.1
+ ▪ e12e2be Add Pulse Lava Lamp start and end colors (3/3)
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ b7b036c aarch64-linux-android 6.3.1: 20170122
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 83ab01f arm-linux-androideabi 6.3.1: 20170122
+
+ ▪ project system/extras/su/
+ ▪ bce2976 su: Enable Wall and fix build
+
+ ▪ project vendor/addons/
+ ▪ 6951cab Merge pull request #2 from BenzoRoms/noneone
+ ▪ 93ac6fc addons: Update BenzoBlock to 4.9
+ ▪ 1929a3a Merge branch 'OMS' of github.com:KillerDroid96/vendor_addons into OMS
+ ▪ e371bdc bootanimation
+ ▪ 58da033 Update config.mk
+
+ ▪ project vendor/cm/
+ ▪ 1551433 omnijaws
+ ▪ dba5821 Merge pull request #2 from ResurrectionRemix/nougat
+ ▪ b598f4a Features fix format add image to README
+ ▪ dd27ec3 Gello: fixed (#67)
+
  ▪ project frameworks/base/
  ▪ 814a418 Merge pull request #7 from ResurrectionRemix/nougat
  ▪ fafc051 fix IndexOutOfBoundsException in AccessibilityManagerService..manageServicesLocked
