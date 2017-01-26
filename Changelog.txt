@@ -23,6 +23,208 @@ Removed:
 ########################################################################################################
  ▼ KillerDroid96's Resurrection Remix Changelog
  
+ ▼ 01/26/2017
+
+ ▪ project OTA/
+ ▪ c5600ae Update Changelog.txt
+
+ ▪ project device/huawei/angler/
+ ▪ e420137 changes
+ ▪ 963142c Update device.mk
+ ▪ 187033b Update device.mk
+ ▪ fcdd0a9 Update device.mk
+
+ ▪ project frameworks/base/
+ ▪ 846845a Merge pull request #14 from pimpmaneaton/n7.1
+ ▪ 0f17157 Get traffice meter close so there is not such a large gap
+ ▪ 4aa9155 Merge pull request #13 from pimpmaneaton/n7.1
+ ▪ 6e092c7 [1/2] base: SystemUI: header pack config emhancements
+
+ ▪ project frameworks/opt/hardware/
+ ▪ 50db0be Revert "Add tap-to-wake class definition"
+
+ ▪ project hardware/qcom/audio-caf/msm8937/
+ ▪ 7f7cc95 Fix 04ed2351 for msm8916 audio platform
+
+ ▪ project hardware/qcom/fm/
+ ▪ 982bdf1 Automatic translation import
+
+ ▪ project hardware/samsung/
+ ▪ c2ff40e Automatic translation import
+ ▪ ccd970d power: Make boostpulse_warned static
+ ▪ 58f2ca0 power: Add PROFILE_MAX to enum
+ ▪ d928574 power: Directly compare chars
+ ▪ e9b45af Added new murata, semco and wisol addresses
+
+ ▪ project kernel/huawei/angler/
+ ▪ a5456e6 Fix date resetting to 1970 after rebooting
+ ▪ 6e5959b mm/memcontrol: Don't call schedule_work_on in preemption disabled context
+ ▪ bfbb570 soc: qcom: Increase the retry timeout to 2 seconds
+ ▪ 42576a4 ice: fix security issue with validating error in pointer
+ ▪ d76a9bb sched: avoid stale cumulative_runnable_avg HMP statistics
+ ▪ 9523c5b sched: Use only partial wait time as task demand
+ ▪ 3a8171e msm: sps: Register SPS IRQ with IRQF_NO_SUSPEND flag
+ ▪ 3e517f1 PM / sleep / irq: Do not suspend wakeup interrupts
+ ▪ ba6e2cf nohz: Move nohz full init call to tick init
+ ▪ b90278b ASoC: soc: msm: initialize buffer to prevent kernel data leakage
+ ▪ 0f1ffb4 timer: Remove code redundancy while calling get_nohz_timer_target()
+ ▪ b9d1ffd hrtimer: Prevent enqueue of hrtimer on dead CPU
+ ▪ e4277e9 hrtimer: Consider preemption when migrating hrtimer cpu_bases
+ ▪ 698ce7c PCI: Check for PME in targeted sleep state
+ ▪ 8a573e3 cpuidle: Make cpuidle's sysfs directory dynamically allocated
+ ▪ 601ad33 PM / Sleep: Remove ftrace_stop/start() from suspend and hibernate
+ ▪ 3fca503 cpuidle: Fix white space to follow CodingStyle
+ ▪ fb57a7e zlib_deflate/deftree: remove bi_reverse()
+ ▪ 09b7879 sched/core: Fix regression in cpuset_cpu_inactive() for suspend
+ ▪ 293ef98 sched/core: Drop debugging leftover trace_printk call
+ ▪ aead2de sched: Remove lockdep check in sched_move_task()
+ ▪ 4e6d9dc sched: Fix race between task_group and sched_task_group
+ ▪ 0417624 sched/core: Check for available DL bandwidth in cpuset_cpu_inactive()
+ ▪ ee5c96d [SQUASHED] Revert irqdomain commits
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 2baaf7e Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ cf8c96d Automatic translation import
+
+ ▪ project packages/apps/CMBugReport/
+ ▪ 94ff9c7 Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ 6948b67 Merge pull request #7 from pimpmaneaton/n7.1
+ ▪ 9f27674 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 6eeccc9 Fix icon tint
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 4b122c0 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 1ffaf69 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 982f013 Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ 310c06a Merge pull request #1 from ResurrectionRemix/nougat
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 40a9dff Merge pull request #1 from ResurrectionRemix/nougat
+
+ ▪ project packages/apps/DUI/
+ ▪ acab2e4 Merge pull request #8 from pimpmaneaton/n7.1
+ ▪ 2882d6d One hand: slidetouch listener only on navbar view
+ ▪ eae7134 Merge pull request #7 from ResurrectionRemix/nougat
+
+ ▪ project packages/apps/Eleven/
+ ▪ 4feae4e Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ bc8c771 Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 581c0bd Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 15c3b34 Automatic translation import
+
+ ▪ project packages/apps/OmniJaws/
+ ▪ 4f9a215 OmniJaws: expose update time in settings
+ ▪ e8677ce OmniJaws: remove depreated network change receiver
+
+ ▪ project packages/apps/Profiles/
+ ▪ e900fa7 Automatic translation import
+
+ ▪ project packages/apps/Screencast/
+ ▪ 23c2162 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 3dbc336 Merge branch 'OMS' of github.com:KillerDroid96/Resurrection_packages_apps_Settings into OMS
+ ▪ 5ee6290 Update rr_main_settings.xml
+ ▪ c4c1b61 Update rr_main_settings.xml
+ ▪ 4baac6d Merge branch 'OMS' of github.com:KillerDroid96/Resurrection_packages_apps_Settings into OMS
+ ▪ f0d235f pimp fix 2
+ ▪ 2dc3d1a pimp fix 2
+ ▪ bfeaaf6 fixed by pimp :)
+ ▪ b5fb87d update and fixes
+ ▪ 6cc8dcf Revert "test100"
+ ▪ 9159682 test100
+ ▪ 9b4bf88 Update rr_main_settings.xml
+ ▪ 109a79b Update Settings.java
+ ▪ 164f35d Update Settings.java
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 70bfefd Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 166d4df Automatic translation import
+
+ ▪ project packages/apps/SoundRecorder/
+ ▪ c2b50b0 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 3e714b2 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ 024599b Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 479fd88 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ ae28f35 Automatic translation import
+
+ ▪ project packages/providers/ThemesProvider/
+ ▪ 841405e Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ c5a0f79 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 21da045 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ 904c90c Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ e767bd9 Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ aa8afb9 Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ 12ace37 Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ effdc0f Automatic translation import
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 15225e9 aarch64-linux-android 6.3.1: 20170126
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ afe2fe2 arm-linux-androideabi 6.3.1: 20170126
+
+ ▪ project vendor/addons/dragons/
+ ▪ e788c04 Delete Substratum.apk
+ ▪ 784f691 Update Android.mk
+ ▪ a423606 Update Android.mk
+ ▪ 82f74ba Delete Superuser.apk
+ ▪ 51257b5 Update config.mk
+
+ ▪ project vendor/cm/
+ ▪ be560d8 Removed Default \ under RR_BUILDTYPE
+
+ ▪ project vendor/cmsdk/
+ ▪ 3b72295 Merge pull request #5 from pimpmaneaton/n7.1
+ ▪ 1ed9644 Merge remote-tracking branch 'lin/cm-14.1' into n7.1
+ ▪ fd5664d Automatic translation import
+ ▪ 0899e5f Merge pull request #4 from ResurrectionRemix/nougat
+
+ ▪ project vendor/samsung/
+ ▪ 945394d hero: update blobs
+ ▪ cc63dc3 msm8976-common: Remove btnvtool
+
+
  ▼ 01/25/2017
 
 
