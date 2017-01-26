@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	 <angler>
-            <Filename>RR-N-OMS-v5.8.1-20170123-angler-KillerDroid96.zip</Filename>
+            <Filename>RR-N-OMS-v5.8.1-20170126-angler-KillerDroid96.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download latest ResurrectionRemix build">https://www.androidfilehost.com/?fid=529152257862697571
+                description="Download latest ResurrectionRemix build">https://www.androidfilehost.com/?fid=673368273298926726
 	    </RomUrl>
             <OpenGappsUrl
                 id="open_gapps"
