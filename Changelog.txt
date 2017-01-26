@@ -23,6 +23,293 @@ Removed:
 ########################################################################################################
  ▼ KillerDroid96's Resurrection Remix Changelog
  
+ ▼ 01/25/2017
+
+
+ ▪ project device/huawei/angler/
+ ▪ e420137 changes
+ ▪ 963142c Update device.mk
+ ▪ 187033b Update device.mk
+ ▪ fcdd0a9 Update device.mk
+
+ ▪ project frameworks/base/
+ ▪ 7eaba08 Merge pull request #12 from pimpmaneaton/n7.1
+
+ ▪ project frameworks/opt/hardware/
+ ▪ 50db0be Revert "Add tap-to-wake class definition"
+
+ ▪ project hardware/qcom/fm/
+ ▪ 982bdf1 Automatic translation import
+
+ ▪ project hardware/samsung/
+ ▪ c2ff40e Automatic translation import
+ ▪ ccd970d power: Make boostpulse_warned static
+ ▪ 58f2ca0 power: Add PROFILE_MAX to enum
+ ▪ d928574 power: Directly compare chars
+ ▪ e9b45af Added new murata, semco and wisol addresses
+
+ ▪ project hardware/ti/wlan/
+ ▪ f75d24a wl18xx: fix logical error (single bracket --> double bracket) in scripts file
+ ▪ b3e137b wl12xx: fix some builds breaking for devices depending on this file
+
+ ▪ project kernel/huawei/angler/
+ ▪ 6e5959b mm/memcontrol: Don't call schedule_work_on in preemption disabled context
+ ▪ bfbb570 soc: qcom: Increase the retry timeout to 2 seconds
+ ▪ 42576a4 ice: fix security issue with validating error in pointer
+ ▪ d76a9bb sched: avoid stale cumulative_runnable_avg HMP statistics
+ ▪ 9523c5b sched: Use only partial wait time as task demand
+ ▪ 3a8171e msm: sps: Register SPS IRQ with IRQF_NO_SUSPEND flag
+ ▪ 3e517f1 PM / sleep / irq: Do not suspend wakeup interrupts
+ ▪ ba6e2cf nohz: Move nohz full init call to tick init
+ ▪ b90278b ASoC: soc: msm: initialize buffer to prevent kernel data leakage
+ ▪ 0f1ffb4 timer: Remove code redundancy while calling get_nohz_timer_target()
+ ▪ b9d1ffd hrtimer: Prevent enqueue of hrtimer on dead CPU
+ ▪ e4277e9 hrtimer: Consider preemption when migrating hrtimer cpu_bases
+ ▪ 698ce7c PCI: Check for PME in targeted sleep state
+ ▪ 8a573e3 cpuidle: Make cpuidle's sysfs directory dynamically allocated
+ ▪ 601ad33 PM / Sleep: Remove ftrace_stop/start() from suspend and hibernate
+ ▪ 3fca503 cpuidle: Fix white space to follow CodingStyle
+ ▪ fb57a7e zlib_deflate/deftree: remove bi_reverse()
+ ▪ 09b7879 sched/core: Fix regression in cpuset_cpu_inactive() for suspend
+ ▪ 293ef98 sched/core: Drop debugging leftover trace_printk call
+ ▪ aead2de sched: Remove lockdep check in sched_move_task()
+ ▪ 4e6d9dc sched: Fix race between task_group and sched_task_group
+ ▪ 0417624 sched/core: Check for available DL bandwidth in cpuset_cpu_inactive()
+ ▪ ee5c96d [SQUASHED] Revert irqdomain commits
+ ▪ 6ae90f2 ASoC: qdsp6v2: fix potential bug of infinite loop
+ ▪ 536f81b msm: kgsl: Change %p to %pK in debug messages
+ ▪ 1d76dfd ANDROID: video: adf: Avoid directly referencing user pointers
+ ▪ 0a895e7 sched: Fix integer overflow in sched_update_nr_prod()
+ ▪ f79ef865 cpufreq: blu_active: Revert "Use wake_up_process_no_notif to wake up tasks"
+ ▪ 97b0fee cpufreq: blu_active: Revert "Use sched_get_cpus_busy() to query busy time
+ ▪ ab6c6e5 netfilter: don't use mutex_lock_interruptible()
+ ▪ e7384f6 netfilter: nf_qeueue: Drop queue entries on nf_unregister_hook
+ ▪ 8632ec6 Revert "netfilter: use jump_label for nf_hooks"
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 2baaf7e Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ cf8c96d Automatic translation import
+
+ ▪ project packages/apps/CMBugReport/
+ ▪ 94ff9c7 Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ 6948b67 Merge pull request #7 from pimpmaneaton/n7.1
+ ▪ 9f27674 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 6eeccc9 Fix icon tint
+ ▪ 0953da3 Merge pull request #6 from ResurrectionRemix/nougat
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 4b122c0 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 1ffaf69 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 982f013 Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ 310c06a Merge pull request #1 from ResurrectionRemix/nougat
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 40a9dff Merge pull request #1 from ResurrectionRemix/nougat
+
+ ▪ project packages/apps/DUI/
+ ▪ eae7134 Merge pull request #7 from ResurrectionRemix/nougat
+
+ ▪ project packages/apps/Eleven/
+ ▪ 4feae4e Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ bc8c771 Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 581c0bd Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 15c3b34 Automatic translation import
+
+ ▪ project packages/apps/OmniJaws/
+ ▪ 4f9a215 OmniJaws: expose update time in settings
+ ▪ e8677ce OmniJaws: remove depreated network change receiver
+
+ ▪ project packages/apps/Profiles/
+ ▪ e900fa7 Automatic translation import
+
+ ▪ project packages/apps/Screencast/
+ ▪ 23c2162 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ bfeaaf6 fixed by pimp :)
+ ▪ b5fb87d update and fixes
+ ▪ 6cc8dcf Revert "test100"
+ ▪ 9159682 test100
+ ▪ 9b4bf88 Update rr_main_settings.xml
+ ▪ 109a79b Update Settings.java
+ ▪ 164f35d Update Settings.java
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 70bfefd Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 166d4df Automatic translation import
+
+ ▪ project packages/apps/SoundRecorder/
+ ▪ c2b50b0 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 3e714b2 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ 024599b Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 479fd88 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ ae28f35 Automatic translation import
+
+ ▪ project packages/providers/ThemesProvider/
+ ▪ 841405e Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ c5a0f79 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 21da045 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ 904c90c Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ e767bd9 Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ aa8afb9 Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ 12ace37 Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ effdc0f Automatic translation import
+
+ ▪ project prebuilts/clang/host/linux-x86/4.0.0/
+ ▪ e5adf45 Clang 4.0.0: 20170124
+
+ ▪ project vendor/addons/dragons/
+ ▪ e788c04 Delete Substratum.apk
+ ▪ 784f691 Update Android.mk
+ ▪ a423606 Update Android.mk
+ ▪ 82f74ba Delete Superuser.apk
+ ▪ 51257b5 Update config.mk
+
+ ▪ project vendor/cm/
+ ▪ be560d8 Removed Default \ under RR_BUILDTYPE
+
+ ▪ project vendor/cmsdk/
+ ▪ 3b72295 Merge pull request #5 from pimpmaneaton/n7.1
+ ▪ 1ed9644 Merge remote-tracking branch 'lin/cm-14.1' into n7.1
+ ▪ fd5664d Automatic translation import
+ ▪ 0899e5f Merge pull request #4 from ResurrectionRemix/nougat
+
+ ▪ project vendor/samsung/
+ ▪ 945394d hero: update blobs
+ ▪ cc63dc3 msm8976-common: Remove btnvtool
+
+ ▼ 01/24/2017
+
+
+ ▪ project device/huawei/angler/
+ ▪ eef8e54 update/fixes
+ ▪ 6fe20ae Update BoardConfig.mk
+ ▪ a881276 Update common.mk
+ ▪ 7915494 removed
+ ▪ e4d77bd Update Android.mk
+ ▪ 91226a3 Update Android.mk
+ ▪ 1d7376e Update config.xml
+ ▪ 07f560f test
+
+ ▪ project device/samsung/qcom-common/
+ ▪ e7fb74f qcom: doze: Remove extraneous meta-data
+
+ ▪ project frameworks/base/
+ ▪ 4841300 base: Pixel Colors: Change dividers from Material Teal to Pixel Blue
+ ▪ 3c8b741 Change dividers from Holo Blue to Material Teal
+ ▪ 7195020  Expose external qs tile tint color
+ ▪ 280d2ad Merge pull request #11 from pimpmaneaton/n7.1
+ ▪ f8c2c11 Revert "Add overlay option for Settings.System.ACCELEROMETER_ROTATION_ANGLES"
+ ▪ 8845c2b Disable lock screen blur by default
+ ▪ d45b7fd Merge pull request #10 from pimpmaneaton/n7.1
+ ▪ 1e8f1c3 Revert "Increase brightness faster if ambient light is brightening quickly."
+ ▪ e6b1c34 Disable hwui blending for first draw to main FBO
+ ▪ 022f196 Fast paths for hwui matrix and gradient shaders
+ ▪ 5e531fa Optimised hwui rounded corners shader
+ ▪ 93d418d Optimise identical hwui OpenGL ES programs
+ ▪ 0806b84 Reduce hwui CPU time by using glDrawRangeElements
+ ▪ dccfc69 Optimised hwui shadow shader by using Vec2 alpha
+ ▪ 59e95bd Avoid NPE when restarting task all activities of which will be cleared
+ ▪ c3e99bf0 Avoid deadlock when installing app
+ ▪ c6d0795 To enable scroll function at DatePickerDialog
+ ▪ 196171a Save "mState.restored" in onSaveInstanceState of FilesActivity
+ ▪ e6b0357 Increase brightness faster if ambient light is brightening quickly.
+ ▪ 24e91b2 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 050508a Merge pull request #9 from pimpmaneaton/n7.1
+ ▪ 8982290 Merge pull request #173 from Jcfunk/nougat
+ ▪ 5723440 telephony: Add state check for LteOnCdma to isGsm and isCdma
+ ▪ 8879e1f QS Smart Ambient-LiftToWake tile: make it compatible with all devices
+ ▪ 8069ef1 Remove the duplicate entry
+ ▪ 33376c3 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project frameworks/opt/hardware/
+ ▪ d355b50 cmhw: Allow LiveDisplay to check if GPU transform is used
+
+ ▪ project packages/apps/CMParts/
+ ▪ f1dfd8c Update colors.xml
+ ▪ 442c915 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ fc15436 CMParts: Improve stats collection summary
+ ▪ 86a5b4a [1/3] CMParts: Add CM charging sounds settings
+
+ ▪ project packages/apps/Contacts/
+ ▪ 01c22e5 Themes: Expose hardcoded layout and styles colors
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 809f0bc Themes: Expose hardcoded contact tile text colors
+
+ ▪ project packages/apps/Settings/
+ ▪ 6c3565b fixes
+ ▪ 0e7061c Merge pull request #14 from pimpmaneaton/n7.1
+ ▪ 24dc4e1 Merge pull request #13 from pimpmaneaton/n7.1
+ ▪ 2dc80e1 Add cm platform xmlns to fix build
+ ▪ 4baad15 Settings: Disable lock screen blur by default
+ ▪ 4427a13 Handle SubSettings instance leaks in Index.java
+ ▪ 52c4d73 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ bb96d2f Merge pull request #12 from pimpmaneaton/n7.1
+ ▪ ad8c7b6 Merge pull request #672 from chrisc93/settings_custom
+ ▪ c7888f6 Let's place a lock screen blur switch with the other blur options
+ ▪ 4931dc1 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ d86ccbe Temp: Always disable D2D since its broken atm
+
+ ▪ project vendor/addons/dragons/
+ ▪ a11ee4c Update Android.mk
+
+ ▪ project vendor/cm/
+ ▪ c31a96f Update kernel.mk
+ ▪ 88b6e68 Update common.mk
+
+ ▪ project vendor/cmsdk/
+ ▪ e1f1de3 Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ 48934b6 Add generic support for Lid Cover Apps
+ ▪ d73a932 cmsdk: cmhw: Deprecate TAP_TO_WAKE feature
+
+ ▪ project vendor/samsung/
+ ▪ 1c49299 msm8976-common: Remove QMI data configs
+ ▪ 836ed17 msm8976-common: Initial commit
+ 
+ 
  ▼ 01/23/2017
 
  ▪ project OTA/
