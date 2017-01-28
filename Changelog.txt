@@ -5,16 +5,18 @@ Added:
 -Updated to 7.1.1r13
 -Vendor N4F26J
 -Substratum OMS-7
--Viper4Android
--KenernelAditor (Benzo addition so no adds)
+-KenernelAditor (Benzo addition so no adds) 
 -BenzoBlock (AdBlocker)
--SnapBrowser
+-SnapdragonBrowser
+-SnapdragonCamera
+-SnapdragonGallery
+-Apollo
 -BusyBox
 -OmniJaws
 -Omni Clock
 -Flash Kernel with optimizations
 -One-hand UI Mode 
--Themes, Performance, Ad Blocker and Viper4Android are moved under Configurations into Tweaks tab
+-Themes, Performance, Ad Blocker and Viper4Arise are moved under Configurations into Tweaks tab
 
 Removed:
 -Stock Browser
