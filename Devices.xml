@@ -26,7 +26,7 @@
             <Unofficial_ChangelogUrl
                 id="unofficial_changelog"
                 title="Unoffical Changelog"
-                description="View Unofficial Changelog">https://github.com/KillerDroid96/OTA/blob/master/Changelog.txt
+                description="View Unofficial Changelog">https://github.com/KillerDroid96/OTA/blob/OMS/Changelog.txt
 	    </Unofficial_ChangelogUrl>
             <ChangelogUrl
                 id="changelog"
