@@ -23,7 +23,141 @@ Removed:
 -CMWallpapers
 ########################################################################################################
  ▼ KillerDroid96's Resurrection Remix Changelog
- 
+
+ ▼ 01/28/2017
+
+ ▪ project bootable/recovery/
+ ▪ 171e4bd Fixup custom bootloader msg offset in block misc
+
+ ▪ project build/soong/
+ ▪ 5951d3e Merge "Fixed androidmk crash when parsing external/aac/Android.mk"
+ ▪ 62ea583 Fixed androidmk crash when parsing external/aac/Android.mk
+
+ ▪ project frameworks/base/
+ ▪ 4d52e8e Merge branch 'OMS' of github.com:KillerDroid96/android_frameworks_base into OMS
+ ▪ 3ce867e Added random animation
+ ▪ project kernel/huawei/angler/
+ ▪ 7c379af impulse: Use display_state.h to drop necessity of state notifier
+ ▪ 3cf7dd8 fix up initial thread stack pointer vs thread_info confusion
+ ▪ 0c3a09b arm64: thread_info remove stale items
+ ▪ 65ae0fe sched/core: Allow putting thread_info into task_struct
+ ▪ 5b98e20 arm64: traps: simplify die() and __die()
+ ▪ af9c8599 arm64: crypto: add .gitignore file
+ ▪ a966757 crypto: arm64/sha2 - integrate OpenSSL implementations of SHA256/SHA512
+ ▪ 4f81026 flash_defconfig: enable CRYPTO_CRC32_ARM64_CE
+ ▪ 2c7bb59 crypto: arm64/crc32 - accelerated support based on x86 SSE implementation
+ ▪ c7285e8 cpufeature: correctly annotate the module init function
+ ▪ dc06475 Makefile: Enable all warnings but unused constant variables
+ ▪ 588be8f drivers: cpuidle: lpm-levels: fix array-bounds warnings
+ ▪ a3e56de drivers: soc: qcom: fix misleading-indentation warning
+ ▪ 609f087 drivers: video: msm: mdss: fix maybe-uninitialized warning
+ ▪ e831eca drivers: usb: storage: transport: fix maybe-uninitialized warnings
+ ▪ 98e57d3 drivers: usb: gadget: fix misleading-indentation warnings
+ ▪ d78525c drivers: usb: tusb320: fix bool-compare warning
+ ▪ 9ce3413 drivers: video: msm: mdss: fix unused-variable warning
+ ▪ 5a8e4fa drivers: usb: core: hub: fix maybe-uninitialized warning
+ ▪ 2e2fb4a drivers: net: bcmdhd: wl_cfgvendor: fix maybe-uninitialized warning
+ ▪ a918860 drivers: staging: ion: fix incompatible-pointer-types warning
+ ▪ 167a7ca drivers: staging: nanohub: fix maybe-uninitialized warning
+ ▪ 4bff4b8 drivers: net: wireless: bcmdhd: wl_cfg80211: fix misleading-indentation warning
+ ▪ 86b0d65 drivers: net: bcmdhd: wl_cfg80211: fix memset-transposed-args warning
+ ▪ 1d95f59 drivers: slimbus: fix misleading-indentation warning
+ ▪ 69db838 drivers: net: bcmdhd: siutils: fix tautological-compare warning
+ ▪ 600d352 drivers: platform: msm: sps: fix maybe-uninitialized warning
+ ▪ 82d3999 drivers: power: qcom: debug_core: fix maybe-uninitialized warning
+ ▪ d91cf0a net: wireless: fix uninitialized-warning warnings
+ ▪ bd551ca drivers: power: qcom: msm-core: fix maybe-uninitialized warning
+ ▪ 88faf96 drivers: net: bcmdhd: bcmutils: fix maybe-uninitialized warning
+ ▪ 3db3dfb drivers: platform: msm_bus: fix maybe-uninitialized warnings
+ ▪ 7c1773c net: wireless: nl80211: fix maybe-uninitialized warning
+ ▪ 3b94804 drivers: power: qpnp-smbcharger: fix maybe-uninitialized warning
+ ▪ 0e2ffd0 drivers: net: bcmdhd: fix maybe-uninitialized warnings
+ ▪ cf4c7ab drivers: power: qpnp-fq: fix maybe-uninitialized warnings
+ ▪ fa05083 drivers: power: smb1351: fix maybe-uninitialized warning
+ ▪ a7104d0 net: fq_pie: fix maybe-uninitialized warnings
+ ▪ 22bb726 drivers: net: ppp: fix maybe-uninitialized warning
+ ▪ e9decf6 net: cdg: fix maybe-uninitialized warning
+ ▪ 250989e net: packet: fix unused-function warning
+ ▪ 1e78140 net: packet: fix misleading-indentation warning
+ ▪ e35fe11 drivers: misc: qseecom: fix misleading-indentation warning
+ ▪ 24fae2b drivers: misc: qcom: qdsp6v2: fix misleading-indentation warning
+ ▪ 40874b0 drivers: media: msm: camera_v2: fix maybe-uninitialized warning
+ ▪ 897f986 drivers: media: msm: camera_v2: fix misleading-indentation warnings
+ ▪ fb012df drivers: media: msm: camera_v2: fix unused-variable warning
+ ▪ a0987e6 net: netfilter: fix maybe-uninitialized warning
+ ▪ 3f53985 drivers: input: touchscreen: fix maybe-uninitialized warning
+ ▪ 2c58be4 net: nfc: fix maybe-uninitialized warning
+ ▪ 51af85c drivers: media: msm: camera_v2: fix bool-compare warning
+ ▪ 83a4cb0c drivers: leds: fix maybe-uninitialized warning
+ ▪ 586c841 fs: binfmt_elf: fix unused-function warning
+ ▪ 5cf37df net: ipv4: fix maybe-uninitialized warnings
+ ▪ 4751466 drivers: gpu: msm: fix misleading-indentation warning
+ ▪ b5425a0 sound: msm: qdsp6v2: fix memset-transposed-args warning
+ ▪ 82805cc drivers: devfreq: fix misleading-indentation warning
+ ▪ 7720c8c drivers: crypto: msm: ice: fix maybe-uninitialized warning
+ ▪ 92d4498 drivers: crypto: msm: qce50: fix misleading-indentation warning
+ ▪ 3565a3e net: bridge: fix maybe-uninitialized warning
+ ▪ 2d4c07f sound: soc: msm-pcm-routing-v2: fix maybe-uninitialized warnings
+ ▪ 3a5322a drivers: cpuidle: fix maybe-uninitialized warning
+ ▪ 02f7e22 kernel: trace: fix misleading-indentation warning
+ ▪ 8e9c5b3 drivers: cpufreq: fix maybe-uninitialized warning
+ ▪ 40c92d5 drivers: clk: qcom: fix maybe-uninitialized warnings
+ ▪ e3c8b25 sound: soc: fix incompatible-pointer-types warning
+ ▪ 86ebce7 sched: deadline: fix incompatible-pointer-types warning
+ ▪ 94fcbb2 mm: slub: fix int-conversion warning
+ ▪ c8d9071 mm: uksm: fix maybe-uninitialized warning
+ ▪ 6011cdf sound: codecs: wcd9xxx: fix misleading-indentation warning
+ ▪ 0a6b710 fs: exfat: fix misleading-indentation warning
+ ▪ 0033f54 drivers: bluetooth: fix misleading-indentation warning
+ ▪ bfa8d0f sound: soc: max98925: fix maybe-uninitialized warning
+ ▪ cde7ca5 block: zen: fix misleading-indentation warning
+ ▪ 285bd25 net: socket: fix maybe-uninitialized warnings
+ ▪ 4b26b1a block: cfq: fix maybe-uninitialized warning
+ ▪ b7ca567 kernel: posix-cpu-timers: fix maybe-uninitialized warnings
+ ▪ ada7ecd mm: compaction: fix maybe-uninitialized warning
+ ▪ 8398f61 fs: namespace: fix maybe-uninitialized warning
+ ▪ a742fc9 sysctl: fix maybe-uninitialized warnings
+ ▪ 72f85be security: keys: fix maybe-uninitialized warnings
+ ▪ 42f5a7e Makefile: Declare war on warnings
+ ▪ 2f01a13 mm/slab: support slab merge
+ ▪ 0fcac68 mm/slab_common: commonize slab merge logic
+ ▪ 3bb66c8 slab: fix for_each_kmem_cache_node()
+ ▪ 7af4a25 mm/slab_common: move kmem_cache definition to internal header
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 942cc81 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 3a8d955 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ a028e35 fix viper4arise
+ ▪ 704dbd2 Update rr_strings.xml
+ ▪ 179a864 Dirty Dragons Nougat OMS 7.1.1_r13 - N4F26J
+ ▪ 50eda85 Update rr_strings.xml
+ ▪ 87051fe Changed to DD & Dirty Dragons
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 12387d7 aarch64-linux-android 6.3.1: 20170128
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ aaeca49 arm-linux-androideabi 6.3.1: 20170128
+
+ ▪ project vendor/addons/dragons/
+ ▪ c3b1171 Delete ViPER4Arise.apk
+ ▪ 09115a8 Update config.mk
+ ▪ 8168471 Viper4Arise
+
+ ▪ project vendor/cm/
+ ▪ b438582 Update common.mk
+ ▪ 3f29d3f Update common.mk
+ ▪ e1685b7 Update common.mk
+
+ ▪ project vendor/samsung/
+ ▪ 5778e4b gts2: Import fingerprint blobs
+ ▪ d47c7e5 gts2: Import mobicore blobs
+
+
  ▼ 01/26/2017
 
  ▪ project OTA/
