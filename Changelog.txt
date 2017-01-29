@@ -26,7 +26,80 @@ Removed:
 ########################################################################################################
  ▼ KillerDroid96's Resurrection Remix Changelog
 
+ ▼ 01/29/2017
+
+ ▪ project OTA/
+ ▪ 87b09f8 Update Devices.xml
+ ▪ 042538d Update Devices.xml
+ ▪ 859c747 Update Changelog.txt
+ ▪ 112a328 Update Changelog.txt
+
+ ▪ project device/qcom/common/
+ ▪ 58bf7c3 extractors: Set INITIAL_COPYRIGHT_YEAR
+
+ ▪ project frameworks/base/
+ ▪ a4e6d6f Merge pull request #16 from pimpmaneaton/n7.1
+ ▪ 1e10dee Add in new weather icons from LockClock
+ ▪ 0d01f30 DND tile: Longpress when active to show detail view
+ ▪ 7bc371e Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ ca440cf Add Random to system Animations
+
+ ▪ project frameworks/native/
+ ▪ fa77664 Merge pull request #5 from ResurrectionRemix/nougat
+ ▪ 05d0499 Fix one handed mode triggering tapjacking protection *also clean up pointless whitespace from one hand merge
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 25bbb88 Merge tag 'LA.UM.5.5.r1-02500-8x96.0' into cm-14.1-caf-8996
+ ▪ 0c8637a Revert "post proc : volume listener : fix effect release crash"
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ b55e7d6 Merge tag 'LA.UM.5.5.r1-02500-8x96.0' into cm-14.1-caf-8996
+
+ ▪ project hardware/qcom/media-caf/msm8996/
+ ▪ a0bb242 Merge tag 'LA.UM.5.5.r1-02500-8x96.0' into cm-14.1-caf-8996
+
+ ▪ project kernel/huawei/angler/
+ ▪ abb4a0c Revert "[binder]: Incorrect the handling of async transactions."
+ ▪ 6488709 Revert "android: binder: allow 'NULL' buffer objects."
+ ▪ b90d929 ion: Fix permissions on source file
+ ▪ 4fc0ca9 Fix derpy coding
+ ▪ c32936c bcmdhd: fix notifier call NULL pointer dereference
+ ▪ bd3e119 SafetyNet bypass: Show androidboot.verifiedbootstate=green
+ ▪ 52e00bc Revert "proc: Remove verifiedbootstate flag from /proc/cmdline"
+ ▪ 1396577 flash_defconfig: add new SELINUX options
+ ▪ 15b5d2f1 SELinux: Add option to lie to userspace about current mode
+ ▪ 954a9d5 SELinux: Forced enforcing or permissive
+
+ ▪ project packages/apps/LockClock/
+ ▪ ba96634 Merge pull request #2 from pimpmaneaton/n7.1
+ ▪ ab866d4 Add in Sthul weather icons
+ ▪ 66f8fa5 Add in MIUI weather icons
+ ▪ 0467aab Add in Google Now Weather Icons
+ ▪ 901658b Add in Galaxy S6 weather icons
+ ▪ 703600d Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ 1a954de Fix derp from move
+ ▪ 0f69a6a Re-arrange to match base commit
+
+ ▪ project packages/apps/Settings/
+ ▪ 9c28534 Merge pull request #15 from pimpmaneaton/n7.1
+ ▪ 85f2f1b Re-arrange to match base and LockClock
+ ▪ 78376e9 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 326fce9 Add new Weather icons to lock screen weather
+ ▪ a7e4f75 Fix Derp (#676)
+ ▪ 10cfdfd Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project packages/apps/Snap/
+ ▪ a425da8 Snap: store module index
+ ▪ 2bc5051 Snap: Fix NPE when parameters.getSupportedVideoSizes() is null
+
+ ▪ project vendor/cm/
+ ▪ 7bb1a36 DirtyDragons Bootanimation
+ ▪ 83454fe DirtyDragons Bootanimation
+ ▪ c9ca7bb DirtyDragons Bootanimation
+ ▪ e829eef DirtyDragons Bootanimation
+
  ▼ 01/28/2017
+
 
  ▪ project bootable/recovery/
  ▪ 171e4bd Fixup custom bootloader msg offset in block misc
@@ -37,7 +110,13 @@ Removed:
 
  ▪ project frameworks/base/
  ▪ 4d52e8e Merge branch 'OMS' of github.com:KillerDroid96/android_frameworks_base into OMS
- ▪ 3ce867e Added random animation
+ ▪ 3ce867e Update MusicTile.java
+ ▪ 1831c6c Update MusicTile.java
+ ▪ ac96797 Update MusicTile.java
+ ▪ d97dd29 Update MusicTile.java
+ ▪ 73999e3 Long press launches Spotify
+ ▪ b5c81a4 Automatic translation import
+
  ▪ project kernel/huawei/angler/
  ▪ 7c379af impulse: Use display_state.h to drop necessity of state notifier
  ▪ 3cf7dd8 fix up initial thread stack pointer vs thread_info confusion
@@ -134,8 +213,12 @@ Removed:
 
  ▪ project packages/apps/Settings/
  ▪ a028e35 fix viper4arise
+ ▪ 0690417 Add missing </PreferenceCategory>
+ ▪ 9cf8a21 Added Nougat Maintainer For LeEco Le 2 (s2) (#675)
+ ▪ ae17381 Automatic translation import
  ▪ 704dbd2 Update rr_strings.xml
  ▪ 179a864 Dirty Dragons Nougat OMS 7.1.1_r13 - N4F26J
+ ▪ f19df0f Automatic translation import
  ▪ 50eda85 Update rr_strings.xml
  ▪ 87051fe Changed to DD & Dirty Dragons
 
@@ -158,6 +241,76 @@ Removed:
  ▪ project vendor/samsung/
  ▪ 5778e4b gts2: Import fingerprint blobs
  ▪ d47c7e5 gts2: Import mobicore blobs
+
+ ▼ 01/27/2017
+
+ ▪ project OTA/
+ ▪ d61718d Update Changelog.txt
+
+ ▪ project bionic/
+ ▪ 2ca6bea linker: allow text relocations on user builds
+
+ ▪ project build/soong/
+ ▪ dc2597d Don't force libraries upon static executables.
+ ▪ 29c69e8 Merge "Add libc++ and libc++_static aliases for SDK builds."
+
+ ▪ project frameworks/base/
+ ▪ 92a77b7 Merge pull request #15 from pimpmaneaton/n7.1
+ ▪ eb0ccb0 Relocating these added headers to OmniStyle
+
+ ▪ project hardware/broadcom/libbt/
+ ▪ 4ee210c Broadcom BT: Add support fm/bt via v4l2.
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ ce91b1e Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.11' into HEAD
+
+ ▪ project kernel/huawei/angler/
+ ▪ 686fe08 i2c: fix kernel memory disclosure in dev interface
+ ▪ ced4bc2 arm64/ptrace: Reject attempts to set incomplete hardware breakpoint fields
+ ▪ 216e650 arm64/ptrace: Avoid uninitialised struct padding in fpr_set()
+ ▪ 32c6180 arm64/ptrace: Preserve previous registers for short regset write
+ ▪ 016ec2c arm64/ptrace: Preserve previous registers for short regset write
+ ▪ b14c83a arm64: avoid returning from bad_mode
+ ▪ 6eff35b arm64: decode ESR_ELx.EC when reporting exceptions
+ ▪ 19046eb arm64: introduce common ESR_ELx_* definitions
+ ▪ 9ac1221 kernel/panic.c: add missing \n
+
+ ▪ project packages/apps/LockClock/
+ ▪ e687795 Add in additional icons from OmniStyle
+
+ ▪ project packages/apps/Settings/
+ ▪ 0f59331 Updated to Viper4Arise
+ ▪ 8facb44 Updated to Viper4Arise
+ ▪ 7bd3500 Update rr_tweaks.xml
+ ▪ 976ac86 moved Tweaks to killerdroid
+ ▪ 6dfdf87 Create killerdroid_strings.xml
+ ▪ ea00ae7 Update rr_tweaks.xml
+ ▪ 023f053 Moved to rr_tweaks.xml
+ ▪ 0c70055 Added viper4android
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ a0cd247 SetupWizard: Update test app icon
+
+ ▪ project packages/apps/masquerade/
+ ▪ b5b1004 Release 20P: Initiate the caller package checking system
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 53f5497 aarch64-linux-android 6.3.1: 20170127
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ b739617 arm-linux-androideabi 6.3.1: 20170127
+
+ ▪ project vendor/cm/
+ ▪ 9612d0c Added Gallery2 & Viper4Arise
+ ▪ 163f8ea Added new apps
+ ▪ 31d7be1 Added overrides
+ ▪ 18c6ce0 Added viper4android and omniclock
+
+ ▪ project vendor/samsung/
+ ▪ 12c7f69 msm8976-common: fingerprint.default.so -> fingerprint.vendor.default.so
+ ▪ 79162c4 msm8976-common: camera.msm8952.so -> camera.vendor.msm8952.so
+ ▪ ae925c4 msm8976-common: Add gts28vewifi to build barrier
+ ▪ d2509d2 msm8976-common: Remove hci_qcomm_init
 
 
  ▼ 01/26/2017
