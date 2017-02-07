@@ -1,30 +1,537 @@
-▼ The Main Unofficial Changes
-########################################################################################################### 
-Added:
--OTA
--Updated to 7.1.1r13
--Vendor N4F26J
--Substratum OMS-7
--KenernelAditor (Benzo addition so no adds) 
--BenzoBlock (AdBlocker)
--SnapdragonBrowser
--SnapdragonCamera
--SnapdragonGallery
--Apollo
--BusyBox
--OmniJaws
--Omni Clock
--Flash Kernel with optimizations
--One-hand UI Mode 
--Themes, Performance, Ad Blocker and Viper4Arise are moved under Configurations into Tweaks tab
+▼ Dirty Drangons Additions 
 
-Removed:
--Stock Browser
--Trebuchet
--CMFileManager
--CMWallpapers
-########################################################################################################
- ▼ KillerDroid96's Resurrection Remix Changelog
+▼ Added
+
+▪ OTA
+▪ Updated to 7.1.1r14
+▪ Vendor N4F26O
+▪ Substratum OMS-7
+▪ KenernelAditor (Benzo addition) 
+▪ Adaway
+▪ SnapdragonBrowser
+▪ SnapdragonCamera
+▪ SnapdragonGallery
+▪ Apollo
+▪ BusyBox
+▪ OmniJaws
+▪ Omni Clock
+▪ Franco Kernel with custom optimizations
+▪ F2FS support
+▪ One-hand UI Mode
+▪ Added a Tweaks section under Configurations. 
+▪ Tweaks section includes Themes, Performance, AdAway and Viper4Arise
+▪ Custom Dirty Dragons Bootanimation 
+▪ 3minit Battery Mod
+▪ Suspend Actions
+▪ Toggle to enable/disable low battery warning
+▪ Additional weather icons (Marshmallow, Weezle, Galaxy S6, Google Now, MIUI, Sthul, Tapas and VClouds)
+▪ Added Wifi and data activity toggle under System icons
+
+▼ Removed
+
+▪ Stock Browser
+▪ Trebuchet
+▪ CMWallpapers
+
+▼ About
+
+This ROM is heavily based on Resurrection Remix. It started out as just an unofficial project to add OMS-7 to Resurrection Remix but has evolved into something else. Dirty Dragons has many added customizations and is continuely updated with new features. 
+
+▼ Credits
+
+▪ Resurrection Remix 
+▪ LineageOS
+▪ Dirty Unicorns
+▪ BenzoRoms
+▪ Pimpmaneaton 
+▪ If I missed anyone I appologize and please let me know so I can add you.
+
+▼ Special Thanks
+
+This ROM would not be possible without pimpmaneaton. Althrough he is in no way affiliated to this ROM most of the cool features that have been added ive picked from pimpmaneaton. He has also provided help to me more times than I can count. Im new to building ROMs so he has been kinda been my mentor.  
+
+#############################################################################################################################
+
+▼ Dirty Dragons Changelog
+
+ ▼ 02/07/2017
+
+
+ ▪ project build/soong/
+ ▪ 6d34b30 Added phony module type for soong.
+ ▪ ae853ae Merge "Fix envDeps initialization and locking"
+ ▪ c0d58b4 Fix envDeps initialization and locking
+ ▪ d9f6fa2 Add build tracing
+ ▪ c2af0be Add multiproduct_kati
+ ▪ 0043c0e Add microfactory to bootstrap a go program with minimal overhead
+ ▪ 1e70446 Add a Go replacement for our top-level Make wrapper
+ ▪ c821042 Merge "Fix zip tests"
+ ▪ 77de5a4 Merge "Support data properties for test binaries"
+
+ ▪ project device/huawei/angler/
+ ▪ 23a8bb1 update
+ ▪ 3b73c5a update
+
+ ▪ project external/f2fs-tools/
+ ▪ 353fee6 Fix missing include
+ ▪ 3086646 Android.mk: Update for 1.8.0
+ ▪ 8b44135 f2fs-tools: release 1.8.0
+ ▪ 3d7703c mkfs.f2fs: fix bad assignment of total_sectors for f2fs_configuration
+ ▪ 8e2f987 fsck.f2fs: remove wrong dentry due to hash conversion
+ ▪ ddd04fc fsck.f2fs: always fix seg entry type if it is not DATA
+ ▪ 917b326 mkfs.f2fs: fix a segfault when setting more than 7 devices
+ ▪ 5cb28a0 fsck.f2fs: show parse errors neatly
+ ▪ 6456cba fsck.f2fs: support -p without argument
+ ▪ 444a6b3 Add a configure option for SELinux support
+ ▪ 5de1b92 fsck.f2fs: fix wrong i_name check for directory
+ ▪ ca8736f resize.f2fs: remove unused parameters
+ ▪ 118b0dc resize.f2fs: fix the number of moved ssa blocks in migrate_ssa
+ ▪ c7c1e77 fsck.f2fs: remove duplicated header files
+ ▪ 5b44773 resize.f2fs: correct the max segno in migrate_main
+ ▪ 36939f9 mkfs.f2fs: detect small partition by overprovision ratio and # of segments
+ ▪ 6293bee mkfs.f2fs: give random checkpoint version
+ ▪ 516f593 fsck.f2fs: flush curseg sit entries
+ ▪ 3da6aaa dump.f2fs: fix an error in dump nat pack num
+ ▪ 0ad2cc3 fsck.f2fs add a simple check orphan inodes in -p 1 mode
+ ▪ 2f7523a README: revisit README to fix typos and so on
+ ▪ 8f50610 f2fs-tools: initialize and avoid build warning for android
+ ▪ 3364f40 f2fs-tools: support multiple devices
+ ▪ 8a6ed59 fsck.f2fs: refactor build_nat_area_bitmap to speed up fsck
+ ▪ b6414f5 resize.f2fs: modify condition for resize
+ ▪ db657bb fsck.f2fs: add a judgment after calloc
+ ▪ a50a805 fsck.f2fs: no need to write a new cp if nothing to flush
+ ▪ 7da9cfa resize.f2fs: fill zeros for expanded ssa area
+ ▪ ce20002 f2fs-tools: determine cp_addr by sbi->cur_cp
+ ▪ 0028347 sload.f2fs: not support to find or add files in inline_dir directory
+ ▪ 492352c resize.f2fs: get latest free segments
+ ▪ 5dd5c14 f2fs-tools: fix end block addres when finding free block
+ ▪ edcab89 resize.f2fs: fix wrong end_blkaddr
+ ▪ c1734f0 defrag.f2fs: return error for no space case
+ ▪ 9289cdd resize.f2fs: fix wrong offset calculation
+ ▪ f335b72 resize.f2fs: add more information in debug messages
+ ▪ 41aafed fsck.f2fs: add SSR-based allocation when free segment not enough
+ ▪ 06e8b40 fsck.f2fs: rewrite entries info in segment manager
+ ▪ c671048 libf2fs: avoid build warning
+ ▪ 78632df fsck.f2fs: check BLKZONED feature on mount
+ ▪ df54760 mkfs.f2fs: check zoned block devices configuration
+ ▪ 909d6e9 mkfs.f2fs: reset sequential zones on device discard
+ ▪ 5fadfde mkfs.f2fs: check options for zoned block devices
+ ▪ 68a23b9 Android.mk: Update for zoned block devices
+ ▪ 524529e f2fs-tools: introduce support for zoned block devices
+ ▪ 288aecf f2fs-tools: use zoned block device terminology
+ ▪ d7f89d6 f2fs-tools: add executable files to .gitignore
+ ▪ 24136af fsck.f2fs: do not check the first seg in a sec in find_next_free_block
+ ▪ 4bfba6b dump/fsck: convert encrypted file name
+ ▪ b2eeb5a sload.f2fs: allow to build without libselinux
+ ▪ 206ec24 mkfs.f2fs: fix the discarding size for block device
+ ▪ 14d66b9 fsck.f2fs: support restore lost files into ./lost_found/
+ ▪ d62b08c fsck.f2fs: check condition to avoid wrong memory allocation
+ ▪ c9d4672 libf2fs: avoid garbage printout
+ ▪ b8faea8 f2fs-tools: clean up and avoid build warning
+ ▪ bacf906 f2fs: avoid AOSP build failure
+ ▪ 304cabf fsck.f2fs: allocate buffer after condition check
+ ▪ eb68678 fsck.f2fs: fix a typo in check_sector_size
+ ▪ 16273e7 fsck.f2fs: fix incorrect ERR_MSG in f2fs_do_mount
+ ▪ 411cf57 fsck.f2fs: free cp_page_1 in validate_checkpoint
+ ▪ 1d2ecc3 libf2fs: increase robustness when called on root device
+ ▪ 13db84d fsck: porting avoid unneeded loop in build_sit_entries to fsck
+ ▪ cfa4d5d f2fs-tools: use shorter config variable name
+ ▪ 7dccc77 libf2fs: use dev_read_block and dev_write_block
+ ▪ 26df5bc mkfs: get fd for f2fs_trim_device
+ ▪ a5c2de5 fsck.f2fs: free node_blk to avoid memory leak
+ ▪ c292a0a mkfs.f2fs: do not need strdup for parse_feature
+ ▪ adfc823 fsck: clear useless "continue" in __chk_dentries
+ ▪ 7e74132 libf2fs: show disk information
+
+ ▪ project frameworks/base/
+ ▪ 2e6b421 Merge pull request #36 from pimpmaneaton/n7.1
+ ▪ e06c45a Fw_base - port SlimSeekBarPreference to Nougat
+ ▪ fd3e602 Merge pull request #35 from pimpmaneaton/n7.1
+ ▪ 356afa0 Fw_base - Add a controller for in-call proximity sensor (1/3)
+ ▪ f99f244  Fw_base - National Data Roaming [1/3]
+ ▪ 26f9d4e Notification tint: add optional findContrastColor algorithm for dark backgrounds
+ ▪ c80a8c4 Merge pull request #34 from pimpmaneaton/n7.1
+ ▪ 618991e low battery notification toggle [1/2]
+ ▪ b8f126d AlarmsBlocker: Remove debug strings
+
+ ▪ project hardware/samsung/
+ ▪ 6d31bae audio: in_call is a bool type
+
+ ▪ project packages/apps/Dialer/
+ ▪ 6621f5c Merge pull request #7 from pimpmaneaton/n7.1
+ ▪ 3147379 Change
+ ▪ c383bb4 Dialer - InCallUI: Add a controller for in-call proximity sensor (2/3)
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ 2657ba8 Merge pull request #14 from pimpmaneaton/n7.1
+ ▪ f6d30c9 Add some Westcrip originals
+ ▪ afb8c62 Add new walls by Afsha Norsham
+ ▪ 7b20fb1 Merge pull request #13 from pimpmaneaton/n7.1
+ ▪ 7d6521e Wallpapers 59 and 60
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 1048d53 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 9294873 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ b4114dd Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 292fa6a fix
+ ▪ f50b7c1 update
+ ▪ 2b8638e update
+
+ ▪ project packages/apps/SnapdragonCamera/
+ ▪ fa116de SnapdragonCamera: fix language derp for advanced features value
+
+ ▪ project packages/services/Telephony/
+ ▪ 7bb1b8c Merge pull request #2 from pimpmaneaton/n7.1
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 1886f88 aarch64-linux-android 6.3.1: 20170207
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ ffd85b2 arm-linux-androideabi 6.3.1: 20170207
+
+ ▪ project vendor/cm/
+ ▪ f06895e update
+ ▪ f9291e4 update
+ ▪ af2c2a4 update
+
+ ▼ 02/06/2017
+
+
+ ▪ project build/soong/
+ ▪ 721197d Merge "Add c_std and cpp_std properties."
+
+ ▪ project frameworks/base/
+ ▪ 4f64fe0 This got removed on previous commit and is for VPN
+ ▪ 3393b61 policy: don't allow app switch/recents key to be pressed on lockscreen
+ ▪ 02caf2a Net monitor: fix visual glitch on statusbar expand when autohide enabled
+ ▪ 73a8144 SystemUI: Fix the unlock sound played repeatedly
+ ▪ d887cad Make Data/Wifi activity icon in statusbar optional [1/2]
+ ▪ 69beb65 Suspend Actions [1/3]
+ ▪ 0a41b90 Data activity icon in statusbar
+ ▪ be9fc85 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 663b383 Automatic translation import
+ ▪ 38522c4 Themes: Expose Keyguard affordance circle background
+ ▪ 437d8c2 Add OOM adj & level config value for lowmemorykiller
+ ▪ 8ff1896 Set external QS tiles tint mode to SRC_ATOP
+ ▪ 3c9b21d Better QS detail clip animation
+ ▪ 297df27 Hotspot Tile: longclick should open Tethering settings
+ ▪ af60b68 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ a310367 Revert "Revert "Missed the shutdown thread""
+ ▪ a8c5f6a Revert "Revert "Add fade animation to power menu""
+
+ ▪ project hardware/samsung/
+ ▪ 7cc49b4 audio: Remove unused audio routes
+ ▪ a366011 libsecril-client: Turn off logging by default
+ ▪ 560e37a libsecril-client: Use RLOG
+ ▪ 0130b88 libril: Use RLOG
+ ▪ fc68d3a exynos4x12: use common samsung liblights
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 94f9af9 Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ 6182c23 Suspend Actions [2/3]
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ ff9d963 aarch64-linux-android 6.3.1: 20170206
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 4073598 arm-linux-androideabi 6.3.1: 20170206
+
+ ▼ 02/05/2017
+
+
+ ▪ project android/
+ ▪ 704e862 Track our omnistyle repo
+
+ ▪ project build/soong/
+ ▪ d1b8d76 Allow non-tool dependencies in genrules
+
+ ▪ project frameworks/base/
+ ▪ c9d5631 Automatic translation import
+
+ ▪ project frameworks/opt/telephony/
+ ▪ aae108c Fix SIM detection when encrypted for older RIL
+
+ ▪ project hardware/qcom/fm/
+ ▪ 2b5386c Automatic translation import
+
+ ▪ project hardware/samsung/
+ ▪ 9227fbe Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 0e6e947 Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ a269f28 Automatic translation import
+
+ ▪ project packages/apps/CMBugReport/
+ ▪ 4fcd796 Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ 08bd02b Automatic translation import
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ fdff241 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ b499a05 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ a187c4a Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ e0a364b Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ ee30de9 Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ 20cdcda Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 3089d2f Automatic translation import
+
+ ▪ project packages/apps/ManagedProvisioning/
+ ▪ bb79517 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ fa25470 Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 93c85f5 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 0c80361 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ e6181d2 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 6aa6eda Fix Memory Leak
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 54311c0 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ cf63021 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ 068eaa3 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 7ca2ce5 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ b9b9215 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ 0bdbeb6 Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 00b7256 LatinIME: Add Hungarian QWERTY, enable predictive dictionary
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 6981666 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 4da4543 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ f8073ff Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ 6dad83d Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ d345819 Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ d3f16b2 Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ 5acf0e7 Automatic translation import
+
+ ▪ project system/extras/su/
+ ▪ d30f4ad su: don't crash on SIGPIPE while passing return code to client
+
+ ▪ project vendor/addons/dragons/
+ ▪ 0564768 Replaced BenzoBlock with AdAway
+
+ ▪ project vendor/cm/
+ ▪ 63510f8 Update common.mk
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 97dc85c Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 1efd29a Automatic translation import
+
+ ▪ project vendor/samsung/
+ ▪ a29ca7f klte*: Regenerate makefiles
+ ▪ b1fc81d klte-common: Update blobs
+ ▪ 31d024f gts2: Remove FP HAL
+
+ ▼ 02/04/2017
+
+
+ ▪ project build/soong/
+ ▪ 043833c Add c_std and cpp_std properties.
+ ▪ a83fdac Disable CFI on Mips and add -march to linkflags on ARM.
+ ▪ cb3f890 Remove duplicate code.
+
+ ▪ project device/huawei/angler/
+ ▪ 2564572 Update init.angler.rc
+ ▪ fec3a8a Update device.mk
+ ▪ 4667437 Update init.angler.rc
+ ▪ 3f7db69 Update device.mk
+ ▪ c0ab3e8 Update BoardConfig.mk
+ ▪ b997dc9 Update BoardConfig.mk
+ ▪ ab3641b Update BoardConfig.mk
+ ▪ a074651 idk
+
+ ▪ project external/DUtils/
+ ▪ 2edbbda Merge pull request #2 from pimpmaneaton/n7.1
+
+ ▪ project frameworks/base/
+ ▪ 4b786e0 SystemUI: PowerNotification: Add up button to fragment
+ ▪ c750458 Use STREAM_RING on non-voice capable devices
+ ▪ 9ea3487 Statusbar: Gracefully adapt 3Minit Battery hook for AOSP
+ ▪ 997d2fd Add 3Minit battery mod
+ ▪ 3dda028 Automatic translation import
+ ▪ 8e8d6ed Automatic translation import
+ ▪ d43c8cf Automatic translation import
+ ▪ b46742b Bluetooth: Fix Default BT turn on
+ ▪ 0ed31d6 AlarmsBlocker [1/2] Made by @faust93. Based on WakelockBlocker by @maxwen
+ ▪ 16c5df6 Disable touch slop for generated gesture events
+ ▪ 5584f2d Fix for reboot due to Volume State not updated in callback
+ ▪ 087c632 Fix recents thumbnails for one hand mode
+ ▪ 56d44a3 Merge pull request #33 from pimpmaneaton/n7.1
+
+ ▪ project hardware/samsung/
+ ▪ 67a7444 add a common mkbootimg.mk to quiet "KERNEL IS NOT SEANDROID ENFORCING" warning
+
+ ▪ project kernel/huawei/angler/
+ ▪ f7bfbde Update franco_defconfig
+ ▪ 0f3bbf3 Create franco_defconfig
+
+ ▪ project packages/apps/DUI/
+ ▪ fdebdef Merge pull request #9 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ 6db2ab2 Merge pull request #12 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ a0c4546 Automatic translation import
+ ▪ d8226ae Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 1ab16d0 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ f3f3fd9 update
+
+ ▪ project packages/apps/SnapdragonCamera/
+ ▪ 7169b8c SnapdragonCamera: remove touch focus dependency to qcom parameters
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 803c503 aarch64-linux-android 6.3.1: 20170204
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 431bd22 arm-linux-androideabi 6.3.1: 20170204
+
+ ▼ 02/03/2017
+
+
+ ▪ project bionic/
+ ▪ 91b06f9 linker: Allow only specified non-PIE executables
+ ▪ 9936a63 Revert "Revert "Reenable support for non-PIE executables""
+
+ ▪ project build/soong/
+ ▪ e281d33 Fix zip tests
+ ▪ faeb7aa Support data properties for test binaries
+ ▪ 294941b Update soong to use pathtools.FileSystem
+
+ ▪ project device/huawei/angler/
+ ▪ dd3c675 revert to flash
+ ▪ 07769d5 franco
+ ▪ b9650f4 franco
+ ▪ ec9b334 franco
+ ▪ 2137b19 franco
+ ▪ 9edebb0 3mint mod
+ ▪ 007f6a8 update
+ ▪ 2e382da test
+ ▪ 40bda96 test
+ ▪ 2c5212d update
+
+ ▪ project external/DUtils/
+ ▪ 9e2cbdf OHM Actions: Use separate icon (1/2)
+
+ ▪ project frameworks/base/
+ ▪ 451c99a Revert "base: Add permissions for gallery3d"
+ ▪ 79579c4 Revert "Add fade animation to power menu"
+ ▪ 4c842b8 Revert "Missed the shutdown thread"
+ ▪ ed5d048 Missed the shutdown thread
+ ▪ 21c5474 Merge pull request #32 from pimpmaneaton/n7.1
+ ▪ 8327e1f Add fade animation to power menu
+ ▪ e1ef4431 FWB: AppSidebar: Auto hide timeout (1/2)
+ ▪ aa89aee base: Add permissions for gallery3d
+ ▪ 8ea4257 graphics: ADB "N" icon compatible with OMS7
+ ▪ 7d8664b AmbientDisplayConfiguration: Respect doze settings default
+ ▪ 73a5155 base: Add bool to enable/disable doze by default
+ ▪ ebd6e46 Revert "SettingsProvider: allow ambient display/doze mode to be overlayed"
+ ▪ 5b368cf Merge pull request #31 from pimpmaneaton/n7.1
+ ▪ 107c8eb Statusbar: Gracefully adapt 3Minit Battery hook for AOSP
+ ▪ 1089afa Add 3Minit battery mod
+ ▪ 80324e2 Merge pull request #30 from pimpmaneaton/n7.1
+ ▪ cd83efd Add more custom ambient display settings [1/2]
+ ▪ b331451 systemui: change recents fab icon
+ ▪ 912077c OHM recents thumbnails fix: code cleanup
+ ▪ 921749e ImmersiveRecents: improvements/cleanup
+ ▪ 045385c Use STREAM_RING on non-voice capable devices
+ ▪ ff82ff8 Merge pull request #29 from pimpmaneaton/n7.1
+ ▪ 8009316 App sidebar: Fix Left/Right position.
+
+ ▪ project packages/apps/DUI/
+ ▪ 34ccbae OHM Actions: Use separate icon (2/2)
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ 02b658a Wallpaper 58
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ f4a2c03 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ c6048b1 Merge branch 'OMS' of github.com:KillerDroid96/Resurrection_packages_apps_Settings into OMS
+ ▪ 9c2eb11 OCD fix
+ ▪ 692b535 OCD fix
+ ▪ 2583fea update
+ ▪ e251d43 fix
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 3df5ac2 aarch64-linux-android 6.3.1: 20170203
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 31a6f20 arm-linux-androideabi 6.3.1: 20170203
+
+ ▪ project vendor/cm/
+ ▪ 50c1ada fix
+ ▪ 1045464 update
+ ▪ b62e497 update
+ ▪ f3f6712 Update common.mk
+
+ ▪ project vendor/samsung/
+ ▪ 39f7feb noblelte: Add fingerprint blobs
+ ▪ 7de57f1 noblelte: Import R7P0 Mali blobs
+ ▪ 03c8fc8 noblelte: Blob out gralloc
+ ▪ 3e5fd99 noblelte: Kang camera UniHAL from zero
+ ▪ a74718b noblelte: Readd camera blobs
 
  ▼ 01/29/2017
 
