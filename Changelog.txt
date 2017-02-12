@@ -54,6 +54,508 @@ This ROM would not be possible without pimpmaneaton. Althrough he is in no way a
 
 ▼ Dirty Dragons Changelog
 
+▼ 02/11/2017
+
+
+ ▪ project android/
+ ▪ ba558c7 Track Fw Opt Cards
+
+ ▪ project build/
+ ▪ f0ea01a update
+
+ ▪ project device/huawei/angler/
+ ▪ 991d595 update
+ ▪ f36db1c update
+
+ ▪ project frameworks/base/
+ ▪ 367490f update
+ ▪ 99ff237 Merge pull request #39 from pimpmaneaton/n7.1
+ ▪ d6d89b1 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ f758029 Make Power Menu Emergency Panel Optional [1/2]
+
+ ▪ project hardware/qcom/fm/
+ ▪ f132291 Automatic translation import
+
+ ▪ project hardware/samsung/
+ ▪ 1983165 Automatic translation import
+ ▪ 757e2d8 audio: Remove device bit only on active_input
+ ▪ 04037e7 audio: Add a mixer_path_0.xml template for the HAL
+ ▪ 107a848 audio: Add support for voice session mic mute
+ ▪ 59486fa audio: Add voice call wideband support
+ ▪ 82f3248 audio: Add support for two mic control
+ ▪ 97fa7f1 audio: Leave out_get_presentation_position() early when switching to WB
+ ▪ d635918 audio: Do not segfault in out_get_presentation_position()
+
+ ▪ project kernel/huawei/angler/
+ ▪ feaeabf Merge pull request #2 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/AudioFX/
+ ▪ c591503 Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ e377bdc Automatic translation import
+
+ ▪ project packages/apps/CMBugReport/
+ ▪ dafa10b Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ aaf23a3 Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ c9db9e1 Merge pull request #10 from pimpmaneaton/n7.1
+ ▪ acf6166 CMParts: Add AICP Tha Battery
+ ▪ 5837a2f Merge pull request #9 from pimpmaneaton/n7.1
+ ▪ 234f869 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 984cfa9 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ df43875 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ c7866f5 Automatic translation import
+
+ ▪ project packages/apps/CertInstaller/
+ ▪ 2332b25 Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ 7a9e5c2 Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ b0fadab Automatic translation import
+
+ ▪ project packages/apps/EmergencyInfo/
+ ▪ 82eb30a Automatic translation import
+
+ ▪ project packages/apps/Exchange/
+ ▪ e458fec Automatic translation import
+
+ ▪ project packages/apps/FMRadio/
+ ▪ cf589ab Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 3a2438d Automatic translation import
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ 88fe2d8 Automatic translation import
+
+ ▪ project packages/apps/KeyChain/
+ ▪ b6f7264 Automatic translation import
+
+ ▪ project packages/apps/ManagedProvisioning/
+ ▪ 6cc07ae Automatic translation import
+
+ ▪ project packages/apps/Nfc/
+ ▪ 1cce1b3 Automatic translation import
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ 809f0f1 Merge pull request #15 from pimpmaneaton/n7.1
+ ▪ 92d83cf  OmniStyle: allow croping larger wallpapers
+ ▪ 55c9d58 OmniStyle: guard all the things
+
+ ▪ project packages/apps/Profiles/
+ ▪ f1c23ad Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ e4e79ce Automatic translation import
+
+ ▪ project packages/apps/SafetyRegulatoryInfo/
+ ▪ 0b5fc12 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 3976b7d update
+ ▪ fda34a1 update
+ ▪ 764cff2 update
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 167ac2c Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ e8a6615 Automatic translation import
+
+ ▪ project packages/apps/Stk/
+ ▪ e15be25 Automatic translation import
+
+ ▪ project packages/apps/Tag/
+ ▪ 12cab82 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ 6f71e9f Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 7817771 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ d1bc85b Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ d39d44a Automatic translation import
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ eb5be41 Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 42bf994 Automatic translation import
+
+ ▪ project packages/providers/BookmarkProvider/
+ ▪ dc3bb73 Automatic translation import
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ 168badf Automatic translation import
+
+ ▪ project packages/providers/CallLogProvider/
+ ▪ 0715865 Automatic translation import
+
+ ▪ project packages/providers/ContactsProvider/
+ ▪ 68f1225 Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 60282f9 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 783d5cf Automatic translation import
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ de1f545 Automatic translation import
+
+ ▪ project packages/providers/ThemesProvider/
+ ▪ dd7ff50 Automatic translation import
+
+ ▪ project packages/providers/UserDictionaryProvider/
+ ▪ 3d347b1 Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 68a67f3 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 64395d2 Automatic translation import
+
+ ▪ project packages/screensavers/Basic/
+ ▪ 31ccb14 Automatic translation import
+
+ ▪ project packages/screensavers/PhotoTable/
+ ▪ a3afce8 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ 00e085e Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ 226fe91 Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ 0f49c72 Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ b64184a Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ dfc9087 Automatic translation import
+
+ ▪ project prebuilts/clang/host/linux-x86/4.0.0/
+ ▪ 54d4e15 Clang 4.0.0: 20170211
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 5c4f24e aarch64-linux-android 6.3.1: 20170212
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 24bbf70 arm-linux-androideabi 6.3.1: 20170212
+
+ ▪ project system/core/
+ ▪ f1778c5 Merge pull request #6 from pimpmaneaton/n7.1
+ ▪ c0b8936 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project system/sepolicy/
+ ▪ a196c1e Merge pull request #6 from pimpmaneaton/n7.1
+ ▪ 101d7cc Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project vendor/cm/
+ ▪ 1675bf0 fix
+ ▪ fd49f9c update
+
+ ▪ project vendor/cmsdk/
+ ▪ 88c3b66 Merge pull request #8 from pimpmaneaton/n7.1
+ ▪ cab2a33 CMSDK: Add AICP Tha Battery
+ ▪ a4c2582 Merge pull request #7 from pimpmaneaton/n7.1
+ ▪ 4227fb6 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 847f472 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 0d0f144 Automatic translation import
+
+ ▼ 02/10/2017
+
+
+ ▪ project build/soong/
+ ▪ 040ffff Merge "Add soong_javac_filter tool"
+
+ ▪ project frameworks/base/
+ ▪ a2992fd Slim recents: card expand button: use same color like card text
+ ▪ b33bff2 Slim recents: avoid crashes due to different drawable types
+ ▪ 1f73bfe Net monitor: fix visual glitch on statusbar expand when autohide enabled
+ ▪ a456e73 Slim Recents squash [1/2]
+ ▪ a34f371 PhoneWindowManager: add mTopFullscreenOpaqueWindowState null check to fix exception
+ ▪ ebce732 Automatic translation import
+ ▪ 50af9fb Merge pull request #38 from pimpmaneaton/n7.1
+ ▪ 83b2c81  Add isPackageInstalled boolean
+ ▪ 0dadeaa Add check for flashlight API to RRUtils
+ ▪ c029f74 Recents: Don't show alternate recents when task is locked
+ ▪ ffbf676 Merge pull request #37 from pimpmaneaton/n7.1
+ ▪ 1970c39 Revert "Add Accept all files option for incoming files via BT [1/3]"
+ ▪ 6a2c181 1/2 - Add support for Fake Signatures. enabled by dynamic spoofing - Fix
+ ▪ f8bdd76 Add Accept all files option for incoming files via BT [1/3]
+ ▪ 75562ff Call recording encoder/format choice 3/3
+ ▪ cc4f60c Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ a6c0adc Automatic translation import
+
+ ▪ project hardware/samsung/
+ ▪ 696959d audio: Enable voice call support
+ ▪ 5a2f100 audio: Remove unused variables and function
+ ▪ ecd17ce Revert "audio: Remove unused screen_state parameter"
+ ▪ 9c19561 audio: Improve error message for RILD connection
+ ▪ 41c9f3d audio: Initialize the radio voice session
+ ▪ bc52af5 audio: Add ril_interface to talk to radio
+ ▪ 74ef3a1 audio: Create a structure for voice to group values
+ ▪ afec0fd macloader: Rework mac address half classification
+ ▪ 759368f audio: Add a delay for DSP firmware loading
+
+ ▪ project packages/apps/CMParts/
+ ▪ d4ebc3c Automatic translation import
+ ▪ dd5649c Add "Letter V" string
+ ▪ 18e8f3c Automatic translation import
+ ▪ c3b79a3 CMParts: Clean out imports
+ ▪ 602e9da CMParts: Simplify long press for torch strings
+ ▪ ae24efd Automatic translation import
+ ▪ 040a398 CMParts: Long-press power while display is off for torch
+ ▪ dac39d7 CMParts: Clean up status bar settings class
+ ▪ 5195eed CMParts: power: Resolve 'automatic optimization' state issues
+ ▪ e4ab72a CMParts: Update quick QS pull-down entries for RTL layouts
+ ▪ 47abb9a CMParts: Don't update status bar clock summary on RTL
+ ▪ 9730b04 CMParts: Update quick QS pull-down summary on pref change
+ ▪ b306390 Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 8af9178 Compact list view mode
+
+ ▪ project packages/apps/DUI/
+ ▪ 735acaa Merge pull request #11 from pimpmaneaton/n7.1
+ ▪ 5502ee7 Allow to set pixel animation for the home button only [1/2]
+ ▪ 667588a Merge pull request #10 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/Dialer/
+ ▪ 96a5212 Merge pull request #8 from pimpmaneaton/n7.1
+ ▪ 65d69a7 Call recording encoder/format choice 1/3
+ ▪ 9304e44 Add settings compact view mode
+ ▪ 60a0aa1 Enable call recording
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ a03b489 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ cffb66d update
+ ▪ 69b88f3 update
+ ▪ 1521676 update
+ ▪ f24ed62 fix typo
+
+ ▪ project packages/apps/SnapdragonCamera/
+ ▪ d3c2e01 SnapdragonCamera: rework video UI
+
+ ▪ project packages/services/Telephony/
+ ▪ 5577caf Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ af67b8c Call recording encoder/format choice 2/3
+
+ ▪ project system/core/
+ ▪ 153bc0c Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
+
+ ▪ project system/sepolicy/
+ ▪ 3749379 Permit dumpstate to run "ip xfrm policy".
+
+ ▪ project vendor/cm/
+ ▪ ac35108 update
+ ▪ 5ff5a70 update
+ ▪ d939392 update
+
+ ▪ project vendor/cmsdk/
+ ▪ 3a3dd65 Automatic translation import
+ ▪ ac95f68 Automatic translation import
+ ▪ b55d5ca CMSDK: Add long-press power for torch CMSetting
+ ▪ 3a2c4be cmsdk: PerformanceManager: Update POWER_HINT_SET_PROFILE value
+ ▪ 0f02f65 Automatic translation import
+
+ ▪ project vendor/samsung/
+ ▪ c9eb12d sltexx: Update Lifevibe blobs from noblelte Noguat release
+ ▪ ed2dbea sltexx: HEXEDIT of libsec-ril.so to allow connections from audioserver
+ ▪ 67610ea sltexx: Import blobs from LL_CGP1
+ ▪ c9051ed Big bang for sltexx!
+
+ ▼ 02/09/2017
+
+
+ ▪ project build/soong/
+ ▪ 521534f Add soong_javac_filter tool
+ ▪ ee8e7a7 Removed Bluetooth build  variables from the soong build parser
+
+ ▪ project frameworks/base/
+ ▪ bf86d42 LSWeather: Option to show weather info while dozing [1/2]
+ ▪ 4350975 Automatic translation import
+
+ ▪ project hardware/broadcom/libbt/
+ ▪ 0034a25 libbt: Import CID_PATH from samsung_macloader.h
+
+ ▪ project hardware/libhardware_legacy/
+ ▪ 68203c8 wifi: Import CID_PATH from samsung_macloader.h
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ f67da5f hal: Remove duplicated HFP if branch (mismerge)
+
+ ▪ project hardware/samsung/
+ ▪ 5fada9b power: Add support for POWER_HINT_CPU_BOOST
+ ▪ c7dd07a macloader: Add another SEMCO mac address half
+ ▪ df4a1d6 macloader: Add default NVRAM calibration path
+ ▪ 59ba89e macloader: Allow overriding non-standard paths
+ ▪ cd60dd8 fingerprint: bauth: convert % completed to remaining
+ ▪ b23aaf7 add Samsung BAUTH Fingerprint HAL
+ ▪ 6508486 ril: Align to AOSP libril
+
+ ▪ project kernel/huawei/angler/
+ ▪ a4894e7 lazyplug: Add highly aggressive lazy profile
+ ▪ 069f67d lazyplug: Improve MSM8994 and MSM8996 thread capacity
+ ▪ 9887c18 lazyplug: Use correct hysteresis for octacore cpus
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ 71b49b8 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 335abec Alert tone does not play for ETWS
+
+ ▪ project packages/apps/DUI/
+ ▪ 34bb483 SmartBar: Pixel button animation support [2/3]
+ ▪ e4d2430 Bring in initial Pixel Navbar animation resources [1/?]
+
+ ▪ project packages/apps/OmniClock/
+ ▪ 58a265c OmniClock: kill obsolete strings
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 79fee4f Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ ef8d286 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ c9494b2 Automatic translation import
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 3d3519e Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 678971d Snap: Fix filtering of unsupported HFR/HSR modes
+ ▪ 46c1ac4 Automatic translation import
+ ▪ fe100c6 Snap: Fix max brightness and power shutter settings
+ ▪ 84752f9 Snap: VideoModule: Update flash status on preference change
+ ▪ 75de9ea Snap: Replace noisy debug line
+ ▪ 342b617 Snap: VideoModule: Restore check on mPreferenceRead
+
+ ▪ project packages/apps/SnapdragonCamera/
+ ▪ 07644dd SnapdragonCamera: disable hsr and fix hfr
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 56685bf Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 6bbc51e Automatic translation import
+
+ ▪ project vendor/samsung/
+ ▪ 8612456 gts2: Import WiFi NVRAM calibration
+ ▪ d8f9893 msm8976-common: Remove fingerprint HAL
+
+ ▼ 02/08/2017
+
+
+ ▪ project build/soong/
+ ▪ 6294477 Merge "Ship the build log and trace on the build servers"
+ ▪ 89a0d79 Merge "Add RenderScript toolchain information to soong."
+
+ ▪ project frameworks/base/
+ ▪ 74db967 Revert "Revert "SettingsProvider: allow ambient display/doze mode to be overlayed""
+ ▪ 5c25d23 Revert "base: Add bool to enable/disable doze by default"
+ ▪ 7967c58 Revert "AmbientDisplayConfiguration: Respect doze settings default"
+ ▪ b9de77d Add AOSCP Battery Style
+ ▪ 8e87d7d Allow unlocked USB data access (1/2)
+ ▪ 912f38c Add this missing part
+ ▪ 28ba14a Unlock keystore with fingerprint after reboot (1/2)
+ ▪ 1fb6830 ExternalStorage: Add missed permissions
+ ▪ 7a5dea1 [Squashed] Remove drawables we don't need
+ ▪ 9c82e7f Added missing @DrawableRes
+ ▪ 02cefae Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ e54b12e Automatic translation import
+ ▪ 6c9af35 Use correct activity name
+ ▪ da4d7e7 My bad, typo
+ ▪ 26ea312 Android Auto tile: more code cleanup
+ ▪ 6da2c74  Add a tile for Android Auto 1.x and 2.x
+ ▪ a8ce212 Add AppSideBarTile back in
+
+ ▪ project hardware/samsung/
+ ▪ 928ddca libsecril-client: Fix logging
+ ▪ 86ac234 audio: Allow playback on earpiece too
+
+ ▪ project kernel/samsung/jf/
+ ▪ ca21727 UPSTREAM: proc: actually make proc_fd_permission() thread-friendly
+ ▪ 90b7e2e UPSTREAM: proc: make proc_fd_permission() thread-friendly
+
+ ▪ project packages/apps/CMParts/
+ ▪ d6fdd05 Add AOSCP Battery Style
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 85cd4dd CMUpdater: Add title when collapsed
+ ▪ e3a471d UpdatesActivity: don't check for updates on every resume
+
+ ▪ project packages/apps/Calendar/
+ ▪ 573612e Calendar: Fix check for things to import
+ ▪ 7315b87 Calendar: Prevent NPE
+
+ ▪ project packages/apps/DUI/
+ ▪ d79ba92 Add to and from color to solid lines as well
+
+ ▪ project packages/apps/Dialer/
+ ▪ d1c3210 These are duplicates as I already added in RR xmls
+ ▪ 7631e9b Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ f38a596 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 8c9d49e Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 3e48f73 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 4d54b14 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 8613b05 Snap: VideoModule: properly update focus settings when switching between cameras
+ ▪ 8c64fae Snap: Fix zoom in video mode
+ ▪ 8ba41f4 Snap: Remove touch AF/AEC option
+
+ ▪ project packages/apps/SnapdragonCamera/
+ ▪ 61b2662 SnapdragonCamera: more cleanup of advanced features exclusion
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ 9484d15 Revert "telephony: Initialize USER_NETWORK_MODE with DEFAULT_NW_MODE"
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 659ccee Automatic translation import
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 2722e26 aarch64-linux-android 6.3.1: 20170209
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 6a9c9d6 arm-linux-androideabi 6.3.1: 20170209
+
+ ▪ project vendor/cmsdk/
+ ▪ 28d89bb Add AOSCP Battery style
+
+
  ▼ 02/07/2017
 
 
