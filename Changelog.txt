@@ -3,7 +3,7 @@
 ▼ Added
 
 ▪ OTA
-▪ Updated to 7.1.1r14
+▪ Updated to 7.1.1r22
 ▪ Vendor N4F26O
 ▪ Substratum OMS-7
 ▪ KenernelAditor (Benzo addition) 
@@ -50,9 +50,730 @@ This ROM is heavily based on Resurrection Remix. It started out as just an unoff
 
 This ROM would not be possible without pimpmaneaton. Althrough he is in no way affiliated to this ROM most of the cool features that have been added ive picked from pimpmaneaton. He has also provided help to me more times than I can count. Im new to building ROMs so he has been kinda been my mentor.  
 
-#############################################################################################################################
+############################################################################################################################
 
 ▼ Dirty Dragons Changelog
+
+ ▼ 02/21/2017
+
+
+ ▪ project build/
+ ▪ c1dbfda Merge branch 'OMS' of github.com:KillerDroid96/android_build into OMS
+ ▪ fbbb39f 2017-02-01 security patch level
+
+ ▪ project frameworks/base/
+ ▪ 65299ac update
+ ▪ 55e2668 update
+ ▪ 0e5f104 Merge remote-tracking branch 'rr/nougat' into n7.1  … pimpmaneaton committed 42 minutes ago 872e917  @pimpmaneaton Add more to the last switch  … pimpmaneaton committed an hour ago 17cad9f  @varund7726 Revert "All tile scroller for quickbar settings [1/2]"  … varund7726 committed 3 hours ago bc6f58a  @varund7726 Revert "Auto calculate quickbar tiles amount"  … varund7726 committed 3 hours ago 8887f0e  @varund7726 Revert "SystemUI: Fix QS tiles fancy animation layout glitch and mergin" … varund7726 committed 3 hours ago
+ ▪ ee09362 Merge pull request #46 from pimpmaneaton/n7.1
+ ▪ 79b1545 DO NOT MERGE: Check provider access for content changes.
+
+ ▪ project packages/apps/Dialer/
+ ▪ b2e0bf9 Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ df9651d Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 43f3323 Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ ae46856 fix typo
+ ▪ ea4d928 32807795  Security Vulnerability - AOSP Messaging App: thirdparty can attach private files from "/data/data/com.android.messaging/" directory to the messaging app.
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 5f555fa Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ fe46f7a Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 038829c Automatic translation import
+ ▪ f745580 V5.8.2
+
+ ▪ project packages/apps/Settings/
+ ▪ c47693c Merge remote-tracking branch 'rr/nougat' into n7.1 pimpmaneaton committed 3 hours ago 9071217  @pimpmaneaton Clean up ticker options  … pimpmaneaton committed 10 hours ago ff07f7f  @akhilnarang Automatic translation import akhilnarang committed 6 hours ago Verified   2acedc3  @pimpmaneaton Change up battery bar  … pimpmaneaton committed 11 hours ago 5490c0f  @pimpmaneaton Merge remote-tracking branch 'rr/nougat' into n7.1  … pimpmaneaton committed 12 hours ago 61d62d6  @pimpmaneaton Add systemui restart to a few of my switches  … pimpmaneaton committed a day ago 2f58cb7  @varund7726 Revert "Scrollable Small QS tiles [2/2]"  … varund7726 committed 13 hours ago 8b0075b
+ ▪ d7e63ce fix
+ ▪ 3e76d7a Changes to battery
+ ▪ 375629f rearange the tweaks
+
+ ▪ project vendor/cm/
+ ▪ bc6b9cc rr.sh
+ ▪ fdb74a8 fix
+ ▪ 3158b9c Merge branch 'OMS' of github.com:KillerDroid96/android_vendor_resurrection into OMS
+ ▪ bb9c8dc update
+
+ ▼ 02/20/2017
+
+
+ ▪ project build/
+ ▪ cce9084 N4F26O
+
+ ▪ project device/huawei/angler/
+ ▪ 7ad908e Update device.mk
+
+ ▪ project device/qcom/common/
+ ▪ 2f412a4 Revert "Revert "extractors: Add msm8996 32bit libmm-disp-apis and libmm-qdcm""
+ ▪ ea99b0c extractors: Update msm8996 graphics blobs info
+
+ ▪ project frameworks/av/
+ ▪ 1329359 revert security patch
+ ▪ 8a8effc Effect: Use local cached data for Effect commit
+ ▪ 7b27499 Fix security vulnerability: potential OOB write in audioserver
+
+ ▪ project frameworks/base/
+ ▪ 5d0f7e0 update
+ ▪ b2179c9 update
+ ▪ 8f0c496 Base: Add a switch to show battery bar on ambient display
+ ▪ 5eed0a9  SystemUI: Hide batterybar on Ambient Display
+
+ ▪ project frameworks/native/
+ ▪ 354d1fb Fix SF security vulnerability: 32706020
+ ▪ d52d966 Correct overflow check in Parcel resize code
+ ▪ f11ae81 Fix security vulneratibly 31960359
+
+ ▪ project libcore/
+ ▪ c67aa65 Fix URL parser may return wrong host name
+ ▪ 21570f4 Fix URL parser may return wrong host name
+
+ ▪ project packages/apps/OmniClock/
+ ▪ b299ed9 OmniClock: fix NPE with random music mode
+
+ ▪ project packages/apps/Settings/
+ ▪ b4ac2ea update
+ ▪ 6a7df7b Rearanged and named some stuff under Tweaks
+ ▪ 889be2f update
+ ▪ deba968 Moved Magisk to Tweaks
+ ▪ e6ef33c update
+ ▪ 1131c8e update
+
+ ▪ project packages/apps/Snap/
+ ▪ b2f33fa Snap: Allow switching beyond just 2 cameras
+
+ ▪ project vendor/cm/
+ ▪ 2b393cb Update 00banner
+ ▪ 2a4011a update
+
+ ▪ project vendor/qcom/binaries/
+ ▪ f293bf5 msm8996: graphics: Update to LA.UM.5.5.r1-02200-8x96.0
+
+ ▼ 02/19/2017
+
+
+ ▪ project android/
+ ▪ 5c4d36b Remove cm updater
+
+ ▪ project build/
+ ▪ aafe3ae fix
+ ▪ 461a448 Merge pull request #2 from pimpmaneaton/n7.1
+
+ ▪ project device/huawei/angler/
+ ▪ 4684e88 update
+
+ ▪ project frameworks/base/
+ ▪ de6e921 update
+ ▪ c6fa500 update
+ ▪ 1480baf Revert "base: SystemUI: adjust quickbar tile gap"
+ ▪ 7e37c9f Fix new tiles
+ ▪ 9b30c20 Wired headset: make ringtone audio focus customizable
+ ▪ cbde21d update
+ ▪ 830a867 Revert "base: protect zen mode against mailicious setRingerMode"
+ ▪ 54dc002 base: SystemUI: add assist and voice assist qs tile
+ ▪ 69b0fd2 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ b9b8cae base: SystemUI: adjust quickbar tile gap
+ ▪ 96b0ccf base: SystemUI: dont hide navbar for screenshot crop
+ ▪ db574bc Set external QS tiles tint mode to SRC_ATOP
+ ▪ 0e4a12f SystemUI: Fix QS tiles fancy animation layout glitch and mergin
+ ▪ 23cccea Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 6563090 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ e300fe4 SystemUI: Fix QS tiles fancy animation layout glitch and mergin
+ ▪ 88ac266 SystemUI: Fix QS tiles fancy animation glitch and layouts
+ ▪ 12d2285 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 427f1f2 BatteryMeterDrawable: Add Missing Pulgged In Intialization
+ ▪ f8bfe83 Hide Lockscreen emergency button [1/2]
+ ▪ 356cbbd Base: bring back restart action
+ ▪ cae3cf0 Notification tint: add optional findContrastColor algorithm for dark backgrounds
+ ▪ 9b32646 Solid battery: Bring back pulsing animation
+ ▪ 0eac40c Unlock keystore with fingerprint after reboot (1/2)
+ ▪ 51a1167 Base: Update navigation button sizes and some drawables
+ ▪ 5c74531 Expose lockscreen bottom shorcut phone inner bg and text colors
+
+ ▪ project frameworks/opt/telephony/
+ ▪ 0b919c8 Merge pull request #1 from pimpmaneaton/n7.1
+
+ ▪ project hardware/qcom/fm/
+ ▪ 6337276 Automatic translation import
+
+ ▪ project hardware/samsung/
+ ▪ a9d8bf6 libril: use responseInts for LAST_CALL_FAIL_CAUSE on Exynos4
+ ▪ dd8a369 audio: Improve logging in out_set_parameters()
+ ▪ 49b9dcb audio: Implement WB_AMR callback correctly
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 9b36fdc Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ eb3c609 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ d4d47ff Automatic translation import
+
+ ▪ project packages/apps/DUI/
+ ▪ acfc858 Merge pull request #14 from pimpmaneaton/n7.1
+ ▪ e8d8b3f Resize the left and right drawables that I use.
+ ▪ bc4ecf1 Update edit mode button & fix action list pressed color
+ ▪ a41bc9a Update navigation button sizes and some drawables
+
+ ▪ project packages/apps/Gello/
+ ▪ 3b6a6cf Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 3d92b85 Automatic translation import
+ ▪ 17585c7 Dismiss notification when corresponding recording is deleted
+ ▪ 42faf20 Fix last recording duration string
+
+ ▪ project packages/apps/Settings/
+ ▪ 5c7474e update
+ ▪ 45395a5 update
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 3ecb352 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ f7854a1 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 72900fa Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ b978855 Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ e84d46c Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 1e11ba5 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ 83729e0 Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ 01c3940 Automatic translation import
+
+ ▪ project packages/services/Telecomm/
+ ▪ 8acf981 Wired headset: make ringtone audio focus customizable [3/3]
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ 32b32a4 Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ 6b4875a Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ 78defda Update common.mk
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 7e1dd7c Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 2badf2f Automatic translation import
+
+ ▪ project vendor/samsung/
+ ▪ ae0791b nobleltetmo: Initial audio blob import from M
+ ▪ ce681ce noblelte: Remove ES804 firmware
+ ▪ 0d73d54 noblelte: Import OMX blobs from N
+ ▪ 8bd2cb2 noblelte: Update camera blobs from N
+ ▪ 09b4c65 noblelte: Update NXP audio processing blobs from N
+ ▪ 1f7b4dd noblelte: Disable FP HAL for now
+ ▪ 8823ca5 noblelte: Import Widevine blob from Nougat
+ ▪ e460d3f hero: add DRM blobs
+
+ ▼ 02/18/2017
+
+
+ ▪ project build/
+ ▪ 0b50d21 fix
+ ▪ a508c1a merge
+ ▪ 99a8833 merge
+ ▪ c6782d6 Don't need to see all this stuff
+ ▪ 22ae3d3 Use Google Nexus Audio Files [2/3]
+ ▪ e9fbb22 make all builds deodexed
+ ▪ c8c74a6 user builds: set ro.debuggable=1, ro.secure=0
+ ▪ 1da0160 Add our useful clean options
+ ▪ 8c7aac3  Build: Switch to Magisk as the built in root [2/2]
+ ▪ b9d23f2 Merge branch 'OMS' of github.com:KillerDroid96/android_build into OMS
+ ▪ 82f9b54 Magisk
+ ▪ ed9dc49 Build : Evo-merge - Switch to rebased
+
+ ▪ project device/huawei/angler/
+ ▪ 6123d5d fix typo
+
+ ▪ project frameworks/av/
+ ▪ 56f3678 Add AC4 audio format
+
+ ▪ project frameworks/base/
+ ▪ c51b0ae Base: bring back restart action
+ ▪ d7bdd4d Base: bring back restart action
+ ▪ 3b11c6b Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 95a8e66 Base: Update navigation button sizes and some drawables
+ ▪ aa244c8 update
+ ▪ 6f72aa7 Expose lockscreen bottom shorcut phone inner bg and text colors
+ ▪ 0f14dd8 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ fd6c2ca Expose lockscreen bottom shorcut phone inner background and text colors
+ ▪ a41d1ca Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 40544be Fix build after rebase
+ ▪ 9d5595c Merge branch 'OMS' of github.com:KillerDroid96/android_frameworks_base into OMS
+ ▪ 8ca6920 merge
+
+ ▪ project frameworks/native/
+ ▪ d85e6c4 update
+
+ ▪ project frameworks/opt/telephony/
+ ▪ da7238e update
+ ▪ 91e1c18 Fw_opt_tel - National Data Roaming [2/3]
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 58e3eb1 Merge pull request #5 from pimpmaneaton/n7.1
+ ▪ 3b752b4 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ e5b6dcc Themes: Define back arrow tint color for themes
+ ▪ 957a1bd Merge pull request #4 from pimpmaneaton/n7.1
+ ▪ 79ffdb1 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project packages/apps/Dialer/
+ ▪ b0c3eba Merge pull request #2 from pimpmaneaton/n7.1
+ ▪ 3a1efd6 More switches
+ ▪ 9b02322 Dialer - InCallUI: Add a controller for in-call proximity sensor (2/3)
+ ▪ 33cf195 Dialer - Flip to Mute/Reject Call [3/3]
+ ▪ 712ea05 Make them switches
+ ▪ 9313e65 Call recording encoder/format choice 1/3
+ ▪ 9b08855 Add settings compact view mode
+ ▪ 0b5e2ce Enable call recording
+ ▪ 58c3f5e Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ ab9b6ce Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 85be705 Dialer : Evo-merge - Switch to rebased
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 1ce2da6 stop incorrectly showing unknown sources prompt
+ ▪ 56f1e98 PackageInstaller: make permissions fragment header match settings style
+ ▪ 4753497 PackageInstaller: Fix FC when tapping on a downloaded apk notification 2
+ ▪ 6b77580 PackageInstaller: Show current & new version
+
+ ▪ project packages/apps/Settings/
+ ▪ 8565a29 update
+ ▪ 375e40a fix
+ ▪ 1bdc888 merge
+ ▪ 6448a9e merge
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 765f0e6 SetupWizard: Include tests makefile
+
+ ▪ project packages/apps/Snap/
+ ▪ f098f1a Snap: CaptureModule: fix preview being invisible on first start
+ ▪ 21bc834 CaptureModule: Fix UI.
+ ▪ ec6475e Snap: CaptureModule: re-apply flash setting when disabling manual iso
+ ▪ f17e127 Snap: CaptureModule: check if ZSL is supported before using it
+ ▪ 27f8676 Snap: CaptureModule: enable noise reduction
+ ▪ 5710a02 Snap: CaptureModule: enable redeye reduction
+ ▪ b6b13fc Snap: CaptureModule: enable and fix manual iso control
+ ▪ ebd135d Snap: CaptureUI: remove camera2 option
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 5141924 MediaScanner behavior on boot [1/3]
+
+ ▪ project packages/services/Telephony/
+ ▪ 7409e2c Make some switches
+ ▪ fef0934 Call recording encoder/format choice 2/3
+ ▪ f433216  Services_Telephony - Proximity speaker [2/3]
+ ▪ 959a144 Telephony Service - Add a controller for in-call proximity sensor (3/3)
+ ▪ 2f816b4  Services_Telephony - National Data Roaming [3/3]
+ ▪ 93de8db Suspend Actions [2/3]
+ ▪ b91972a services/Telephony - Flip to Mute/Reject Call [2/3]
+
+ ▪ project system/core/
+ ▪ a984392 Merge pull request #7 from pimpmaneaton/n7.1
+ ▪ 9c7755a Clean up CLOEXEC in qtaguid.
+ ▪ 645fe47 Disable ALOGD and ALOGI messages in NDEBUG builds
+ ▪ 577ee06 Change Permissions to CPUs/Governors
+ ▪ 215ac36 libutils: Use Python newer than 2.6
+ ▪ c261b62 healthd: increase healthd fast timer to 10mins instead of 1min
+ ▪ 296a47f Don't go busy loop when waiting child process.
+ ▪ d02a85d init.rc: don't start console unless asked to
+ ▪ b01b444  Create "theme extras" directory
+ ▪ 4743320 cutils: realtime scheduler class support
+
+ ▪ project system/media/
+ ▪ 0709965 Add AC4 audio format
+
+ ▪ project system/sepolicy/
+ ▪ 5741c7c Allow apps in /system/priv-app to call and execute su commands
+ ▪ 3c82478 system_app.te: Give permissions for using sdcardfs
+
+ ▪ project vendor/cm/
+ ▪ 5839982 typo
+ ▪ b197b0f added AmazeFileManager
+ ▪ 31b4980 fix
+ ▪ 61a92b7 update
+
+ ▪ project vendor/cmsdk/
+ ▪ 31c2ad7 Merge pull request #10 from pimpmaneaton/n7.1
+ ▪ 0eddb4b Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ e28fc9d RemotePreferenceManager: Fix receiver registration issues.
+
+ ▪ project vendor/samsung/
+ ▪ 97afd66 noblelte: Hexedit libsec-ril for N
+ ▪ fa94304 gts210ltexx: Hexedit libsec-ril for N
+ ▪ f567815 Revert "gts2: Import WiFi NVRAM calibration"
+
+ ▼ 02/17/2017
+
+
+ ▪ project android/
+ ▪ 0bf770a cm: Remove ahbottomnavigation library
+
+ ▪ project art/
+ ▪ 8b76e42 Disable FDO_SUPPORT [1/2]
+
+ ▪ project external/skia/
+ ▪ 3692d49 Skia: Disable FDO_SUPPORT [2/2] *this allows ccache to work on art/skia and increases build times by 10+ minutes
+
+ ▪ project frameworks/av/
+ ▪ fdb0874 Forward Port: Add Camera sound toggle [3/3]
+
+ ▪ project frameworks/base/
+ ▪ 3d16128 Base : Evo-merge - Switch to rebased
+ ▪ f09356a Merge branch 'OMS' of github.com:KillerDroid96/android_frameworks_base into OMS
+ ▪ ffccefb update
+ ▪ de3dace Merge pull request #41 from pimpmaneaton/n7.1
+ ▪ 1e982ce  **wip**Wired headset: make ringtone audio focus customizable [1/2]
+
+ ▪ project frameworks/opt/cards/
+ ▪ 8d54ddf Merge pull request #1 from ashoksoni/nougat
+ ▪ 645b533 Fix card header title centering when panel size != 100%
+
+ ▪ project hardware/samsung/
+ ▪ 3ac2971 macloader: Fix default NVRAM param path
+
+ ▪ project packages/apps/CMParts/
+ ▪ 30d0737 Merge pull request #11 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/CellBReceiver/
+ ▪ 01107bb Fix build
+ ▪ dea0323 Make these switches as well
+ ▪ 5a70098 Merge remote-tracking branch 'lin/cm-14.1_prerebase' into n7.1
+
+ ▪ project packages/apps/Contacts/
+ ▪ 64c4ae1 Contacts : Evo-merge - Switch to rebased
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 607ba88 Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ beeea9e ContactsCommon : Evo-merge - Switch to rebased
+
+ ▪ project packages/apps/DUI/
+ ▪ a2eb77d Merge pull request #13 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/Dialer/
+ ▪ e3620c3 More switches
+ ▪ 8c3cdb8 Make them switches
+
+ ▪ project packages/apps/Messaging/
+ ▪ 0a5e5a6 [5/6] Breathing missedcall/sms/voicemail
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ c00ed20 PhoneCommon : Evo-merge - Switch to rebased
+
+ ▪ project packages/apps/Settings/
+ ▪ 4b4ab9a update
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ fc2ca45 SetupWizard: Allow skip of optional screens
+
+ ▪ project packages/apps/Snap/
+ ▪ b8af8f1 Snap: detect and use Camera2 if available
+
+ ▪ project packages/apps/StorageManager/
+ ▪ 195baec Expose storage manager settings colors
+
+ ▪ project packages/services/Telecomm/
+ ▪ 10fcc02 [2/6] Breathing missedcall/sms/voicemail
+
+ ▪ project packages/services/Telephony/
+ ▪ 727f23a [3/6] Breathing missedcall/sms/voicemail
+ ▪ d355384 Fix Lte Tile
+
+ ▪ project system/core/
+ ▪ 5c0fc72 Lockscreen charging info: real time values [2/4]
+
+ ▪ project system/sepolicy/
+ ▪ fdbb439 Add policy to SELinux to allow ViPER4Android in enforcing mode
+ ▪ 4e02d8a OMS7-N: Add service 'overlay' to service_contexts
+ ▪ fa7ebe9 RR: 7.1 fix
+ ▪ b8bdccb sepolicy: Allow platform_app to run su_exec() (1/2)
+ ▪ 746fc82 sepolicy: Allow system_server to run su_exec() (1/2)
+ ▪ 247cd63 sepolicy: Allow system_app to run su_exec()
+ ▪ e4ab1c0 sepolicy: Allow remount /system
+
+ ▪ project vendor/cm/
+ ▪ 8a65cfe update
+
+ ▪ project vendor/cmsdk/
+ ▪ 356dc69 Merge pull request #9 from pimpmaneaton/n7.1
+
+ ▼ 02/16/2017
+
+
+ ▪ project device/qcom/sepolicy/
+ ▪ e4fb9ea Bluetooth: Remove stray characters
+
+ ▪ project frameworks/base/
+ ▪ 29eb6b4  Battery bar: blend colors between full/empty [1/2]
+ ▪ 25ec7d8 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ d2ed3ab Change how the switch is handled
+ ▪ f134f36 Make a switch to use either the stock battery color arrays or colorful arrays
+
+ ▪ project hardware/qcom/fm/
+ ▪ d7414fe Automatic translation import
+
+ ▪ project hardware/samsung/
+ ▪ 037d077 Automatic translation import
+ ▪ dde54c0 audio: Fix get_snd_device_name() for earpiece
+ ▪ 130da9f audio: Cleanup and fix voicecall preparation
+ ▪ 8794541 macloader: Add one more SEMCO3RD half address
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 8a090b9 Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ cdac44d Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ 2191b83 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project packages/apps/Calendar/
+ ▪ 2779aa2 Automatic translation import
+
+ ▪ project packages/apps/CertInstaller/
+ ▪ 2062efc Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ d3f1777 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project packages/apps/DUI/
+ ▪ 55eaf36  Smartbar Spring button animation: make it less springy
+
+ ▪ project packages/apps/Dialer/
+ ▪ cb77a6e Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project packages/apps/Eleven/
+ ▪ f9fe670 Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ af5fd12 Automatic translation import
+
+ ▪ project packages/apps/EmergencyInfo/
+ ▪ 5f291a2 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ dec5cbc Automatic translation import
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ b947f4c Automatic translation import
+
+ ▪ project packages/apps/KeyChain/
+ ▪ 25cd354 Automatic translation import
+
+ ▪ project packages/apps/ManagedProvisioning/
+ ▪ e3d6ed5 Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ 6a0f388 Automatic translation import
+
+ ▪ project packages/apps/Nfc/
+ ▪ 9748287 Automatic translation import
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 6c0e26f Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 1b9ae02 Automatic translation import
+
+ ▪ project packages/apps/SafetyRegulatoryInfo/
+ ▪ e2b1567 Automatic translation import
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 4161a57 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 198d1f8 Automatic translation import
+
+ ▪ project packages/apps/Stk/
+ ▪ 05fec2e Automatic translation import
+
+ ▪ project packages/apps/Tag/
+ ▪ bc4fdb8 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ 476eed2 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 03fa940 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ e66a6c4 Automatic translation import
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ 235345a Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 95836eb Automatic translation import
+
+ ▪ project packages/providers/BookmarkProvider/
+ ▪ cb94ffa Automatic translation import
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ 9d234c9 Automatic translation import
+
+ ▪ project packages/providers/CallLogProvider/
+ ▪ c09b8a7 Automatic translation import
+
+ ▪ project packages/providers/ContactsProvider/
+ ▪ b57ce09 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ e3b13c9 Automatic translation import
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 8cb59e5 Automatic translation import
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ 4cccef4 Automatic translation import
+
+ ▪ project packages/providers/UserDictionaryProvider/
+ ▪ e1a7789 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ b9a3008 Automatic translation import
+
+ ▪ project packages/screensavers/Basic/
+ ▪ 4e39499 Automatic translation import
+
+ ▪ project packages/screensavers/PhotoTable/
+ ▪ f99b33f Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ e953031 Automatic translation import
+
+ ▪ project packages/services/Telecomm/
+ ▪ 07399be Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ 5163191 Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ 1717578 Automatic translation import
+
+ ▪ project vendor/cmsdk/
+ ▪ 9361c84 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ d5ca09b Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 60dd98e Automatic translation import
+
+ ▪ project vendor/samsung/
+ ▪ f773617 Revert "klte-common: Switch to shared graphics driver repository"
+ ▪ 6e77a72 t0lte: Patch libsec-ril.so to use audioserver instead of mediaserver
+ ▪ 45a17a0 klte-common: Add aptx blobs
+
+ ▼ 02/15/2017
+
+
+ ▪ project build/
+ ▪ 6e38819 core: Output full OTA package path to terminal
+ ▪ de7eac8 Revert "Allow to force disable block based OTAs"
+ ▪ 513a1e8 Allow to force disable block based OTAs
+ ▪ e6970b4 releasetools: Generate recovery-from-boot.p with bsdiff if necessary
+ ▪ 4ccb660 dumpvar: Dump RECOVERY_VARIANT if not empty
+ ▪ c07ae38 bacon: strip absolute PRODUCT_OUT path from md5sum file
+ ▪ 4c892a9 Add dumpvar for WITH_SU
+
+ ▪ project device/qcom/common/
+ ▪ cb1c51f Revert "extractors: Add aptX & aptXHD to confirmed platforms"
+ ▪ 8685a57 cryptfs_hw: Move to vendor/qcom/opensource/cryptfs_hw
+
+ ▪ project device/samsung/jf-common/
+ ▪ 8faaf19 jf: address some rild denials
+
+ ▪ project frameworks/base/
+ ▪ 4fbe352 Introduce battery meter coloring
+ ▪ 071683e Add back data saver long click action
+ ▪ 3af849e Merge branch 'OMS' of github.com:KillerDroid96/android_frameworks_base into OMS
+ ▪ 1635606 test
+ ▪ 9fa418b Show infinity for large notification counts
+ ▪ c26d671 Don't reposition the clock when pulling down the notification bar
+ ▪ 671b088 Automatic translation import
+ ▪ 9da4680 Automatic translation import
+
+ ▪ project hardware/libhardware/
+ ▪ a9bb3f7 hardware: power: Remove POWER_HINT_AUDIO
+ ▪ fcd7a60 Revert "power: Add support for camera preview in powerHAL"
+
+ ▪ project hardware/samsung/
+ ▪ 74c317d audio: Guard WB_AMR callback
+ ▪ e005881 libsecril-client: Rename SOUND_AUDIO_PATH_HANDSET to EARPIECE
+ ▪ e6286b9 audio: Rename HANDSET to EARPIECE to follow libsecril-client
+ ▪ 86f7ea8 Revert "audio: Disable voice log by default"
+ ▪ f114e2e audio: Use labs() instead of abs()
+
+ ▪ project packages/apps/CMParts/
+ ▪ be502fd Automatic translation import
+ ▪ 5745690 CMParts: strings: Fix indentation
+ ▪ d0cb33a CMParts: gestures: Specify a qualified user for update broadcast
+ ▪ 570b5e5 Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ b59f482 Improve CAF strings
+ ▪ 80a82b0 Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ e15f1f5 Automatic translation import
+ ▪ 00d6890 Improve CAF strings
+
+ ▪ project packages/apps/Dialer/
+ ▪ 7cf8f61 Automatic translation import
+ ▪ cc91b7a Fix tab layout for DSDA.
+ ▪ 2d4800d Automatic translation import
+ ▪ dbd2df8 Improve CAF strings
+ ▪ a07aadb Automatic translation import
+ ▪ 58f308b Automatic translation import
+ ▪ f4ee8ae Automatic translation import
+ ▪ 6188691 Automatic translation import
+
+ ▪ project packages/apps/OmniClock/
+ ▪ 10a708d OmniClock: fix NPE for old legacy alarms without stored name
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 54ff9b7 Automatic translation import
+ ▪ 3fb43dd Automatic translation import
+ ▪ 48d0efd Automatic translation import
+ ▪ 3082767 Automatic translation import
+ ▪ eb4e879 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 47f3740 update
+
+ ▪ project system/extras/
+ ▪ b76b440 extras: Remove su, we have our own
+
+ ▪ project system/vold/
+ ▪ 25ea9c3 vold: Update path to cryptfs_hw
+
+ ▪ project vendor/cmsdk/
+ ▪ 4b726a1 RemotePreferenceManager: Fix receiver registration issues.
+ ▪ e0fde0e Automatic translation import
+
+ ▪ project vendor/qcom/binaries/
+ ▪ 5280d5c Revert "bluetooth: Add aptX & aptXHD to comfirmed platforms"
+
+ ▪ project vendor/samsung/
+ ▪ fafe418 n1awifi: Add noise suppression blobs
+
 
 ▼ 02/11/2017
 
