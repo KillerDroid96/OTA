@@ -35,7 +35,9 @@
 
 ▼ About
 
-This ROM is heavily based on Resurrection Remix. It started out as just an unofficial project to add OMS-7 to Resurrection Remix but has evolved into something else. Dirty Dragons has many added customizations and is continuely updated with new features. 
+This ROM is heavily based on Resurrection Remix. It started out as just an unofficial project to add OMS-7 to 
+Resurrection Remix but has evolved into something else. Dirty Dragons has many added customizations and is 
+continuely updated with new features. 
 
 ▼ Credits
 
@@ -48,11 +50,13 @@ This ROM is heavily based on Resurrection Remix. It started out as just an unoff
 
 ▼ Special Thanks
 
-This ROM would not be possible without pimpmaneaton. Althrough he is in no way affiliated to this ROM most of the cool features that have been added ive picked from pimpmaneaton. He has also provided help to me more times than I can count. Im new to building ROMs so he has been kinda been my mentor.  
+This ROM would not be possible without pimpmaneaton. Althrough he is in no way affiliated to this ROM most of the
+cool features that have been added ive picked from pimpmaneaton. He has also provided help to me more times than I 
+can count. Im new to building ROMs so he has been kinda been my mentor.  
 
 ############################################################################################################################
 
-▼ Dirty Dragons Changelog
+ ▼ Changelog
 
  ▼ 02/21/2017
 
