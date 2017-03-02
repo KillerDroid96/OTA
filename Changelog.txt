@@ -57,6 +57,737 @@ can count. Im new to building ROMs so he has been kinda been my mentor.
 ############################################################################################################################
 
  ▼ Changelog
+ 
+ ▼ 03/02/2017
+
+
+ ▪ project bootable/recovery/
+ ▪ c82175b Fix "ordered comparison between pointer and zero".
+
+ ▪ project device/qcom/common/
+ ▪ e16dea2 common: remove extractors
+
+ ▪ project device/samsung/jf-common/
+ ▪ 10ed2e0 jf: pull in adreno libs
+ ▪ 5e468fc jf: camera bringup for N
+
+ ▪ project frameworks/base/
+ ▪ d21c53d merge
+ ▪ f8c1284 Merge pull request #55 from pimpmaneaton/n7.1
+ ▪ ae1ca09 Update sidebar background to match recents background
+ ▪ 8fd63a9 Merge pull request #54 from pimpmaneaton/n7.1
+ ▪ e661610 Slim Recent: aosp toggle behavior, one tap to show panel another one for lastapp
+ ▪ d507594 Slim Recent: longpress then drag up/down the app to run it on multiwindow
+ ▪ a87bec0 Slim recents OneHandMode thumbnails: free up memory after crop
+ ▪ 2170421 Slim Recent apps previews: add OneHandMode support
+ ▪ 28de48f Slim Recent: disable all debug logs
+ ▪ a544c67 Slim Recent: cleanup unused code
+ ▪ cc4cc7c Slim Recent: move to BaseStatusBar and add native multiwindow capatibility
+ ▪ 90e5a65 Slim Recent: remove slimscreenpinning, we run the aosp one
+ ▪ bc87935 Slim recents: make longpress options size better when small
+ ▪ bae474d Slim Recent: set to 15 max apps as default [1/2]
+ ▪ 08b9579 Slim Recent: default panel color: pixelblue (a bit transparent) [1/2]
+ ▪ 1d002c6 Slim Recent: pinch-in to clear all: pixelblue warning color, 0.7f opacity
+ ▪ f8ace9c Slim Recent: fix scroll lag when Auto Expand and improve RecyclerView performances
+ ▪ 90f58ab Slim Recent: always set auto color for cards background [1/2]
+ ▪ eff94ed Slim recent: smaller card text and don't zoom it out when panel scale >100%
+ ▪ f6cd016 Slim Recent: materialoze card text font
+ ▪ 07a3f11 Slim Recent: always use automatic text color for card header [1/2]
+ ▪ 50d78b5 Slim Recent: remove card shadow for a cleaner UI
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ c01c8f0 AVRCP: Add null pointer check
+
+ ▪ project packages/apps/Settings/
+ ▪ fb60569 merge
+ ▪ 6496b4b merge
+ ▪ bff3b5c merge
+ ▪ 268e482 merge
+
+ ▪ project prebuilts/clang/host/linux-x86/3.9.1/
+ ▪ ca22547 Clang 3.9.1: 20170302
+
+ ▪ project prebuilts/clang/host/linux-x86/5.0.0/
+ ▪ 9aefe33 Clang 5.0.0: 20170302
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ bc26394 aarch64-linux-android 6.3.1: 20170302
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 74eff3e arm-linux-androideabi 6.3.1: 20170302
+
+ ▪ project vendor/samsung/
+ ▪ 61b6ea2 jf: pull in adreno libs and regen makefiles
+ ▪ 27d93b6 noblelte: Revert MALI GLES to r7p0
+ ▪ 2f7a334 noblelte: Revert libsec-ril to M
+ ▪ 81bd868 noblelte: Update blobs from N920CXXU3CQB5
+ ▪ e7cfb37 d2: hex-edit libsec-ril.so for audioserver
+ ▪ fab481f d2-common: Steal bullhead widevine
+
+
+ ▼ 03/01/2017
+
+
+ ▪ project android/
+ ▪ e42d809 Fix derp
+ ▪ b277e8e Track OmniJaws
+
+ ▪ project build/
+ ▪ e5047b2 update
+
+ ▪ project device/huawei/angler/
+ ▪ f7a3bcd merge
+
+ ▪ project device/samsung/jf-common/
+ ▪ 5e468fc jf: camera bringup for N
+
+ ▪ project frameworks/base/
+ ▪ 8fd63a9 Merge pull request #54 from pimpmaneaton/n7.1
+ ▪ e661610 Slim Recent: aosp toggle behavior, one tap to show panel another one for lastapp
+ ▪ d507594 Slim Recent: longpress then drag up/down the app to run it on multiwindow
+ ▪ a87bec0 Slim recents OneHandMode thumbnails: free up memory after crop
+ ▪ 2170421 Slim Recent apps previews: add OneHandMode support
+ ▪ 28de48f Slim Recent: disable all debug logs
+ ▪ a544c67 Slim Recent: cleanup unused code
+ ▪ cc4cc7c Slim Recent: move to BaseStatusBar and add native multiwindow capatibility
+ ▪ 90e5a65 Slim Recent: remove slimscreenpinning, we run the aosp one
+ ▪ bc87935 Slim recents: make longpress options size better when small
+ ▪ bae474d Slim Recent: set to 15 max apps as default [1/2]
+ ▪ 08b9579 Slim Recent: default panel color: pixelblue (a bit transparent) [1/2]
+ ▪ 1d002c6 Slim Recent: pinch-in to clear all: pixelblue warning color, 0.7f opacity
+ ▪ f8ace9c Slim Recent: fix scroll lag when Auto Expand and improve RecyclerView performances
+ ▪ 90f58ab Slim Recent: always set auto color for cards background [1/2]
+ ▪ eff94ed Slim recent: smaller card text and don't zoom it out when panel scale >100%
+ ▪ f6cd016 Slim Recent: materialoze card text font
+ ▪ 07a3f11 Slim Recent: always use automatic text color for card header [1/2]
+ ▪ 50d78b5 Slim Recent: remove card shadow for a cleaner UI
+ ▪ 724b205 Merge pull request #53 from pimpmaneaton/n7.1
+ ▪ 0deeb75 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 9fa1c0e Reset battery stats [1/2]
+ ▪ a5d90f2 [1/2] base: SystemUI: OmniJaws qs tile integration
+ ▪ b67a780 Add kill button to notification guts [1/2]
+ ▪ 7a84069 [1/2] base: SystemUI: config to hide status bar on lock screen
+ ▪ 7d12cee ImageHelper: take into account drawables might be none of BitmapDrawable or VectorDrawable
+ ▪ 6f4a7cd Slim recents: don't show content when device is locked
+ ▪ 775e4a7 Slim recents app sidebar [1/2]
+ ▪ 4061768 Slim recents: fix sometimes missing entries
+ ▪ 3068b2a Merge pull request #52 from pimpmaneaton/n7.1
+ ▪ 9bf7946 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ 610f5f5 Revert "visualizer: do not apply calibration on audio routed to afe proxy"
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ c01c8f0 AVRCP: Add null pointer check
+
+ ▪ project packages/apps/Settings/
+ ▪ bff3b5c merge
+ ▪ 268e482 merge
+ ▪ 6087294 Merge Add summary to App ops dashboard tile Automatic translation import Edit a string Add Slim Dslv Classes and Fix Slim Recent Sidebar Settings: Fix Configurations FC Settings: add OmniJaws config Reset battery stats [2/2] Kill button for notification guts - setting [2/2] [2/2]Settings: config to hide status bar on lock screen Slim recents app sidebar [2/2] Automatic translation import Add summary to App ops dashboard tile Add in vector for app ops Reset battery stats [2/2] DERP
+
+ ▪ project prebuilts/clang/host/linux-x86/5.0.0/
+ ▪ 44cad16 Clang 5.0.0: 20170228
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 2cb4a96 aarch64-linux-android 6.3.1: 20170301
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ f83f6c7 arm-linux-androideabi 6.3.1: 20170301
+
+ ▪ project vendor/cm/
+ ▪ 3d87721 merge
+ ▪ 71b47df update
+
+ ▪ project vendor/samsung/
+ ▪ de29313 sltexx: Import Widevine blobs from Nougat
+
+ ▼ 02/28/2017
+
+
+ ▪ project build/
+ ▪ 62be9c4 update
+ ▪ 0604fe8 Security 2-05-17 patch & Optinal Magisk
+
+ ▪ project frameworks/base/
+ ▪ 6dc635e Merge pull request #179 from bhb27/nougat
+ ▪ d971059 Reset battery stats [1/2]
+ ▪ 42045db Base: KeyguardStatusView: Fix weather items NPE
+ ▪ c3dd19e Automatic translation import
+ ▪ 99cf26a Add kill button to notification guts [1/2]
+ ▪ 2f4ca11 Merge pull request #51 from pimpmaneaton/n7.1
+ ▪ 97bae84 [1/2] base: SystemUI: OmniJaws qs tile integration
+
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 59c3951 Revert "Wifi: provide runtime logging option in WifiP2pService"
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ 27c23ef Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.14' into HEAD
+
+ ▪ project hardware/qcom/display-caf/msm8952/
+ ▪ 7b73a21 Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.14' into HEAD
+
+ ▪ project hardware/qcom/media-caf/msm8952/
+ ▪ 726d5c5 Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.14' into HEAD
+
+ ▪ project packages/apps/Dialer/
+ ▪ c42ebe5 Merge pull request #6 from ResurrectionRemix/nougat
+
+ ▪ project packages/apps/OmniJaws/
+ ▪ 872fe27 Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ 2fa3a94 Still want the switch though
+ ▪ 7da08ba Revert "OmniJaws: Materialize UI and change theme to Pixel blue"
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ 0e1269a Merge pull request #17 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ eeefb21 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ a278bec Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 1fe9102 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 19560d1 update
+ ▪ ee7ff9d update
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 50cb6ac SetupWizard: Remove uneeded category
+
+ ▪ project prebuilts/clang/host/linux-x86/4.0.0/
+ ▪ ca1079b Clang 4.0.0: 20170227
+
+ ▪ project prebuilts/clang/host/linux-x86/5.0.0/
+ ▪ 96905e9 Clang 5.0.0: 20170227
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 468aeee aarch64-linux-android 6.3.1: 20170228
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 51949ac arm-linux-androideabi 6.3.1: 20170228
+
+ ▪ project vendor/cm/
+ ▪ 55cba87 update
+ ▪ 8fffed2 New build type & Optional Magisk
+
+ ▪ project vendor/samsung/
+ ▪ f369c97 chagallwifi: Add forgotten nvram files
+
+ ▼ 02/27/2017
+
+
+ ▪ project build/soong/
+ ▪ 469a18a Support path exclusion for native coverage.
+
+ ▪ project frameworks/base/
+ ▪ 62137c4 Move VOLTE Switch with other statusbar switches
+ ▪ 6a8acd4 Replace VOLTE Icon
+ ▪ 2860842 CP Derp
+ ▪ 68826b7 Add VOLTE icon
+
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 1cfcdc1 WiFi: Fix possible NPE
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ 45552c3 hal: Remove duplicated HFP if branch (mismerge)
+
+ ▪ project hardware/qcom/display-caf/apq8084/
+ ▪ 2e2f18a gralloc: Add a switch to use 16 byte pixel alignment
+
+ ▪ project packages/apps/Dialer/
+ ▪ 8b47801 Revert "Use TabLayout for DSDA tabs."
+
+ ▪ project packages/apps/OmniJaws/
+ ▪ ffe09d9 OmniJaws: Materialize UI and change theme to Pixel blue
+ ▪ 0e728a9 [2/2] OmniJaws: set sail to new shores
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ 7cc22e6 Remove more that are in Omni Online wallpapers
+ ▪ 16aa6a3 OmniStyle: use new php file to get image metadata like creator
+ ▪ 4a864a2 OmniStyle: fix remote wallpaper download
+ ▪ 324762f  OmniStyle: add support for online wallpapers
+
+ ▪ project prebuilts/clang/host/linux-x86/5.0.0/
+ ▪ e07b4d7 Initial commit
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 2d7c42d aarch64-linux-android 6.3.1: 20170227
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 044854c arm-linux-androideabi 6.3.1: 20170227
+
+ ▪ project vendor/samsung/
+ ▪ 6dfbdf8 t0lte: Use opensource RIL and remove old blobs
+ ▪ e0f3a37 t0lte: Unify vendor/lib and lib
+
+ ▼ 02/26/2017
+
+
+ ▪ project android/
+ ▪ cc0b06e Temp: Switch to Another masquerade repo
+
+ ▪ project frameworks/base/
+ ▪ 9104834 Merge pull request #50 from pimpmaneaton/n7.1
+ ▪ 280571d base: location: silence log spilling
+ ▪ 1ba1e9a Keyguard: disable logspilling debug
+
+ ▪ project hardware/qcom/audio-caf/msm8960/
+ ▪ 727d95e hal: Update active input stream for Voip when voip input started
+ ▪ 51d45fa audio: acquire lock for compress voip close input/output stream
+
+ ▪ project hardware/qcom/display-caf/apq8084/
+ ▪ 90b39d3 Merge remote-tracking branch 'caf/LA.BF.2.1.2_rb1.16' into cm-14.1-caf-8084
+ ▪ 5e179af Revert "gralloc: Add a switch to use 16 byte pixel alignment"
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ cacb9c9 Merge pull request #16 from pimpmaneaton/n7.1
+ ▪ 366d42b OmniStyle: Added 'Colorful' headers
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 0c7b92a SetupWizard: Fix landscape
+
+ ▪ project packages/apps/Snap/
+ ▪ 774797c Focus only when tapping the preview
+ ▪ 32d2eda Allow to re-open Snap from recent menu
+
+ ▪ project vendor/cm/
+ ▪ 8279007 update
+
+ ▪ project vendor/samsung/
+ ▪ 66bb870 noblelte: Blob out libcamera_metadata
+ ▪ 975dc9e nobleltetmo: Remove prebuilt audio HAL
+
+ ▼ 02/25/2017
+
+
+ ▪ project android/
+ ▪ dc90f5d manifest: android-7.1.1_r9 -> android-7.1.1_r21
+
+ ▪ project build/soong/
+ ▪ 4c46af8 Merge "Updates for the new ckati drop"
+
+ ▪ project device/huawei/angler/
+ ▪ dbeced7 update
+ ▪ cd26a7f update
+
+ ▪ project frameworks/av/
+ ▪ 16b3101 update
+
+ ▪ project frameworks/base/
+ ▪ e7124ad Merge pull request #49 from pimpmaneaton/n7.1
+ ▪ cd3acc4 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 6f7e30a SystemUI: Add config to disable HumanInteractionClassifier
+ ▪ bc9f8ed Automatic translation import
+ ▪ ee49489 Revert "Emergency call button on Swipe lock Screen."
+ ▪ 9dc712a Revert "Hide Lockscreen emergency button [1/2]"
+ ▪ ba9a4bc Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ d00b760 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project frameworks/native/
+ ▪ 67a65ed update
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ 91d32b4 hal: limit ADM sample rate at 48kHz for speaker
+
+ ▪ project hardware/qcom/media-caf/apq8084/
+ ▪ e1c1f5a Merge remote-tracking branch 'caf/LA.BF.2.1.2_rb1.16' into LA.BF.2.1.2_rb1.16
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ d484cab Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ e184091 Merge pull request #13 from pimpmaneaton/n7.1
+ ▪ c49a05a Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ cc00362 CMParts: Restructure status bar settings
+
+ ▪ project packages/apps/Calendar/
+ ▪ 4a2393e Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ e055a35 Automatic translation import
+ ▪ d385e38 Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 61b5ed5 Merge pull request #6 from pimpmaneaton/n7.1
+ ▪ 2e7df5b Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ a205f7e Automatic translation import
+ ▪ bfa8ab1 Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ e044d42 Merge pull request #5 from pimpmaneaton/n7.1
+ ▪ 543ae25 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 33abb31 Automatic translation import
+ ▪ fb85139 Automatic translation import
+ ▪ 3cc3af8 Use TabLayout for DSDA tabs.
+
+ ▪ project packages/apps/Gello/
+ ▪ dea8419 Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ be76523 Automatic translation import
+ ▪ 8d3c467 Merge tag 'android-7.1.1_r21' into cm-14.1
+ ▪ 4c8acd6 Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 952a5f0 Automatic translation import
+ ▪ 0cb1362 Normall -> Normal typo in strings
+
+ ▪ project packages/apps/Recorder/
+ ▪ 7a11f99 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 0f054e2 update
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 66ac309 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 0467f54 Automatic translation import
+ ▪ 48f0e42 Snap: CaptureModule: lock exposure also when precapture trigger is started
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 587aaa1 Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ b953664 Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ 4c049a1 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ bcb0926 Automatic translation import
+ ▪ d4157b3 Automatic translation import
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ e5447e4 aarch64-linux-android 6.3.1: 20170225
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 33dde02 arm-linux-androideabi 6.3.1: 20170225
+
+ ▪ project system/bt/
+ ▪ e17d286 Revert "BT: Modified logging framework for unified logging"
+
+ ▪ project system/core/
+ ▪ 8ee5279 Merge pull request #8 from pimpmaneaton/n7.1
+ ▪ 5e67d0b Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ cf3c8a3 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project system/sepolicy/
+ ▪ 2406cc9 Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ c88f932 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ d3c6052 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project vendor/cm/
+ ▪ aee1a41 update
+
+ ▪ project vendor/cmsdk/
+ ▪ b69bc1c Merge pull request #13 from pimpmaneaton/n7.1
+ ▪ 14916f9 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 8155c99 Automatic translation import
+ ▪ 0c75bfe CMSettingsProvider: remove per-user cursor observation
+
+ ▪ project vendor/qcom/opensource/cryptfs_hw/
+ ▪ 144e832 cryptfs_hw: Add support for is_hw_fde_enabled routine
+
+ ▪ project vendor/samsung/
+ ▪ 06b7dd5 n5120 : remove useless blobs
+
+ ▼ 02/24/2017
+
+
+ ▪ project bionic/
+ ▪ a15dbf3 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project build/
+ ▪ 1e7926f Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ aa5fa52 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 12f3c95 build: always copy recovery.img to BOOTABLE_IMAGES.
+ ▪ 7f28bb3 Add dumpvar for WITH_GMS
+ ▪ 3a95f4b core: include getb64key.py in otatools
+ ▪ 2032d1d ota_from_target_files: CalculateFingerprint when dump fingerprints
+ ▪ f685027 Add dumpvar for WITH_SU
+
+ ▪ project build/kati/
+ ▪ f411ca8 Merge branch 'master' of https://github.com/google/kati into n7.1.1
+ ▪ c76b9f1 Merge pull request #112 from danw/random_affinity
+ ▪ a51ad0b Merge pull request #113 from danw/resilient_find
+ ▪ 5db7f7c Randomize cpu affinity
+ ▪ 4ed8953 Merge branch 'master' of https://github.com/google/kati into n7.1.1
+
+ ▪ project build/soong/
+ ▪ 664806a Merge "Add libwinpthread, link it into win32 binaries."
+ ▪ c38d366 Updates for the new ckati drop
+ ▪ 7bd4c5c Add libwinpthread, link it into win32 binaries.
+
+ ▪ project dalvik/
+ ▪ df22533 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project development/
+ ▪ 132f0a9 Switch from SHA-1 to SHA-256 for new signing key certs.
+
+ ▪ project device/huawei/angler/
+ ▪ 1a800e1 update
+ ▪ 27583ea update
+ ▪ ce624db update
+ ▪ 9edc762 Gapps Fix
+ ▪ 5c5abb9 Gapps Fix
+ ▪ 4001326 Update device.mk
+ ▪ 7cd6364 Update device.mk
+ ▪ c080ecc Gapps built in
+
+ ▪ project device/qcom/common/
+ ▪ 1a1248b power: replace strncpy with strlcpy
+
+ ▪ project device/samsung/jf-common/
+ ▪ 38bbfbe jf: configure lights HAL
+
+ ▪ project frameworks/av/
+ ▪ 78a1d74 update
+
+ ▪ project frameworks/base/
+ ▪ 8d15cc3 Merge pull request #48 from pimpmaneaton/n7.1
+ ▪ c265336 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 1136e8b Change empty recents to show RR icon
+ ▪ 168a183 Merge pull request #47 from pimpmaneaton/n7.1
+ ▪ 676b40a Pulse: allow custom opacity for solid line renderer [2/3]
+ ▪ fd46b3f Pulse: Moar bars for solid line renderer [2/3]
+ ▪ 18426989 Fix slim recents duplicate entries
+ ▪ 80081b8 Ticker: We need to center it horozontal, not vertical
+ ▪ c853642 Ticker: Center Ticker layout vertically in statusbar view
+ ▪ 2a54d2a Fix TaskManager Running services [1/2] (#177)
+ ▪ 0d77137 Fix slim recents duplicate entries
+ ▪ d3ffc88 Set mProximity to PROXIMITY_UNKNOWN on screen off
+ ▪ 7079ae1 Expanded desktop QS: select style on longpress
+ ▪ 4485e71 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ be092ae Fix automatic zen rules.
+ ▪ 6cde8a1 DocumentsUI: use 'Files' icon and text for icon
+ ▪ e9c382a Bluetooth: Fix setting app stoped when unpair device
+ ▪ c96786e Fix automatic zen rules.
+ ▪ 17d6233 DocumentsUI: use 'Files' icon and text for icon
+ ▪ 345f186 Bluetooth: Fix setting app stoped when unpair device
+ ▪ 7407ce6 Revert "Scroll: modified velocitytracker"
+
+ ▪ project frameworks/native/
+ ▪ f788963 update
+
+ ▪ project frameworks/opt/hardware/
+ ▪ ca48b0c Revert "cmhw: Allow LiveDisplay to check if GPU transform is used"
+
+ ▪ project hardware/libhardware/
+ ▪ 721e37c Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project hardware/libhardware_legacy/
+ ▪ ece325e Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project hardware/qcom/audio/default/
+ ▪ bc83ef0 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project hardware/samsung/
+ ▪ e9a44a2 audio: Restart the voice call on device change
+ ▪ 310d199 liblights: add support for adjusting notification LED brightness
+
+ ▪ project libcore/
+ ▪ 7afe9e8 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ f355923 Automatic translation import
+ ▪ f568886 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/apps/CMParts/
+ ▪ 5653c1a Merge pull request #12 from pimpmaneaton/n7.1
+ ▪ b10b80a Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ b6c7f0b CMParts: Fix email and browser intents
+ ▪ 670c2ec Automatic translation import
+ ▪ 2fbcf82 CMParts: Replace variable for setup wizard complete
+ ▪ d02f378 Automatic translation import
+ ▪ e0ed192 CMParts: Add strings for sRGB
+ ▪ 5bb856b Revert "Touchscreen gestures: remove CM Setup Wizard dependency"
+
+ ▪ project packages/apps/Calendar/
+ ▪ 9fcf496 Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ e558614 Use TabLayout for DSDA tabs.
+
+ ▪ project packages/apps/Eleven/
+ ▪ 21bbc9c Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ e29763c Automatic translation import
+ ▪ ce1a995 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/apps/Gello/
+ ▪ d104005 Automatic translation import
+
+ ▪ project packages/apps/Profiles/
+ ▪ 83dd47f Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 814b9b0 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 5a44db6 update
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 9365fb1 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ a1794ca Automatic translation import
+
+ ▪ project packages/apps/TV/
+ ▪ 95adef3 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/apps/Tag/
+ ▪ c2d04dc Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/apps/Terminal/
+ ▪ 8e2999c Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ a2eadaa Automatic translation import
+ ▪ e2ae143 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 151818a Automatic translation import
+
+ ▪ project packages/providers/BlockedNumberProvider/
+ ▪ 6a4e5ff Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ a656734 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 86834db Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 15cc93d Automatic translation import
+
+ ▪ project packages/providers/ThemesProvider/
+ ▪ 16cf3ec Automatic translation import
+
+ ▪ project packages/providers/UserDictionaryProvider/
+ ▪ 88e435c Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 82adbf6 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ f6ceba9 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ 3fddddf Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ e6357f3 Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ 13317b9 Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ c42f6f4 Automatic translation import
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ fdbd99b aarch64-linux-android 6.3.1: 20170224
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 2954d69 arm-linux-androideabi 6.3.1: 20170224
+
+ ▪ project system/security/
+ ▪ 375e02f Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project system/tools/aidl/
+ ▪ 6192de5 Merge tag 'android-7.1.1_r21' into cm-14.1
+
+ ▪ project vendor/cm/
+ ▪ 9c9f1c0 update
+ ▪ baf3735 update
+
+ ▪ project vendor/cmsdk/
+ ▪ 78ba9c7 Merge pull request #12 from pimpmaneaton/n7.1
+ ▪ e8b8c97 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 0859764 cmsdk: Remove launch boost support
+ ▪ 311515b Automatic translation import
+ ▪ dba81b3 Add a proper description for CM_SETUP_WIZARD_COMPLETED deprecation
+ ▪ 6171436 cmsdk: Deprecate CM_SETUP_WIZARD_COMPLETED
+ ▪ 8baffef Automatic translation import
+ ▪ 06db34e Merge pull request #11 from pimpmaneaton/n7.1
+ ▪ e60b4b9 Merge remote-tracking branch 'lin/cm-14.1' into n7.1
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 79b5f88 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ cbd94da Automatic translation import
+
+ ▪ project vendor/huawei/
+ ▪ ace2823 angler: add support for Project Fi
+
+ ▼ 02/23/2017
+
+
+ ▪ project build/kati/
+ ▪ 00d11fa Merge pull request #111 from danw/color_warnings
+ ▪ 6f3f0f4 Be more resilient to directories disappearing during startup
+ ▪ 692e64e Pass a Loc into FindEmulator for better warnings
+ ▪ e41c755 Add --color_warnings to make warnings/errors like clang
+
+ ▪ project build/soong/
+ ▪ 9383f82 Merge "Add preprocessed_ndk_headers."
+ ▪ 3c776d1 Merge "Remove cpusets and schedboost product variables"
+ ▪ d2906e5 Remove cpusets and schedboost product variables
+ ▪ fde8534 Don't use runtime.Version() to find the current go version
+
+ ▪ project device/huawei/angler/
+ ▪ d40b123 Merge branch 'OMS' of github.com:KillerDroid96/android_device_huawei_angler into OMS
+ ▪ bf3c901 update
+
+ ▪ project device/qcom/common/
+ ▪ 2be2684 power: Use POWER_HINT_LAUNCH for launch boosts
+
+ ▪ project frameworks/base/
+ ▪ cebb410 update
+ ▪ a741e94 Scroll: modified velocitytracker
+ ▪ 56335c5 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 1d60e49 Wired headset: make ringtone audio focus customizable [1/3]
+ ▪ 663dcff Fix RTL layout with membar 'free ram' text
+ ▪ 4e668ec revert sp
+ ▪ 0dfe3ec update
+
+ ▪ project frameworks/native/
+ ▪ 4068460 revert sp
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ c205dc8 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.12' into HEAD
+
+ ▪ project hardware/qcom/display-caf/msm8916/
+ ▪ c1f04be Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.12' into HEAD
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ ec61c56 Allow searching in HTMLViewer.
+
+ ▪ project packages/apps/Settings/
+ ▪ 3179a4c update
+ ▪ 4d8ffab update
+ ▪ b11fab6 update
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ ec3dcce SetupWizard: Increment version
+
+ ▪ project packages/services/Telecomm/
+ ▪ 933af0c Merge pull request #2 from ResurrectionRemix/nougat
+ ▪ 49f9cde Wired headset: make ringtone audio focus customizable [3/3]
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 84f5304 aarch64-linux-android 6.3.1: 20170223
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 21653c7 arm-linux-androideabi 6.3.1: 20170223
+
+ ▪ project vendor/cm/
+ ▪ b960421 update
+ ▪ 7ace2d1 update
+
+ ▪ project vendor/cmsdk/
+ ▪ 8f33604 cmsdk: Remove launch boost support
+
 
  ▼ 02/21/2017
 
