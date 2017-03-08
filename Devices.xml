@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	 <angler>
-            <Filename>DD-N-v5.8.2-20170302-angler-KillerDroid96.zip</Filename>
+            <Filename>DD-N-v5.8.2-20170308-angler-KillerDroid96.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download latest Dirty Dragons build">https://www.androidfilehost.com/?fid=673368273298935481
+                description="Download latest Dirty Dragons build">https://www.androidfilehost.com/?fid=457095661767142675
 	    </RomUrl>
             <OpenGappsUrl
                 id="open_gapps"
@@ -16,7 +16,7 @@
 	    <VendorUrl
 		id="vendor"
                 title="Vendor"
-                description="Download latest Vendor Image">https://www.androidfilehost.com/?fid=529152257862704881      
+                description="Download latest Vendor Image">https://www.androidfilehost.com/?fid=529152257862708486      
 	    </VendorUrl>
 	    <Radio_BootloaderUrl
 		id="radio_bootloader"
