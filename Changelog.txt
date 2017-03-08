@@ -58,51 +58,764 @@ can count. Im new to building ROMs so he has been kinda been my mentor.
 
  ▼ Changelog
  
+ 
+ ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
+
+
+ ▼ 03/07/2017
+
+
+ ▪ project build/
+ ▪ 67170d8 Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ 4de4a0b Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project device/huawei/angler/
+ ▪ dea5ac5 angler: Update build id and fingerprint to March 2017 N4F26T
+ ▪ 817666d Disable modem ramdumps
+ ▪ 1a4fd60 Added overides to capitalize Angler and set buid user to KillerDroid96.
+
+ ▪ project external/DUtils/
+ ▪ 92c877d Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ c71f7ea Slim Recent: fix topmost app when using lastapp action
+
+ ▪ project frameworks/av/
+ ▪ 9ca2efa Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ c08c549 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project frameworks/base/
+ ▪ fe5524f Merge pull request #61 from pimpmaneaton/n7.1
+ ▪ ac809c5 VolumeDialog: fix vibrate icon not showing after density change
+ ▪ fe38f6b Partial screenshot: fix SystemUI fc
+ ▪ b6c740c Merge pull request #60 from pimpmaneaton/n7.1
+ ▪ 899eaf0 Use RRUtils
+ ▪ 3cf773e Merge pull request #59 from pimpmaneaton/n7.1
+ ▪ f01f5e4 Slim recents membar: longclick to clear [1/2]
+ ▪ b95abe5 WeatherTile: Start Google Weather on LongClick
+ ▪ 976d8d5 Change string
+ ▪ de602e9 Merge pull request #58 from pimpmaneaton/n7.1
+ ▪ 621dd79 Remove protected broadcast
+ ▪ 5402415 base: Force authorize all calling packages by Masquerade (2/3)
+ ▪ 7d1393f FWB: Give power dialogs own set of volume icons for themes
+ ▪ 14b8e99 OMS: Add hide annotation to MODIFY_OVERLAYS permission
+ ▪ 5832605 OMS7: Rootless Security Update Preparation for March 2017
+ ▪ 38ea3e5 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 164017f Automatic translation import
+ ▪ a534c84 QS: Location Easy Toggle [1/2]
+
+ ▪ project frameworks/native/
+ ▪ 3f13171 Merge pull request #11 from pimpmaneaton/n7.1
+ ▪ 1846321 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project hardware/intel/common/libmix/
+ ▪ a8c22a8 Libmix : Add proper support for LP blobs Asus Zenfone 2 still needs the good old way of setting GrallocMod
+
+ ▪ project hardware/intel/common/omx-components/
+ ▪ 904d128 omx-ccomponents : Zenfone 2 cannot properly utilize flushmode switch to test HandleFormatchange() directly instead of testing flushmode
+
+ ▪ project hardware/intel/img/psb_video/
+ ▪ 2c744ac psb_video : remember good old moorefield
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 938e782 display: Fix ColorMetaData
+ ▪ d5d627d display-caf: msm8996: Use ColorMetaData in SDM in hwc2
+ ▪ 718be10 display-caf: 8996: Add color metadata to libgralloc1
+
+ ▪ project hardware/samsung/
+ ▪ 65c65bd power: Initialize device power paths
+ ▪ d9106e9 power: Cleanup touchkey handling
+
+ ▪ project kernel/huawei/angler/
+ ▪ 3d7118b Merge pull request #4 from pimpmaneaton/n7.1
+ ▪ 0c80833 Merge remote-tracking branch 'franco/nougat' into n7.1
+ ▪ f6c86b8 cpufreq: cache tunables for ondemand and conservative governors
+ ▪ 8976228 lib: lz4: fixed zram with lz4 on big endian machines
+ ▪ 491930f lz4: fix system halt at boot kernel on x86_64
+ ▪ e042f83 lib/lz4: Pull out constant tables
+ ▪ bb2b099 LZ4 : fix the data abort issue
+ ▪ b960e71 lib: lz4: Set ARM_EFFICIENT_UNALIGNED_ACCESS
+ ▪ 0ad765d lz4: add overrun checks to lz4_uncompress_unknownoutputsize()
+ ▪ 621b644 usb: gadget: f_accessory: Fix for UsbAccessory clean unbind.
+ ▪ 23612c3 UPSTREAM: drivers: android: correct the size of struct binder_uintptr_t for BC_DEAD_BINDER_DONE
+ ▪ ca4e28e cpufreq: interactive governor drops bits in time calculation
+ ▪ 28d458d ANDROID: usb: gadget: function: cleanup: Add blank line after declaration
+ ▪ 55de62b perf: Tighten (and fix) the grouping condition
+ ▪ 6ae9c30 ALSA: pcm : Call kill_fasync() in stream lock
+ ▪ 012fb30 ANDROID: ext4 crypto: Disables zeroing on truncation when there's no key
+ ▪ 84e3a14 BACKPORT: commoncap: don't alloc the credential unless needed in cap_task_prctl
+ ▪ d4c0a17 Merge remote-tracking branch 'origin/android-msm-angler-3.10-nougat-mr1.1' into nougat
+
+ ▪ project packages/apps/LockClock/
+ ▪ 480e1a8 Merge pull request #5 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/Messaging/
+ ▪ b0dd8a9 This is now in main colors xml
+ ▪ bf5aa16 Match cm accent to new primary color
+ ▪ 3c9e159 Add 'new message' shortcut using the API introduced in sdk25
+ ▪ 251218d Change color scheme to match our new icon
+ ▪ 70743a0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat
+
+ ▪ project packages/apps/OmniJaws/
+ ▪ 2a455b5 Merge pull request #2 from pimpmaneaton/n7.1
+ ▪ a46d605 Remove Weather icon pack pref
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ c3c0291 Merge pull request #18 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 41ffab6 Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ 95c1039 PackageInstaller: Add tint mode to icons
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ c212c06 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 4b65cc4  Slim recents membar: longclick to clear [2/2]
+ ▪ 0c0a07b Fix screenshot dely
+ ▪ bf5646d Development: Allow all Masquerade calling packages for debugging (3/3)
+ ▪ 6a14c00 Settings: Expose storage icon colors
+ ▪ 3b63a0a Settings: Expose "ALL" hardcoded and @android colors
+ ▪ deaa155 Remove duplicate
+ ▪ 86be6ed Automatic translation import
+ ▪ 0bfa80e Move Slim Recent Sidebar Settings outside sidebar fragment
+ ▪ ab6bafc Settings: Use seekbar to allow setting arbitrary animation values @dwitherell updated to incorporate support friendly internal approach KreAch3R - AnimationScalePreference: better max/default/digits values
+ ▪ 05689e7 Location Easy toggle [2/2]
+ ▪ 14a4f17 Fix Unclickable Color Picker in App Sidebar Settings Fragment
+ ▪ 3601961 Update Build ID to NOF27B
+ ▪ 22dbe9e Revert "Attempting to fix color picker in RecentAppSidebar"
+ ▪ 613fcad Add in option to use new Magical weather icons on lockscreen weather
+ ▪ 6dda96a Attempting to fix color picker in RecentAppSidebar
+ ▪ 71e93da Small edits for summaries (#712)
+ ▪ e84e904 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 404e429 Snap: grant android.permission.RECEIVE_BOOT_COMPLETED permisions
+
+ ▪ project packages/services/Telephony/
+ ▪ c31289e Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ 5e15edf Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project system/sepolicy/
+ ▪ 28ed1e6 Merge pull request #5 from pimpmaneaton/n7.1
+ ▪ a6d89ca Welcome to Theme Interfacer! [2/2]
+ ▪ 31ec6b7 sepolicy: Redo masquerade rules
+ ▪ 51143bb sepolicy: Fix application of bootanimation
+ ▪ 5d42a55 sepolicy: allow masquerade to read and write theme assets
+ ▪ d29661c sepolicy: rename masquerade domain and allow JobService in system_server
+ ▪ aaecdbb initial policy edits for masquerade to operate rootless
+ ▪ b27e8c7 sepolicy: fix themed sounds
+ ▪ d48dd84 sepolicy: fix themed boot animation
+ ▪ 2b2f33c Introduce sepolicy exceptions for theme assets
+
+ ▪ project vendor/cm/
+ ▪ 5719eaa vendor: sepolicy: Add priv_app to neverallow rule
+ ▪ f8a47fa vendor: selinux denials
+ ▪ 18cf5d6 vendor: remove /data/system/theme(/.*)? duplicate
+ ▪ 12df33d From Masqurade to ThemeInterfacer
+
+ ▪ project vendor/huawei/
+ ▪ aa2401b angler: blobs update to March 2017 N4F26T
+
+ ▼ 03/06/2017
+
+
+ ▪ project android/
+ ▪ a80568f  manifest: android-7.1.1_r21 -> android-7.1.1_r25
+
+ ▪ project bootable/recovery/
+ ▪ 9664707 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project build/
+ ▪ 51dfa9b Merge tag 'android-7.1.1_r25' into cm-14.1
+ ▪ 66960a1 build: core: Remove BUILD_TINY_ANDROID checks
+
+ ▪ project external/boringssl/
+ ▪ 956cfef Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project external/libnfc-nci/
+ ▪ 9a85f1a Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project frameworks/av/
+ ▪ 7e3313e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+ ▪ 71a8e2f Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ 713e1cc Merge tag 'android-7.1.1_r25' into nougat
+ ▪ 1ac13b8 Use new Magical weather icons on lock screen
+ ▪ 3b0dcb5 Feature was removed
+ ▪ 05ab4ee Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 6dfe853 SystemUI: Update PB statusbar logo
+ ▪ bd9a2e8 Automatic translation import
+
+ ▪ project frameworks/native/
+ ▪ 7815330 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
+
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 6a3e585 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project packages/apps/CertInstaller/
+ ▪ 938f77d Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project packages/apps/Dialer/
+ ▪ 87c38d0 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ f3cbad7 Revert "Dialer - Flip to Mute/Reject Call [3/3]"
+ ▪ 5cab2bb Automatic translation import
+
+ ▪ project packages/apps/LockClock/
+ ▪ 8a55605 Add in Magical weather icon set
+
+ ▪ project packages/apps/Messaging/
+ ▪ 9796771 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project packages/apps/OmniJaws/
+ ▪ 2c9ddc6  Change Settings to Weather settings
+ ▪ db848d7 OmniJaws: Clean up unused imports, simpify few things
+ ▪ 1bc2743 OmniJaws: Add menu item to search for Chronus icons
+ ▪ d85f05e Fix potential actionbar npe
+ ▪ 3a9291e OmniJaws: manifest add DEFAULT category to activities
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ 4f75a56 Add in Magical weather icons
+
+ ▪ project packages/apps/SnapdragonCamera/
+ ▪ 9f379b0 SnapdragonCamera: Fix offsets for tablet layout
+
+ ▪ project packages/apps/interfacer/
+ ▪ e9e6979 Welcome to Theme Interfacer! [1/2]
+
+ ▪ project packages/services/Telephony/
+ ▪ bd8866c Telephony: Fix mobile network settings for CDMA without LTE
+ ▪ 27600dd Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 3db8fee Remove the Slim flip to mute/dismiss feature
+ ▪ a80560d Merge pull request #7 from ashoksoni/nougat
+
+ ▪ project vendor/samsung/
+ ▪ 9dfe265 t0lte: Clean up unused files and move keylayout to device tree
+ ▪ c1f927c d2refreshspr: Initial commit
+ ▪ bfe75fe hero: add blobs
+
+ ▼ 03/05/2017
+
+
+ ▪ project build/
+ ▪ b0d4859 Merge pull request #2 from pimpmaneaton/n7.1
+
+ ▪ project device/huawei/angler/
+ ▪ e3e449a Merge pull request #4 from pimpmaneaton/n7.1
+
+ ▪ project frameworks/av/
+ ▪ 2999400 Merge pull request #2 from pimpmaneaton/n7.1
+
+ ▪ project frameworks/base/
+ ▪ 0f81414 Fix merge
+ ▪ cd43569 Slim Recent: fix scroll lag when Auto Expand and improve RecyclerView performances
+ ▪ 8a860f9 Slim Recent: materialoze card text font
+ ▪ da71c9d base: deuglify single hand hint ui
+ ▪ 24d322f Remove Cid from PrivacyGuard's notification icon
+ ▪ f0ec560 Merge pull request #57 from pimpmaneaton/n7.1
+
+ ▪ project frameworks/native/
+ ▪ d74b477 Merge pull request #10 from pimpmaneaton/n7.1
+
+ ▪ project hardware/qcom/media-caf/apq8084/
+ ▪ 14eb24c Clean code, avoid warnings
+
+ ▪ project packages/apps/CMParts/
+ ▪ 0866aea Merge pull request #15 from ResurrectionRemix/nougat
+
+ ▪ project packages/apps/DUI/
+ ▪ a41a2a9 Merge pull request #16 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/Settings/
+ ▪ 9939471 Settings: Expose expanded desktop app title text color
+ ▪ 3c514fd New branch with proper commits and all of my changes imported
+ ▪ e36acae Merge pull request #1 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/interfacer/
+ ▪ 5136d71 AndroidManifest: Add protected broadcasts
+ ▪ cf8d545 JobService: new RestartService job
+ ▪ 7714c9b Broadcast authorization result
+ ▪ 6ef1df0 Introducing Signature check in Masquerade (1/3)
+
+ ▪ project packages/services/Telephony/
+ ▪ addae6f Fix window leak when split-screen is released
+
+ ▪ project system/sepolicy/
+ ▪ bdb2730 Merge pull request #4 from pimpmaneaton/n7.1
+
+ ▪ project vendor/cm/
+ ▪ 103ab87 Update README.mkdn
+ ▪ 1bfd8f4 Update README.mkdn
+ ▪ c744441 Generic
+ ▪ d04db86 New branch with proper commits and my changes imported -AdAway -KernelAdiutor -SnapBrowser -SnapdragonGallery -SnapdragonCamera -OmniJaws -OmniClock -Substratum -DirtyDragons bootanimation -DirtyDragons build script -DirtyDragons variant
+ ▪ 8071c21 Merge pull request #5 from pimpmaneaton/n7.1
+
+ ▪ project vendor/cmsdk/
+ ▪ 221b36f Merge pull request #15 from ResurrectionRemix/nougat
+
+ ▼ 03/04/2017
+
+
+ ▪ project frameworks/av/
+ ▪ 93c6eb9 stagefright: allow multiple custom OMXPlugins
+
+ ▪ project frameworks/base/
+ ▪ f855060 Slim Recent: fix scroll lag when Auto Expand and improve RecyclerView performances
+ ▪ ebff64d Slim Recent: materialoze card text font
+ ▪ b2c1b1e Automatic translation import
+ ▪ f3d0a60 base: deuglify single hand hint ui
+ ▪ bf42ca6 Remove Cid from PrivacyGuard's notification icon
+ ▪ 7b63b63  Fix white flash when launching Tuner activities
+ ▪ 1298299 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 7fd882c Automatic translation import
+ ▪ 38696de SystemUI: Expose notification media queue text color
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 1e33348 hal: dolby: Only set C_KEY if ACDB License is enabled.
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ daf6387 policy_hal: Fix mismerges
+ ▪ b19cd09 audio policy: fix capture indication to sound trigger service.
+ ▪ 1a7ddf2 audio policy: fix media volume after ringtone
+
+ ▪ project hardware/qcom/media-caf/apq8084/
+ ▪ 5dc3774 mm-video-v4l12: update stride info for YUV420P and YUV420SP
+ ▪ f0b7ad5 mm-video-v4l2: vdec: fix fps issues in arbitrary mode
+ ▪ c8ff894 apq8084: Kill logspam
+ ▪ 39f5c42 mm-video: venc: Correct a typo in variable name
+ ▪ 5d8cba9 mm-core: Kill logspam
+ ▪ 3d984fa mm-video-v4l2: vidc: vdec: handle flush while codec config ETB for hevc decoder
+ ▪ d526b31 mm-video-v4l2: vdec: Exit if default set format failed for output port also
+ ▪ 87210e9 mm-video: vdec: hevc: Avoid crash while handling extra data
+ ▪ 14561f9 mm-video-v4l2: vidc: vdec: Update stride and scanlines
+ ▪ 7472018 mm-video-v4l2: vidc: vdec: handle codec config ETB's properly
+ ▪ e9d4e08 mm-video-v4l2: vdec: insert timestamps qeued by client in TS queue
+ ▪ 330e37f mm-video-v4l2: vdec: Always send NC VOPS to the driver
+ ▪ 004017b mm-video-v4l2: vdec: streamoff while freeing first output buffer
+ ▪ 8f0cd4d mm-video: vidc: Adjust timestamp if actual ts < previous ts
+ ▪ ee8caaa mm-video-v4l2: vidc: Amend debug log macros
+ ▪ 1ea52b2 mm-video-v4l2: vdec: skip fillbuffer in port reconfiguration
+ ▪ ed01934 mm-video: vidc: Avoid setting invalid timestamp of eos NAL
+ ▪ 839e27b mm_video: vidc: Update buffer geometry with stride and scanline
+ ▪ c0dbc19 mm-video-v4l2: vidc: Enforce non-negative timestamp deltas
+ ▪ b924473  mm-video: vdec: hevc: hybrid: Call request buffer after configure
+ ▪ 3e183ef mm-video-v4l2: vdec: fix invalid stride and scanlines issue
+ ▪ 8daba65 mm-video: vdec: Get updated resolution along with output buffers
+ ▪ 264baf9 mm-video: vdec: Correct video driver's crop parameters handling
+ ▪ 6c3734d mm-video: Release driver buffers correctly
+
+ ▪ project hardware/samsung/
+ ▪ f154b17 lights: Add a log tag
+ ▪ 209f5de lights: Cleanup read/write API
+ ▪ b5b9500 lights: Remove superfluous log newlines
+ ▪ 354f713 power: Remove superfluous log newlines
+
+ ▪ project packages/apps/CMParts/
+ ▪ cf7aea8 Automatic translation import
+ ▪ ac7b974 [2/3] CMParts: single hand for hardware keys
+
+ ▪ project packages/apps/Dialer/
+ ▪ f2a26fb Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ ebd9daa Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ d6b0e82 Automatic translation import
+ ▪ a45dea0 Roll these back to rr
+ ▪ 4e07bb0 Fixes
+
+ ▪ project prebuilts/clang/host/linux-x86/3.9.1/
+ ▪ 2dfc947 Clang 3.9.1: 20170304
+
+ ▪ project prebuilts/clang/host/linux-x86/5.0.0/
+ ▪ 209b4c4 Clang 5.0.0: 20170304
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 77ca605 aarch64-linux-android 6.3.1: 20170304
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 641fbee arm-linux-androideabi 6.3.1: 20170304
+
+ ▪ project system/sepolicy/
+ ▪ a99877b Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 9f54569 Merge pull request #3 from ResurrectionRemix/nougat
+ ▪ 16eab72 Revert "Allow apps in /system/priv-app to call and execute su commands"
+ ▪ 0216c1a Revert "Introduce sepolicy exceptions for theme assets"
+ ▪ 44474b2 Revert "sepolicy: fix themed boot animation"
+ ▪ 9a2017f Revert "sepolicy: fix themed sounds"
+
+ ▪ project vendor/cm/
+ ▪ 9855e70 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 159c719 Revert "vendor: remove /data/system/theme(/.*)? duplicate"
+ ▪ 8854e00 Revert "vendor: selinux denials"
+ ▪ ed211ac Revert "vendor: sepolicy: Add priv_app to neverallow rule"
+
+ ▪ project vendor/cmsdk/
+ ▪ 6faef17 Automatic translation import
+ ▪ 4f9da16 [3/3] cmsdk: single hand for hw keys
+
+ ▪ project vendor/samsung/
+ ▪ 64a925e klte-common: Update blobs
+
+ ▼ 03/03/2017
+
+
+ ▪ project build/soong/
+ ▪ 0c3919e Fix OUT_DIR_COMMON_BASE with soong_ui
+
+ ▪ project external/f2fs-tools/
+ ▪ 69f3a30 f2fs-tools: disable clang on all targets
+
+ ▪ project frameworks/base/
+ ▪ 575f8d3 Just don't need these in both places.
+ ▪ cd05a07 Automatic translation import
+ ▪ a4a2969 Slim Recent: make multiwindow more robust and fix first run after reboot
+ ▪ d300ebb Exclude Slim Recent from tap outside task bounds functionality
+ ▪ f8f7c88 hwui: Remove deprecated compiler flag
+ ▪ 42d33d8 Slim Recent: change App info icon for longpress header options
+ ▪ a2770c1 Slim Recent: make dragForMultiwin smooth and dock app up/down following the gesture
+ ▪ c7c6b05 Slim Recent lastapp toggle: better app animation
+ ▪ c126317 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 8acb770 Add a protected broadcast for Masquerade events
+ ▪ 6ae0214 Revert "Ticker: We need to center it horizontal"
+ ▪ 2c27901 base: qs weather: be nice to people without OmniJaws
+ ▪ 2c8a811 Ticker: We need to center it horizontal
+ ▪ 20c214d Revert "Ticker: Center Ticker layout vertically in statusbar view"
+ ▪ 544570a Revert "Ticker: We need to center it horozontal, not vertical"
+ ▪ 1369ad0 Allow disabling of FC dialogs [1/2]
+ ▪ 95bc5a2 Disable quick pulldown by default
+ ▪ 186ae65 Clean up CAF translations - second try
+ ▪ 69b3926 Fingerprints: Increase MAX_FAILED_ATTEMPTS to 10
+ ▪ 8e46eb7 OmniJaws: Fix More Settings Intent
+ ▪ 08f8d36 SystemUI:Add MemBar to Slim Recents [1/2]
+
+ ▪ project frameworks/native/
+ ▪ 3510b6f [2/2] native: Add new feature of One-hand UI Mode
+
+ ▪ project hardware/cyanogen/
+ ▪ acd2816 livedisplay: Always use SDM if TARGET_USES_SDM is set
+ ▪ 0e74e30 livedisplay: Update board targets
+ ▪ f6954da livedisplay: Remove tabs in the makefile
+ ▪ 2de09c4 livedisplay: Include test makefile
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 37a40b7 hal: Don't try to record using 3-mic unless we mean it
+ ▪ 6ae6c52 hal: Haxed header
+ ▪ 4e134c7 audio: Fix flac offload not working
+ ▪ 933a41f hal: Fix build with HDMI disabled
+ ▪ 6fe781d audio: Fix complilation warnings under Clang
+ ▪ 7f4762c msm8996: fix werror when AUDIO_FEATURE_ENABLED_DTS_EAGLE is enabled
+ ▪ 1ab693a audio: Extend platform parser to allow device name aliasing
+ ▪ 7219c37 hal: post_proc: enabled / disable volume listener based on prop
+ ▪ 1edbe04 hal: Support the audio amplifier hook
+ ▪ 45bfdf3 hal: Allow building hardware audio encoders
+ ▪ 0c47743 audio: Use direct project pathmap
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 1272662 hwc2: Only set display_width and display_height when equal to zero
+ ▪ fd7ddeb hwc2: Handle empty lists in AcceptDisplayChanges
+ ▪ 887eec2 msm8996: hwc2: check for null layers in layer map
+ ▪ 8424508 hwc2 : Fix layer updating flag
+ ▪ 20385d1 gralloc: Return an error if the buffer was not mapped
+ ▪ 34d03c0 Revert "Revert "gralloc: Default to 601 color space""
+ ▪ a5fcbbb hwc2: Workaround use after free by surfaceflinger
+ ▪ 199abf8 hwc2: Update composition types on AcceptDisplayChanges
+ ▪ d673594 Revert "gralloc: Default to 601 color space"
+ ▪ 34897a4 gralloc: Disable UBWC for writeback buffers
+ ▪ 146dd0b hwc2: Initialize color mode to native
+ ▪ db8fa62 hwc2 : Allow only top most cursor layer
+ ▪ 947cd07 Revert "gralloc: Return an error if the buffer was not mapped"
+ ▪ 85b388b hwc2: Fix solid fill
+ ▪ f8a30bc sdm:hwc2: Store higher order mode id in case of clash
+ ▪ fe9f9d2 gralloc: Return an error if the buffer was not mapped
+ ▪ 87ce127 hwc2: Fix retire fences
+ ▪ 8d5f85e hwc2: Always store a release fence if a layer is presented
+ ▪ 9a986c9 hwc2: Use current frames retire fence only for the primary
+ ▪ d8ac9b2 8996/HWC2: Return this frame's retire fence
+ ▪ 6c0a368 hwc2: Remove default mode application at boot.
+ ▪ 6dfe748 hwc2: Support HWC2_CAPABILITY_SKIP_CLIENT_COLOR_TRANSFORM
+ ▪ c4aa085 hwc: Set ioprio for vsync thread
+ ▪ 83e0b90 sdm: Always include kernel headers
+ ▪ c2113b5 sdm: Add support for legacy extension library
+ ▪ 3b4dd74 Fix duplicate copy file rules
+ ▪ b7ed0eb display: Cleanup flags
+ ▪ 30eff2a Don't build lights module if vendor supplies it
+ ▪ 0984402 display: Use project pathmap
+
+ ▪ project hardware/qcom/media-caf/apq8084/
+ ▪ 4b79ce3 mm-video-v4l2: venc: fix static code analyzer issue.
+ ▪ 4c5e961 mm-video-v4l2: venc: Add check for overriding level based on LTR count
+ ▪ 4c1ee7e apq8084: mm-video: vidc: Add missing setting of msgcode
+ ▪ bc81f39 Revert "mm-video: vdec: Set frame rate if computed fps is more than existing fps"
+ ▪ a70a451 mm-video: vidc: disable dynamic buffer mode and adaptive playback
+ ▪ 5ee4641 mm-video: vidc: Missing release of pending input buffers to client
+ ▪ f15a6f2 mm-video: vdec: fix multiple downscalar issues
+ ▪ 48e5c7b media-caf apq8084: Fix typo in video decoder error check for debug output
+ ▪ 09f054c mm-video-v4l2: vdec: Request buffer for input port after client reconfigures
+ ▪ 2b518d4 mm-video-v4l2: vdec: Remove DivxDrm Decrypt support
+ ▪ a0a4751 mm-video: Remove old video component
+ ▪ 6f63bab mm-video-v4l2: vdec: allocate secure buffer as native_handle
+ ▪ 0709eec omx_venc: Handle output buffer parameter in secure mode
+ ▪ 64ab009 libstagefrighthw: Remove padding in encoder_nativehandle_buffer_type
+ ▪ 91560c0 mm-video-v4l2: venc: update metadata-type used for HAL1 based recording
+ ▪ 833f262 DO NOT MERGE mm-video-v4l2: venc: add checks before  accessing heap pointers
+ ▪ 98fc0bf DO NOT MERGE Fix wrong nAllocLen
+ ▪ 90d68f7 mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
+ ▪ b8fddb8 mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
+ ▪ 974b8f9 mm-video-v4l2: venc: add safety checks for freeing buffers
+ ▪ ac2d333 mm-video-v4l2: vidc: validate omx param/config data
+ ▪ e38e96b mm-video-v4l2: vdec: add safety checks for freeing buffers
+ ▪ 97efe7e Revert "mm-video-v4l2: vidc: venc: Update color conversion decision"
+ ▪ 3e6d314 mm-video-v4l2: venc: Accept Venus color format in opaque mode
+ ▪ 67dc1b7 mm-video-v4l2: vidc: venc: Update color conversion decision
+ ▪ 27b6276 mm-video-v4l2: vidc: venc: make color conversion independent of filledlen
+ ▪ 853c6e3 mm-video-vidc: change buffer index logic in EBD
+ ▪ a7757ea mm-video-vidc: Handle ETB with EOS for NV12 ENCODEABLE format
+ ▪ 5dd926c mm-video-v4l2: Check for correct error code
+
+ ▪ project hardware/qcom/media-caf/msm8996/
+ ▪ f560987 mm-video: Disable proprietary extension
+ ▪ e79c703 venc: Fix VQZip issue
+ ▪ 989b425 vidc: Fix makefiles
+ ▪ 8fa0e3a media: Avoid collision with FFMPEG plugin
+ ▪ 2ae2c3d media: Use project pathmap
+
+ ▪ project hardware/samsung/
+ ▪ 0fdef0c audio: Add support for Audience EarSmart ICs
+ ▪ 68f8fb6 Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 949846c Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ f6e8590 Merge pull request #14 from pimpmaneaton/n7.1
+ ▪ 4bf27f4 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 8716c49 Update style to match the one of Settings
+ ▪ 42ab728 Disable quick pulldown by default
+ ▪ bb0b68b CMParts: activate nfc trigger for system profiles
+ ▪ b4ab507 Automatic translation import
+ ▪ 2b2d92f CMParts: KeyHandler: Add User to broadcast
+ ▪ 4817402 Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ 2d349aa Automatic translation import
+ ▪ a61c589 InCallUI: SmartMute
+
+ ▪ project packages/apps/OmniClock/
+ ▪ 45983a5 OmniClock: set proper SDK version
+
+ ▪ project packages/apps/Settings/
+ ▪ ac111e0 Some updates
+ ▪ c108ca3 Automatic translation import
+ ▪ 83e485d Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 71d5089 Settings: Add overlay for hiding wifi region code
+ ▪ aa4d544 Automatic translation import
+ ▪ 6f32baf Configurations:Disable quick pulldown by default
+ ▪ f2d0e36 Allow disabling of FC dialogs [2/2]
+ ▪ c8c3cc5 Settings: Add MemBar to Slim Recents [2/2]
+
+ ▪ project packages/apps/interfacer/
+ ▪ 88088a4 Add missing exception handling in setDefaultAudible
+ ▪ c7e2111 Rewrite the way we handle sound overlays
+ ▪ 2295725 This is not how you convert long to String ;_;
+ ▪ 7555531 Improve code style
+ ▪ 11bc3ec Unify logging
+ ▪ 410b80e Use Log.e() instead of printStackTrace();
+
+ ▪ project packages/services/Telephony/
+ ▪ 1dbd5f6 Merge pull request #2 from pimpmaneaton/n7.1
+ ▪ 85db520 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 992fbb6 CallFeatureSettings: Only show call barring option if QTI package installed
+
+ ▪ project prebuilts/clang/host/linux-x86/5.0.0/
+ ▪ 54e23db Clang 5.0.0: 20170303
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ 4ce8827 aarch64-linux-android 6.3.1: 20170303
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 3051b58 arm-linux-androideabi 6.3.1: 20170303
+
+ ▪ project system/sepolicy/
+ ▪ 75ee856 Merge pull request #2 from pimpmaneaton/n7.1
+ ▪ 5b10968 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ dca54be sepolicy: fix themed sounds
+ ▪ b6ce77f sepolicy: fix themed boot animation
+ ▪ 1d57f55 Introduce sepolicy exceptions for theme assets
+ ▪ 39a6cd4 Allow apps in /system/priv-app to call and execute su commands
+
+ ▪ project vendor/cm/
+ ▪ a2b65b4 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ ad73331 vendor: sepolicy: Add priv_app to neverallow rule
+ ▪ e0c8d9c vendor: selinux denials
+ ▪ 3ed552a vendor: remove /data/system/theme(/.*)? duplicate
+ ▪ 6467296 Disable quick pulldown by default
+ ▪ fd6f484 vendor: remove old apns symlink
+ ▪ 3244eeb backuptool: Preserve the SELinux context of the files
+ ▪ 366d45c backuptool: Don't rely on the order of the elements in the list
+ ▪ 9634759 backuptool: Preserve symlinks
+
+ ▪ project vendor/cmsdk/
+ ▪ a77fb5a Merge pull request #14 from pimpmaneaton/n7.1
+ ▪ dc3002c Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 11c5a24 CMPartsPreference: Update PreferenceScreen theme
+ ▪ 6a5693a Automatic translation import
+
+ ▪ project vendor/huawei/
+ ▪ 5ff4c23 angler: update blobs from N4F26O factory image
+
  ▼ 03/02/2017
 
+ ▪ project OTA/
+ ▪ f6e70d8 Update Devices.xml
+ ▪ af0eea6 Update Changelog.txt
+ ▪ 804c8fc Update Devices.xml
 
  ▪ project bootable/recovery/
  ▪ c82175b Fix "ordered comparison between pointer and zero".
+
+ ▪ project build/soong/
+ ▪ 88744e2 Merge "Add frameworks/hardware/interfaces and system/hardware/interface"
+ ▪ d8860e3 Add frameworks/hardware/interfaces and system/hardware/interface
+ ▪ abc56d4 Fix `dist` if $DIST_DIR/logs doesn't exist
 
  ▪ project device/qcom/common/
  ▪ e16dea2 common: remove extractors
 
  ▪ project device/samsung/jf-common/
  ▪ 10ed2e0 jf: pull in adreno libs
- ▪ 5e468fc jf: camera bringup for N
+
+ ▪ project external/nano/
+ ▪ 6c16f4a nano: src: Don't set userdata to NULL
+ ▪ 4d6f248 nano: Make revision.h a stub
+ ▪ b881f6c nano: Update makefile for new nanorc path
 
  ▪ project frameworks/base/
- ▪ d21c53d merge
- ▪ f8c1284 Merge pull request #55 from pimpmaneaton/n7.1
+ ▪ 87c3d90 Automatic translation import
  ▪ ae1ca09 Update sidebar background to match recents background
- ▪ 8fd63a9 Merge pull request #54 from pimpmaneaton/n7.1
- ▪ e661610 Slim Recent: aosp toggle behavior, one tap to show panel another one for lastapp
- ▪ d507594 Slim Recent: longpress then drag up/down the app to run it on multiwindow
- ▪ a87bec0 Slim recents OneHandMode thumbnails: free up memory after crop
- ▪ 2170421 Slim Recent apps previews: add OneHandMode support
- ▪ 28de48f Slim Recent: disable all debug logs
- ▪ a544c67 Slim Recent: cleanup unused code
- ▪ cc4cc7c Slim Recent: move to BaseStatusBar and add native multiwindow capatibility
- ▪ 90e5a65 Slim Recent: remove slimscreenpinning, we run the aosp one
- ▪ bc87935 Slim recents: make longpress options size better when small
- ▪ bae474d Slim Recent: set to 15 max apps as default [1/2]
- ▪ 08b9579 Slim Recent: default panel color: pixelblue (a bit transparent) [1/2]
- ▪ 1d002c6 Slim Recent: pinch-in to clear all: pixelblue warning color, 0.7f opacity
- ▪ f8ace9c Slim Recent: fix scroll lag when Auto Expand and improve RecyclerView performances
- ▪ 90f58ab Slim Recent: always set auto color for cards background [1/2]
- ▪ eff94ed Slim recent: smaller card text and don't zoom it out when panel scale >100%
- ▪ f6cd016 Slim Recent: materialoze card text font
- ▪ 07a3f11 Slim Recent: always use automatic text color for card header [1/2]
- ▪ 50d78b5 Slim Recent: remove card shadow for a cleaner UI
 
- ▪ project packages/apps/Bluetooth/
- ▪ c01c8f0 AVRCP: Add null pointer check
+ ▪ project hardware/qcom/fm/
+ ▪ d206506 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 903f21f Automatic translation import
+
+ ▪ project packages/apps/CertInstaller/
+ ▪ 564b511 Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ 9dca75c Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ d39fd55 Automatic translation import
+
+ ▪ project packages/apps/Exchange/
+ ▪ 2571fdd Automatic translation import
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ 994555e Automatic translation import
+
+ ▪ project packages/apps/KeyChain/
+ ▪ 6028cc7 Automatic translation import
+
+ ▪ project packages/apps/ManagedProvisioning/
+ ▪ 39d4bce Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ 74222c3 Automatic translation import
+
+ ▪ project packages/apps/Nfc/
+ ▪ e2790c8 Automatic translation import
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ 6d3e143 Automatic translation import
+
+ ▪ project packages/apps/Profiles/
+ ▪ 560fabf Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 60000a4 Automatic translation import
 
  ▪ project packages/apps/Settings/
- ▪ fb60569 merge
- ▪ 6496b4b merge
- ▪ bff3b5c merge
- ▪ 268e482 merge
+ ▪ 2493e02 Automatic translation import
+ ▪ 22ddb9d Missed this one
+ ▪ 03c8f99 Various fixes
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ be35cfc Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ cccbfcd Automatic translation import
+
+ ▪ project packages/apps/Stk/
+ ▪ 5190806 Automatic translation import
+
+ ▪ project packages/apps/Tag/
+ ▪ c8f1f62 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ b1e9212 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 60d1008 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ e009b45 Automatic translation import
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ cda46d3 Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ a876e0f Automatic translation import
+
+ ▪ project packages/providers/BookmarkProvider/
+ ▪ 7217810 Automatic translation import
+
+ ▪ project packages/providers/CallLogProvider/
+ ▪ e8ab293 Automatic translation import
+
+ ▪ project packages/providers/ContactsProvider/
+ ▪ c591c90 Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ aae8c60 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 2f32c14 Automatic translation import
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ e683619 Automatic translation import
+
+ ▪ project packages/providers/ThemesProvider/
+ ▪ f635268 Automatic translation import
+
+ ▪ project packages/providers/UserDictionaryProvider/
+ ▪ 959822e Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 8ea6ba7 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 3cc11e1 Automatic translation import
+
+ ▪ project packages/screensavers/Basic/
+ ▪ fa7caf5 Automatic translation import
+
+ ▪ project packages/screensavers/PhotoTable/
+ ▪ 8da9209 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ 9a7f56d Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ a3b52e2 Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ 6e9277d Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ 57658ce Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ aa48c07 Automatic translation import
 
  ▪ project prebuilts/clang/host/linux-x86/3.9.1/
  ▪ ca22547 Clang 3.9.1: 20170302
@@ -116,14 +829,20 @@ can count. Im new to building ROMs so he has been kinda been my mentor.
  ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
  ▪ 74eff3e arm-linux-androideabi 6.3.1: 20170302
 
+ ▪ project vendor/addons/dragons/
+ ▪ 87fa608 Removed Browser and Updated Substratum to build 563
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 949058a Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 168a6c2 Automatic translation import
+
  ▪ project vendor/samsung/
  ▪ 61b6ea2 jf: pull in adreno libs and regen makefiles
  ▪ 27d93b6 noblelte: Revert MALI GLES to r7p0
  ▪ 2f7a334 noblelte: Revert libsec-ril to M
  ▪ 81bd868 noblelte: Update blobs from N920CXXU3CQB5
- ▪ e7cfb37 d2: hex-edit libsec-ril.so for audioserver
- ▪ fab481f d2-common: Steal bullhead widevine
-
 
  ▼ 03/01/2017
 
@@ -133,16 +852,23 @@ can count. Im new to building ROMs so he has been kinda been my mentor.
  ▪ b277e8e Track OmniJaws
 
  ▪ project build/
- ▪ e5047b2 update
+ ▪ 114c2a9 Revert "Build: Add Superuser chooser script"
 
  ▪ project device/huawei/angler/
- ▪ f7a3bcd merge
+ ▪ 4dfde50 OmniJaws in now in vendor
 
  ▪ project device/samsung/jf-common/
  ▪ 5e468fc jf: camera bringup for N
 
+ ▪ project external/nano/
+ ▪ 398f609 nano: Add nanorc
+ ▪ 88e50a1 nano: Add android makefile
+ ▪ 8651670 nano: Add config.h and revision.h
+ ▪ b8d4fcb nano: Fix build under android
+ ▪ c511262 nano: Include stdio.h
+ ▪ 33a3ca6 nano: Don't ignore config.h & revision.h
+
  ▪ project frameworks/base/
- ▪ 8fd63a9 Merge pull request #54 from pimpmaneaton/n7.1
  ▪ e661610 Slim Recent: aosp toggle behavior, one tap to show panel another one for lastapp
  ▪ d507594 Slim Recent: longpress then drag up/down the app to run it on multiwindow
  ▪ a87bec0 Slim recents OneHandMode thumbnails: free up memory after crop
@@ -161,7 +887,8 @@ can count. Im new to building ROMs so he has been kinda been my mentor.
  ▪ f6cd016 Slim Recent: materialoze card text font
  ▪ 07a3f11 Slim Recent: always use automatic text color for card header [1/2]
  ▪ 50d78b5 Slim Recent: remove card shadow for a cleaner UI
- ▪ 724b205 Merge pull request #53 from pimpmaneaton/n7.1
+ ▪ aefd288 Automatic translation import
+ ▪ 314c9c5 ImageHelper: take into account drawables might be none of BitmapDrawable or VectorDrawable
  ▪ 0deeb75 Merge remote-tracking branch 'rr/nougat' into n7.1
  ▪ 9fa1c0e Reset battery stats [1/2]
  ▪ a5d90f2 [1/2] base: SystemUI: OmniJaws qs tile integration
@@ -171,19 +898,38 @@ can count. Im new to building ROMs so he has been kinda been my mentor.
  ▪ 6f4a7cd Slim recents: don't show content when device is locked
  ▪ 775e4a7 Slim recents app sidebar [1/2]
  ▪ 4061768 Slim recents: fix sometimes missing entries
- ▪ 3068b2a Merge pull request #52 from pimpmaneaton/n7.1
- ▪ 9bf7946 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project hardware/qcom/audio-caf/msm8960/
+ ▪ 5e99c87 audiopolicy: do not set FM volume during device connection/disconnection
 
  ▪ project hardware/qcom/audio-caf/msm8974/
  ▪ 610f5f5 Revert "visualizer: do not apply calibration on audio routed to afe proxy"
+
+ ▪ project hardware/samsung/
+ ▪ a13e517 audio: Add error logging to ril_interface
 
  ▪ project packages/apps/Bluetooth/
  ▪ c01c8f0 AVRCP: Add null pointer check
 
  ▪ project packages/apps/Settings/
- ▪ bff3b5c merge
- ▪ 268e482 merge
- ▪ 6087294 Merge Add summary to App ops dashboard tile Automatic translation import Edit a string Add Slim Dslv Classes and Fix Slim Recent Sidebar Settings: Fix Configurations FC Settings: add OmniJaws config Reset battery stats [2/2] Kill button for notification guts - setting [2/2] [2/2]Settings: config to hide status bar on lock screen Slim recents app sidebar [2/2] Automatic translation import Add summary to App ops dashboard tile Add in vector for app ops Reset battery stats [2/2] DERP
+ ▪ f29391e Fix build
+ ▪ 3f75741 Add color reset to recent app side bar as well
+ ▪ 7ae3797 Slim color reset strings
+ ▪ c2e6a5c Slim recent panel improvements to match base
+ ▪ 054d850  App Ops: Move position in dashboard
+ ▪ 537264c Merge branch 'n7.1' of github.com:pimpmaneaton/Resurrection_packages_apps_Settings into n7.1
+ ▪ 6635d4d Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 35aa4be Add summary to App ops dashboard tile
+ ▪ d4296bf Automatic translation import
+ ▪ 85e942c Edit a string
+ ▪ bd053b3 Add Slim Dslv Classes and Fix Slim Recent Sidebar
+ ▪ eb94256 Settings: Fix Configurations FC
+ ▪ 54629a5 Settings: add OmniJaws config
+ ▪ 067d790 Reset battery stats [2/2]
+ ▪ a4d3ea1 Kill button for notification guts - setting [2/2]
+ ▪ 3968407 [2/2]Settings: config to hide status bar on lock screen
+ ▪ 566eb62 Slim recents app sidebar [2/2]
+ ▪ f64d789 Automatic translation import
 
  ▪ project prebuilts/clang/host/linux-x86/5.0.0/
  ▪ 44cad16 Clang 5.0.0: 20170228
@@ -195,11 +941,16 @@ can count. Im new to building ROMs so he has been kinda been my mentor.
  ▪ f83f6c7 arm-linux-androideabi 6.3.1: 20170301
 
  ▪ project vendor/cm/
- ▪ 3d87721 merge
- ▪ 71b47df update
+ ▪ 55d65f9 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 742d3b8 Build OmniJaws
+ ▪ ffcef33 Revert "Disable SU by default"
+ ▪ 17be747 Revert "Vendor: Add Superuser chooser script"
 
  ▪ project vendor/samsung/
+ ▪ e7cfb37 d2: hex-edit libsec-ril.so for audioserver
+ ▪ fab481f d2-common: Steal bullhead widevine
  ▪ de29313 sltexx: Import Widevine blobs from Nougat
+
 
  ▼ 02/28/2017
 
