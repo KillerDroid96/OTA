@@ -1,5 +1,316 @@
 ▼ Dirty Drangons Changelog
 
+▼ 03/09/2017
+
+
+ ▪ project android/
+ ▪ 066f60b Masquerade --> ThemeInterfacer [rootless] (#99)
+
+ ▪ project build/
+ ▪ 7aad553 Update install optput text
+ ▪ e820f4f test
+ ▪ c1a0487 build: [SQUASHED] Remove BUILD_TINY_ANDROID checks
+ ▪ cabb70c  temp fix
+ ▪ eba8f1f Changed output of flashing ROM
+ ▪ 59ac31b Build: Switch to Magisk as the built in root [2/2]
+
+ ▪ project device/samsung/jfltespr/
+ ▪ c9b3e92 jfltespr: remove deprecated eri overlays
+
+ ▪ project device/samsung/qcom-common/
+ ▪ 474670d qcom-common: remove deprecated eri overlays
+
+ ▪ project frameworks/base/
+ ▪ 1569ec3 fix derp
+ ▪ 079375f Add @GuardedBy annotation to PersistentDataBlockService#mIsWritable.
+ ▪ 035de08 Prevent writing to FRP partition during factory reset.
+ ▪ 3aa2fa5 Bluetooth: Prioritize Bluetooth state change intent to start Service
+ ▪ 733dce9 VolumeDialog: Fix mismerge
+ ▪ 5acb027 AICP empty recents: clean up unneeded code, make it animate again
+ ▪ bb754a0 Camera: Expose dual camera for whitelist app
+ ▪ 5c2ddbb Kill app from notification button: don't allow when device locked
+ ▪ f98838d Merge branch 'N7' of github.com:KillerDroid96/android_frameworks_base into N7
+ ▪ a3f9693 camera: Make secondary camera package list opt out
+
+ ▪ project hardware/qcom/fm/
+ ▪ fbc3a7b Automatic translation import
+
+ ▪ project hardware/samsung/
+ ▪ 3c99507 Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 4c89dd1 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 1602c07 Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ 44f4f1e Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ 12eb636 Automatic translation import
+
+ ▪ project packages/apps/Profiles/
+ ▪ 8ad3da8 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ f5d35df Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 691bf25 Revert "Settings: Expose and add tint mode to custom icons"
+ ▪ 269c5ea Settings: Guard against themes without colorAccent defined
+ ▪ e0c0da5 Settings: Expose and add tint mode to custom icons
+ ▪ 18b5675 Settings: Expose styles in the manifest for themes
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 281d265 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 50b1a98 Automatic translation import
+ ▪ 379fd77 Snap/Strings: sensivity -> sensitivity
+ ▪ 99f0e2e Revert "SnapdragonCamera: Camera switches from bayer and mono on switching to front camera"
+
+ ▪ project packages/apps/Terminal/
+ ▪ 1114a47 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ 054b31c Automatic translation import
+ ▪ fc1125d Fix cut off notification sounds.
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 4648c8c Automatic translation import
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ 589b307 Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 29af03a Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 7b08a35 Automatic translation import
+
+ ▪ project packages/providers/ThemesProvider/
+ ▪ 37fd92d Automatic translation import
+
+ ▪ project packages/providers/UserDictionaryProvider/
+ ▪ 7c49377 Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 5b6bf0d Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ d928045 Automatic translation import
+
+ ▪ project packages/screensavers/PhotoTable/
+ ▪ e3516c5 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ de3f589 Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ bbb9d16 Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ c46bdd5 Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ 5b5e889 Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ 546b021 Automatic translation import
+
+ ▪ project prebuilts/clang/host/linux-x86/5.0.0/
+ ▪ cb3a660 Clang 5.0.0: 20170308
+
+ ▪ project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ ▪ d084133 aarch64-linux-android 6.3.1: 20170308
+
+ ▪ project prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/
+ ▪ 4276020 arm-linux-androideabi 6.3.1: 20170308
+
+ ▪ project system/core/
+ ▪ f8b6455 rootdir: init.rc: Fix for "add_tid_to_cgroup failed to write" warnings
+ ▪ ed6562e Create "theme extras" directory
+
+ ▪ project vendor/addons/dragons/
+ ▪ f3b472b Updated Substratum + KA & added back SnapBrowser
+
+ ▪ project vendor/cm/
+ ▪ 5468a62 Remove pre-installed Substratum.
+ ▪ c817fdd Revert "Switch to Magisk as the built in root [1/2]"
+ ▪ 4c4a654 Revert "Disable SU by default"
+ ▪ b432f6a qcom: Automatically set TARGET_USES_COLOR_METADATA for msm8996/8
+ ▪ 3c01dde Disable SU by default
+ ▪ 5ae73ac Switch to Magisk as the built in root [1/2]
+
+ ▪ project vendor/cmsdk/
+ ▪ f8cc011 CMSDK: Tests: AIRPLANE_MODE_ON has moved
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ fa13abf Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 4d3a56b Automatic translation import
+
+ ▪ project vendor/samsung/
+ ▪ 4310579 klimtwifi: Update sensor blob to M
+
+ ▼ 03/08/2017
+
+ ▪ project OTA/
+ ▪ 6b12757 Update Devices.xml
+ ▪ 8911402 Update README.md
+ ▪ 120616a Update Changelog.txt
+ ▪ d3186a3 Update Changelog.txt
+
+ ▪ project build/
+ ▪ 67170d8 Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ 4de4a0b Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project device/huawei/angler/
+ ▪ dea5ac5 angler: Update build id and fingerprint to March 2017 N4F26T
+ ▪ 817666d Disable modem ramdumps
+ ▪ 1a4fd60 Added overides to capitalize Angler and set buid user to KillerDroid96.
+
+ ▪ project device/samsung/jf-common/
+ ▪ 69cd192 jf: Fix restart freezing by adding a shutdown timeout to system.prop
+
+ ▪ project external/DUtils/
+ ▪ 92c877d Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ c71f7ea Slim Recent: fix topmost app when using lastapp action
+
+ ▪ project frameworks/av/
+ ▪ 9ca2efa Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ c08c549 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project frameworks/base/
+ ▪ fe5524f Merge pull request #61 from pimpmaneaton/n7.1
+ ▪ ac809c5 VolumeDialog: fix vibrate icon not showing after density change
+ ▪ fe38f6b Partial screenshot: fix SystemUI fc
+ ▪ b6c740c Merge pull request #60 from pimpmaneaton/n7.1
+ ▪ 899eaf0 Use RRUtils
+ ▪ 3cf773e Merge pull request #59 from pimpmaneaton/n7.1
+ ▪ f01f5e4 Slim recents membar: longclick to clear [1/2]
+ ▪ b95abe5 WeatherTile: Start Google Weather on LongClick
+ ▪ 976d8d5 Change string
+ ▪ de602e9 Merge pull request #58 from pimpmaneaton/n7.1
+ ▪ 621dd79 Remove protected broadcast
+ ▪ 5402415 base: Force authorize all calling packages by Masquerade (2/3)
+ ▪ 7d1393f FWB: Give power dialogs own set of volume icons for themes
+ ▪ 14b8e99 OMS: Add hide annotation to MODIFY_OVERLAYS permission
+ ▪ 5832605 OMS7: Rootless Security Update Preparation for March 2017
+ ▪ 38ea3e5 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 164017f Automatic translation import
+ ▪ a534c84 QS: Location Easy Toggle [1/2]
+
+ ▪ project frameworks/native/
+ ▪ 3f13171 Merge pull request #11 from pimpmaneaton/n7.1
+ ▪ 1846321 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project hardware/intel/img/psb_video/
+ ▪ 2c744ac psb_video : remember good old moorefield
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 938e782 display: Fix ColorMetaData
+ ▪ d5d627d display-caf: msm8996: Use ColorMetaData in SDM in hwc2
+ ▪ 718be10 display-caf: 8996: Add color metadata to libgralloc1
+
+ ▪ project hardware/samsung/
+ ▪ 65c65bd power: Initialize device power paths
+ ▪ d9106e9 power: Cleanup touchkey handling
+
+ ▪ project kernel/huawei/angler/
+ ▪ 3d7118b Merge pull request #4 from pimpmaneaton/n7.1
+ ▪ 0c80833 Merge remote-tracking branch 'franco/nougat' into n7.1
+ ▪ f6c86b8 cpufreq: cache tunables for ondemand and conservative governors
+ ▪ 8976228 lib: lz4: fixed zram with lz4 on big endian machines
+ ▪ 491930f lz4: fix system halt at boot kernel on x86_64
+ ▪ e042f83 lib/lz4: Pull out constant tables
+ ▪ bb2b099 LZ4 : fix the data abort issue
+ ▪ b960e71 lib: lz4: Set ARM_EFFICIENT_UNALIGNED_ACCESS
+ ▪ 0ad765d lz4: add overrun checks to lz4_uncompress_unknownoutputsize()
+ ▪ 621b644 usb: gadget: f_accessory: Fix for UsbAccessory clean unbind.
+ ▪ 23612c3 UPSTREAM: drivers: android: correct the size of struct binder_uintptr_t for BC_DEAD_BINDER_DONE
+ ▪ ca4e28e cpufreq: interactive governor drops bits in time calculation
+ ▪ 28d458d ANDROID: usb: gadget: function: cleanup: Add blank line after declaration
+ ▪ 55de62b perf: Tighten (and fix) the grouping condition
+ ▪ 6ae9c30 ALSA: pcm : Call kill_fasync() in stream lock
+ ▪ 012fb30 ANDROID: ext4 crypto: Disables zeroing on truncation when there's no key
+ ▪ 84e3a14 BACKPORT: commoncap: don't alloc the credential unless needed in cap_task_prctl
+ ▪ d4c0a17 Merge remote-tracking branch 'origin/android-msm-angler-3.10-nougat-mr1.1' into nougat
+
+ ▪ project packages/apps/LockClock/
+ ▪ 480e1a8 Merge pull request #5 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/Messaging/
+ ▪ b0dd8a9 This is now in main colors xml
+ ▪ bf5aa16 Match cm accent to new primary color
+ ▪ 3c9e159 Add 'new message' shortcut using the API introduced in sdk25
+ ▪ 251218d Change color scheme to match our new icon
+ ▪ 70743a0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat
+
+ ▪ project packages/apps/OmniJaws/
+ ▪ 2a455b5 Merge pull request #2 from pimpmaneaton/n7.1
+ ▪ a46d605 Remove Weather icon pack pref
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ c3c0291 Merge pull request #18 from pimpmaneaton/n7.1
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 41ffab6 Merge pull request #1 from pimpmaneaton/n7.1
+ ▪ 95c1039 PackageInstaller: Add tint mode to icons
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ c212c06 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 4b65cc4  Slim recents membar: longclick to clear [2/2]
+ ▪ 0c0a07b Fix screenshot dely
+ ▪ bf5646d Development: Allow all Masquerade calling packages for debugging (3/3)
+ ▪ 6a14c00 Settings: Expose storage icon colors
+ ▪ 3b63a0a Settings: Expose "ALL" hardcoded and @android colors
+ ▪ deaa155 Remove duplicate
+ ▪ 86be6ed Automatic translation import
+ ▪ 0bfa80e Move Slim Recent Sidebar Settings outside sidebar fragment
+ ▪ ab6bafc Settings: Use seekbar to allow setting arbitrary animation values @dwitherell updated to incorporate support friendly internal approach KreAch3R - AnimationScalePreference: better max/default/digits values
+ ▪ 05689e7 Location Easy toggle [2/2]
+ ▪ 14a4f17 Fix Unclickable Color Picker in App Sidebar Settings Fragment
+ ▪ 3601961 Update Build ID to NOF27B
+ ▪ 22dbe9e Revert "Attempting to fix color picker in RecentAppSidebar"
+ ▪ 613fcad Add in option to use new Magical weather icons on lockscreen weather
+ ▪ 6dda96a Attempting to fix color picker in RecentAppSidebar
+ ▪ 71e93da Small edits for summaries (#712)
+ ▪ e84e904 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 404e429 Snap: grant android.permission.RECEIVE_BOOT_COMPLETED permisions
+
+ ▪ project packages/services/Telephony/
+ ▪ c31289e Merge pull request #3 from pimpmaneaton/n7.1
+ ▪ 5e15edf Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project system/sepolicy/
+ ▪ 28ed1e6 Merge pull request #5 from pimpmaneaton/n7.1
+ ▪ a6d89ca Welcome to Theme Interfacer! [2/2]
+ ▪ 31ec6b7 sepolicy: Redo masquerade rules
+ ▪ 51143bb sepolicy: Fix application of bootanimation
+ ▪ 5d42a55 sepolicy: allow masquerade to read and write theme assets
+ ▪ d29661c sepolicy: rename masquerade domain and allow JobService in system_server
+ ▪ aaecdbb initial policy edits for masquerade to operate rootless
+ ▪ b27e8c7 sepolicy: fix themed sounds
+ ▪ d48dd84 sepolicy: fix themed boot animation
+ ▪ 2b2f33c Introduce sepolicy exceptions for theme assets
+
+ ▪ project vendor/cm/
+ ▪ 5719eaa vendor: sepolicy: Add priv_app to neverallow rule
+ ▪ f8a47fa vendor: selinux denials
+ ▪ 18cf5d6 vendor: remove /data/system/theme(/.*)? duplicate
+ ▪ 12df33d From Masqurade to ThemeInterfacer
+
+ ▪ project vendor/huawei/
+ ▪ aa2401b angler: blobs update to March 2017 N4F26T
+ 
+
  ▼ 03/07/2017
 
  ▪ project build/
