@@ -29,6 +29,5 @@
 ▪ LineageOS
 ▪ Dirty Unicorns
 ▪ BenzoRoms
-▪ Pimpmaneaton 
+▪ Nathan Chancellor (nathanchance)
 ▪ If I missed anyone I appologize and please let me know so I can add you.
-
