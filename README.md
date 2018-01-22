@@ -1,23 +1,16 @@
 ▼ Added
+- OTA
+- Flash Kernel 
+- Installation Graphics
 
-▪ OTA
-▪ Flash Kernel 
-▪ Installation Graphics
 
 ▼ Removed
-
-▪ MusicFX
-▪ AudioFX
-▪ Gello
-▪ RetailDemo
-▪ Trebuchet
+- None
 
 ▼ Upcoming
-
-▪ Ramdisk Optimizations for Kernel
-▪ Spectrum and Profiles
+- Ramdisk Optimizations for Kernel
+- Spectrum and Profiles
 
 ▼ Credits
-
-▪ Dirty Unicorns
-▪ Nathan Chancellor (nathanchance)
+- Dirty Unicorns
+- Nathan Chancellor (nathanchance)
