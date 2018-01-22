@@ -1,8 +1,8 @@
 #Place in root, so where you init repo.
 #example ro.rr.version=RR-N-v5.8.0-20170112-jfltespr-Unofficial.zip
 
-ota_url=https://raw.githubusercontent.com/KillerDroid96/OTA/N7/Devices.xml
-release_type=Custom
+ota_url=https://raw.githubusercontent.com/KillerDroid96/OTA/O8/Devices.xml
+release_type=Unofficial
 device_name=ro.product.device
 version_source=ro.rr.version
 version_delimiter=-
