@@ -1,16 +1,15 @@
-▼ Added
-- OTA
-- Flash Kernel 
-- Installation Graphics
+Added
+  - OTA
+  - Flash Kernel 
+  - Installation Graphics
 
+Removed
+  - None
 
-▼ Removed
-- None
+Upcoming
+  - Ramdisk Optimizations for Kernel
+  - Spectrum and Profiles
 
-▼ Upcoming
-- Ramdisk Optimizations for Kernel
-- Spectrum and Profiles
-
-▼ Credits
-- Dirty Unicorns
-- Nathan Chancellor (nathanchance)
+Credits
+  - Dirty Unicorns
+  - Nathan Chancellor (nathanchance)
