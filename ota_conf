@@ -1,14 +1,4 @@
 # Place in root, so where you init repo.
-# Example with a property key 'ro.du.version' : Parse the date 20180123 from du_dumpling-v12.0-20180123-1345-UNOFFICIAL.zip
-
-ota_url=https://raw.githubusercontent.com/KillerDroid96/OTA/o8x/devices.xml
-release_type=Stable
-device_name=ro.vendor.product.name
-version_source=ro.du.version
-version_delimiter=-
-version_position=2
-version_format=yyyyMMdd
-
 #
 # ota_conf
 #
