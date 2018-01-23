@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
-    <Stable>
+    <Unofficial>
 	 <dumpling>
-            <Filename>du_dumpling-v12.0-20180121-2133-UNOFFICIAL.zip</Filename>
+            <Filename>du_dumpling-v12.0-20180123-1345-UNOFFICIAL.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
@@ -29,5 +29,5 @@
                 description="View Unofficial Changelog">https://github.com/KillerDroid96/OTA/blob/O8/Changelog.txt
 	    </Unofficial_ChangelogUrl>
          </dumpling>
-    </Stable>
+    </Unofficial>
 </OTA>
