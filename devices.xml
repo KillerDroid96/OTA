@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <dumpling>
+            <Filename>du_dumpling-v12.0-20180123-1345-UNOFFICIAL.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="Downloads"
+                description="Download latest build">https://goo.gl/cwBVH4</RomUrl>
+            <GappsUrl
+                id="gapps"
+                title="Gapps"
+                description="Download GApps">https://goo.gl/AL3ENQ</GappsUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="View Changelog">https://raw.githubusercontent.com/KillerDroid96/OTA/O8/changelog.txt</ChangelogUrl>
+            <SourceUrl
+                id="source"
+                title="Source"
+                description="Source Code">https://goo.gl/EKRBfb</SourceUrl>
+	    <DeveloperURL
+                id="developer"
+                title="Developer"
+                description="Developer Code">https://goo.gl/dxUFTj</DeveloperUrl>	 
+        </dumpling>
+     </Stable>
+</OTA>
