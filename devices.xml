@@ -2,7 +2,7 @@
 <OTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <dumpling>
-            <Filename>du_dumpling-v12.0-20180123-1345-UNOFFICIAL.zip</Filename>
+            <Filename>du_dumpling-v12.0-20180123-1628-UNOFFICIAL.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Downloads"
