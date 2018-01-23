@@ -4,7 +4,7 @@
 ota_url=https://raw.githubusercontent.com/KillerDroid96/OTA/O8/Devices.xml
 release_type=Unofficial
 device_name=ro.product.device
-version_source=ro.rr.version
+version_source=ro.du.version
 version_delimiter=-
 version_position=3
 version_format=MMddyyyy
