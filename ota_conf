@@ -10,7 +10,7 @@
 
 ota_url=https://raw.githubusercontent.com/KillerDroid96/OTA/o8x/devices.xml
 release_type=Stable
-device_name=ro.du.updater
+device_name=ro.vendor.product.device
  
 #
 # VERSION
