@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <dumpling>
             <Filename>du_dumpling-v12.0-20180123-1628-UNOFFICIAL.zip</Filename>
@@ -25,4 +25,4 @@
                 description="Developer Code">https://goo.gl/dxUFTj</DeveloperUrl>	 
         </dumpling>
      </Stable>
-</OTA>
+</SlimOTA>
