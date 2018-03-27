@@ -1,3 +1,8 @@
-▼ Dirty Unicorns Changelog
+▼ Dirty Unicorns Unofficial Changelog
 
-▼ 01/21/2018
+▼ 03/27/2018
+Added:
+  -OTA
+  -Flash Kernel
+  -Substratum Compatibility
+  -Installation Graphics
