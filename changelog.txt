@@ -1,7 +1,9 @@
 Dirty Unicorns Unofficial Changelog
 
 ▼ 03/27/2018
-+ OTA
-+ Flash Kernel
-+ Installation Graphics
-- Substratum Flag
+  + OTA
+
+▼ 03/20/2018
+  + Flash Kernel
+  + Installation Graphics
+  - Substratum Flag
