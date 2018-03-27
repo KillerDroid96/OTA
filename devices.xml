@@ -6,15 +6,15 @@
             <RomUrl
                 id="rom"
                 title="Downloads"
-                description="Download latest build">https://www.androidfilehost.com/?fid=890129502657579231</RomUrl>
+                description="Download latest build">https://goo.gl/wV9Nkz</RomUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
-                description="Download GApps">https://goo.gl/AL3ENQ</GappsUrl>
+                description="Download GApps">http://opengapps.org/</GappsUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="View Changelog">https://raw.githubusercontent.com/KillerDroid96/OTA/O8/changelog.txt</ChangelogUrl>
+                description="View Changelog">https://raw.githubusercontent.com/KillerDroid96/OTA/o8x/changelog.txt</ChangelogUrl>
             <SourceUrl
                 id="source"
                 title="Source"
