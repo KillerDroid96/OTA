@@ -37,5 +37,5 @@ device_name=ro.vendor.product.device
 
 version_source=ro.du.version
 version_delimiter=-
-version_position=3
+version_position=2
 version_format=yyyyMMdd
