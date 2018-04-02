@@ -4,9 +4,13 @@
         <dumpling>
             <Filename>du_dumpling-v12.0-20180320-0445-UNOFFICIAL.zip</Filename>
             <RomUrl
-                id="rom"
-                title="Downloads"
-                description="Download latest build">https://goo.gl/hakfVa</RomUrl>
+                id="latestrom"
+                title="Download"
+                description="Download Latest Build">https://goo.gl/1jJh3Z</RomUrl>
+	    <BuildsUrl
+                id="builds"
+                title="Builds"
+                description="Download Build">https://goo.gl/hakfVa</RomUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
