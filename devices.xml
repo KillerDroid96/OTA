@@ -6,11 +6,11 @@
             <RomUrl
                 id="rom"
                 title="Download"
-                description="Download Latest Build">https://goo.gl/1jJh3Z</RomUrl>
+                description="Download Latest Build">https://goo.gl/hakfVa</RomUrl>
 	    <BuildsUrl
                 id="builds"
                 title="Builds"
-                description="Download Build">https://goo.gl/hakfVa</RomUrl>
+                description="Download Build">https://goo.gl/hakfVa</BuildsUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
