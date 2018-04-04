@@ -5,12 +5,12 @@
             <Filename>du_dumpling-v12.0-20180320-0445-UNOFFICIAL.zip</Filename>
             <RomUrl
                 id="rom"
-                title="Download"
+                title="Latest Build"
                 description="Download Latest Build">https://goo.gl/hakfVa</RomUrl>
 	    <BuildsUrl
                 id="builds"
-                title="Builds"
-                description="Download Build">https://goo.gl/hakfVa</BuildsUrl>
+                title="Build Folder"
+                description="Download Any Build">https://goo.gl/hakfVa</BuildsUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
