@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <dumpling>
-            <Filename>du_dumpling-v12.0-20180320-0445-UNOFFICIAL.zip</Filename>
+            <Filename>du_dumpling-v12.0-20180404-1546-UNOFFICIAL.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Latest Build"
-                description="Download Latest Build">https://goo.gl/hakfVa</RomUrl>
+                description="Download Latest Build">https://goo.gl/uKFMK6</RomUrl>
 	    <BuildsUrl
                 id="builds"
                 title="Build Folder"
